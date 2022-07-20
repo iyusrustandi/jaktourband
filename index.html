@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaktour Band</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/98d921e819.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">
+      <a href="#default" class="logo">
+        <img src="Image/logo.png" class="logo" />
+      </a>
+      <div class="header-right" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          <a href="#home">Home</a>
+          <a href="#home">Song List</a>
+          <a href="#contact">Religi</a>
+          <a href="#about">Galery</a>
+          <a><input id="sortData" type="text" placeholder="Search.." /></a>
+        </a>
+      </div>
+    </div>
+
+    <!-- Slideshow -->
+    <div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="Image/slide1.jpg" style="width: 100%" />
+          <div class="text">New Year event</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="Image/slide2.jpg" style="width: 100%" />
+          <div class="text">Gathering event</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="Image/slide3.jpg" style="width: 100%" />
+          <div class="text">Pool Party event</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="Image/slide4.jpg" style="width: 100%" />
+          <div class="text">Ramadhan event</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="Image/slide5.jpg" style="width: 100%" />
+          <div class="text">Ramadhan</div>
+        </div>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+    <!-- Member -->
+    <div id="member">
+      <div class="sub-title">
+        <h1>Member</h1>
+      </div>
+      <div class="contmember">
+        <div class="gallery">
+          <a target="_blank" href="Image/iyan.jpg">
+            <img src="Image/iyan.jpg" alt="Cinque Terre" width="600" height="400" />
+          </a>
+          <div class="desc">Vocalist</div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="Image/pumar.jpg">
+            <img src="Image/pumar.jpg" alt="Cinque Terre" width="600" height="400" />
+          </a>
+          <div class="desc">Bassist</div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="Image/polo.jpg">
+            <img src="Image/polo.jpg" alt="Northern Lights" width="600" height="400" />
+          </a>
+          <div class="desc">Guitarist</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="Image/iyus.jpg">
+            <img src="Image/iyus.jpg" alt="Mountains" width="600" height="400" />
+          </a>
+          <div class="desc">Guitarist</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="Image/tedy.jpg">
+            <img src="Image/tedy.jpg" alt="Mountains" width="600" height="400" />
+          </a>
+          <div class="desc">Drummer</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="Image/sule.jpg">
+            <img src="Image/sule.jpg" alt="Mountains" width="600" height="400" />
+          </a>
+          <div class="desc">Drummer</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName('mySlides');
+        let dots = document.getElementsByClassName('dot');
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(' active', '');
+        }
+        slides[slideIndex - 1].style.display = 'block';
+        dots[slideIndex - 1].className += ' active';
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById('myTopnav');
+        if (x.className === 'header-right') {
+          x.className += ' responsive';
+        } else {
+          x.className = 'header-right';
+        }
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById('header-right');
+
+      function openmenu() {
+        sidemenu.style.right = '0';
+      }
+      function closemenu() {
+        sidemenu.style.right = '-200px';
+      }
+    </script>
+  </body>
+</html>
