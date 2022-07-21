@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Song list</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/98d921e819.js" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="#default" class="logo">
+        <img src="Image/logo.png" class="logo" />
+      </a>
+      <div class="header-right" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          <a href="index.html">Home</a>
+          <a href="songlist.html">Song List</a>
+          <a href="religi.html">Religi</a>
+          <a href="#about">Galery</a>
+        </a>
+      </div>
+    </div>
+    <!-- <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search" title="Type in a name" /> -->
+    <div class="container">
+      <div class="header_wrap">
+        <div class="num_rows">
+          <div class="form-group">
+            <!--		Show Numbers Of Rows 		-->
+            <select class="form-control" name="state" id="maxRows">
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+              <option value="50">50</option>
+              <option value="70">70</option>
+              <option value="100">100</option>
+              <option value="5000">Show ALL Rows</option>
+            </select>
+          </div>
+        </div>
+        <div class="tb_search">
+          <input type="text" id="search_input_all" onkeyup="FilterkeyWord_all_table()" placeholder="Search.." class="form-control" />
+        </div>
+      </div>
+      <table class="table table-striped table-class" id="table-id">
+        <thead>
+          <tr>
+            <th>Artist</th>
+            <th>Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ada Band</td>
+            <td>Kau Auraku</td>
+          </tr>
+          <tr>
+            <td>Ada Band</td>
+            <td>Manusia Bodoh</td>
+          </tr>
+          <tr>
+            <td>Ada Band</td>
+            <td>Masih Sahabatku Kekasihku</td>
+          </tr>
+          <tr>
+            <td>Afghan</td>
+            <td>Kepadamu Aku Bersujud</td>
+          </tr>
+          <tr>
+            <td>Alfian Harahap</td>
+            <td>Semalam Di Cianjur</td>
+          </tr>
+          <tr>
+            <td>Amy Search Ft. Inka Christie</td>
+            <td>Cinta Kita</td>
+          </tr>
+          <tr>
+            <td>Anji</td>
+            <td>Dia</td>
+          </tr>
+          <tr>
+            <td>Anji</td>
+            <td>Menunggu Kamu</td>
+          </tr>
+          <tr>
+            <td>Ari Lasso</td>
+            <td>Arti Cinta</td>
+          </tr>
+          <tr>
+            <td>Ari Lasso</td>
+            <td>Hampa</td>
+          </tr>
+          <tr>
+            <td>Ari Wibowo</td>
+            <td>Anak Singkong</td>
+          </tr>
+          <tr>
+            <td>Armada</td>
+            <td>Asal Kau Bahagia</td>
+          </tr>
+          <tr>
+            <td>Armada</td>
+            <td>Hargai Aku</td>
+          </tr>
+          <tr>
+            <td>Armada</td>
+            <td>Katakan Sejujurnya</td>
+          </tr>
+          <tr>
+            <td>Armada</td>
+            <td>Harusnya Aku</td>
+          </tr>
+          <tr>
+            <td>Armada</td>
+            <td>Mau Di Bawa Kemana</td>
+          </tr>
+          <tr>
+            <td>BCL</td>
+            <td>Karena Kucinta Kau</td>
+          </tr>
+          <tr>
+            <td>BCL Feat. Ari Lasso</td>
+            <td>Aku Dan Dirimu</td>
+          </tr>
+          <tr>
+            <td>Bee Gees</td>
+            <td>Don't Forget To Remember</td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Ada Anak Bertanya Pada Bapaknya</td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Bermata Tapi Tak Melihat</td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Flamboyan</td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Jumpa Tuk Berpisah</td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Rindu Rosul</td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Sajadah Panjang</td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Semalam Di Malaysia</td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Tuhan</td>
+          </tr>
+          <tr>
+            <td>Bing Slamet</td>
+            <td>Nurlela</td>
+          </tr>
+          <tr>
+            <td>Black Brothers</td>
+            <td>Hari Kiamat</td>
+          </tr>
+          <tr>
+            <td>Black Brothers</td>
+            <td>Hilang</td>
+          </tr>
+          <tr>
+            <td>Black Brothers</td>
+            <td>Terjalin Kembali</td>
+          </tr>
+          <tr>
+            <td>Bob Tutupoli</td>
+            <td>Hanya Semalam</td>
+          </tr>
+          <tr>
+            <td>Bonjovi</td>
+            <td>Bed Of Roses</td>
+          </tr>
+          <tr>
+            <td>Bonjovi</td>
+            <td>Never Say Goodbye</td>
+          </tr>
+          <tr>
+            <td>Bragi</td>
+            <td>Janji</td>
+          </tr>
+          <tr>
+            <td>Broery Marantika</td>
+            <td>Angin Malam</td>
+          </tr>
+          <tr>
+            <td>Broery Marantika</td>
+            <td>Biarkan Bulan Bicara</td>
+          </tr>
+          <tr>
+            <td>Broery Marantika</td>
+            <td>Duri Dalam Cinta</td>
+          </tr>
+          <tr>
+            <td>Broery Marantika</td>
+            <td>Jangan Ada Dusta</td>
+          </tr>
+          <tr>
+            <td>Broery Marantika</td>
+            <td>Jangan Ditanya</td>
+          </tr>
+          <tr>
+            <td>Broery Marantika</td>
+            <td>Mungkinkah</td>
+          </tr>
+          <tr>
+            <td>Broery Marantika</td>
+            <td>Pergi Untuk Kembali</td>
+          </tr>
+          <tr>
+            <td>Broery Marantika</td>
+            <td>Setangkai Anggrek Bulan</td>
+          </tr>
+          <tr>
+            <td>Broery Marantika</td>
+            <td>Widuri</td>
+          </tr>
+          <tr>
+            <td>Cake</td>
+            <td>I Will Survive</td>
+          </tr>
+          <tr>
+            <td>CCR</td>
+            <td>Cotton Fields</td>
+          </tr>
+          <tr>
+            <td>CCR</td>
+            <td>Proud Mary</td>
+          </tr>
+          <tr>
+            <td>CCR</td>
+            <td>Wrote Song For Everyone</td>
+          </tr>
+          <tr>
+            <td>Cici Paramida</td>
+            <td>Wulan Merindu</td>
+          </tr>
+          <tr>
+            <td>Chakra Khan</td>
+            <td>Kekasih Bayangan</td>
+          </tr>
+          <tr>
+            <td>Cokelat</td>
+            <td>Jauh</td>
+          </tr>
+          <tr>
+            <td>Cokelat</td>
+            <td>Karma</td>
+          </tr>
+          <tr>
+            <td>D’lloyd</td>
+            <td>Cinta Hampa</td>
+          </tr>
+          <tr>
+            <td>D’lloyd</td>
+            <td>Hidup Dibui</td>
+          </tr>
+          <tr>
+            <td>D’lloyd</td>
+            <td>Mengapa Harus Jumpa</td>
+          </tr>
+          <tr>
+            <td>D’lloyd</td>
+            <td>Titik Noda</td>
+          </tr>
+          <tr>
+            <td>D’lloyd</td>
+            <td>Sepanjang Lorong Gelap</td>
+          </tr>
+          <tr>
+            <td>D'Masiv</td>
+            <td>Cinta Sampai Disini</td>
+          </tr>
+          <tr>
+            <td>D'Masiv</td>
+            <td>Diantara Kalian</td>
+          </tr>
+          <tr>
+            <td>Deddy Dores</td>
+            <td>Jangan Pisahkan</td>
+          </tr>
+          <tr>
+            <td>Deep Purple</td>
+            <td>Soldie Of Fortune</td>
+          </tr>
+          <tr>
+            <td>Deep Purple</td>
+            <td>When A Blind Man Cries</td>
+          </tr>
+          <tr>
+            <td>Dewa 19</td>
+            <td>Angin</td>
+          </tr>
+          <tr>
+            <td>Dewa 19</td>
+            <td>Arjuna</td>
+          </tr>
+          <tr>
+            <td>Dewa 19</td>
+            <td>Kangen</td>
+          </tr>
+          <tr>
+            <td>Dewa 19</td>
+            <td>Pupus</td>
+          </tr>
+          <tr>
+            <td>Dewa 19</td>
+            <td>Bukan Rahasia</td>
+          </tr>
+          <tr>
+            <td>Dewa 19</td>
+            <td>Dua Sejoli</td>
+          </tr>
+          <tr>
+            <td>Dewa 19</td>
+            <td>Kososng</td>
+          </tr>
+          <tr>
+            <td>Dewa 19</td>
+            <td>Roman Picisan</td>
+          </tr>
+          <tr>
+            <td>Dewa 19</td>
+            <td>Separuh Nafas</td>
+          </tr>
+          <tr>
+            <td>Dewi Yul</td>
+            <td>Rindu Yang Terlarang</td>
+          </tr>
+          <tr>
+            <td>Diana Nasution</td>
+            <td>Jangan Biarkan</td>
+          </tr>
+          <tr>
+            <td>Dina Mariana</td>
+            <td>Sekedar Bertanya</td>
+          </tr>
+          <tr>
+            <td>Drive</td>
+            <td>Bersama bintang</td>
+          </tr>
+          <tr>
+            <td>Ebiet G Ade</td>
+            <td>Berita Kepada Kawan</td>
+          </tr>
+          <tr>
+            <td>Ebiet G Ade</td>
+            <td>Camelia 4</td>
+          </tr>
+          <tr>
+            <td>Ebiet G Ade</td>
+            <td>Cintaku Kandas Di Rerumputan</td>
+          </tr>
+          <tr>
+            <td>Ebiet G Ade</td>
+            <td>Kepadamu Aku Pasrah</td>
+          </tr>
+          <tr>
+            <td>Ebiet G Ade</td>
+            <td>It’s Now Or Never</td>
+          </tr>
+          <tr>
+            <td>Engelberd</td>
+            <td>The Way It Use To Be</td>
+          </tr>
+          <tr>
+            <td>Eric Clapton</td>
+            <td>Wonderful Tonight</td>
+          </tr>
+          <tr>
+            <td>Europe</td>
+            <td>Final Countdown</td>
+          </tr>
+          <tr>
+            <td>Faith No More</td>
+            <td>Easy</td>
+          </tr>
+          <tr>
+            <td>Firman</td>
+            <td>Kehilangan</td>
+          </tr>
+          <tr>
+            <td>George Baker</td>
+            <td>I’ve Been Away Too Long</td>
+          </tr>
+          <tr>
+            <td>George Michael</td>
+            <td>Chareless Whisper</td>
+          </tr>
+          <tr>
+            <td>Gigi</td>
+            <td>Akhirnya</td>
+          </tr>
+          <tr>
+            <td>Glen Fredly</td>
+            <td>Sekali Ini saja</td>
+          </tr>
+          <tr>
+            <td>Gombloh</td>
+            <td>Kugadaikan Cintaku</td>
+          </tr>
+          <tr>
+            <td>Grace Simon</td>
+            <td>Tetes Airmata</td>
+          </tr>
+          <tr>
+            <td>Guns N Roses</td>
+            <td>Don’t Cry</td>
+          </tr>
+          <tr>
+            <td>Haddad Alwi</td>
+            <td>Al I’Tirof</td>
+          </tr>
+          <tr>
+            <td>Haddad Alwi</td>
+            <td>Al I’Tirof</td>
+          </tr>
+          <tr>
+            <td>Haddad Alwi</td>
+            <td>Astagfirullah</td>
+          </tr>
+          <tr>
+            <td>Hello</td>
+            <td>Dua Cincin</td>
+          </tr>
+          <tr>
+            <td>Humood</td>
+            <td>Kun Anta</td>
+          </tr>
+          <tr>
+            <td>Iwan Fals</td>
+            <td>Bento</td>
+          </tr>
+          <tr>
+            <td>Iwan Fals</td>
+            <td>Bongkar</td>
+          </tr>
+          <tr>
+            <td>Iwan Fals</td>
+            <td>Di Ujung Aspal Pondok Gede</td>
+          </tr>
+          <tr>
+            <td>Jaja Miharja</td>
+            <td>Cinta Sabun Mandi</td>
+          </tr>
+          <tr>
+            <td>Johny Iskandar</td>
+            <td>Bukan Pengemis Cinta</td>
+          </tr>
+          <tr>
+            <td>Johny Iskandar</td>
+            <td>Secangkir Kopi</td>
+          </tr>
+          <tr>
+            <td>Josh Turner</td>
+            <td>Your Man</td>
+          </tr>
+          <tr>
+            <td>Kangen Band</td>
+            <td>Cinta yang sempurna</td>
+          </tr>
+          <tr>
+            <td>Kerispatih</td>
+            <td>Demi Cinta</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Andaikan Kau Datang</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Angin Laut</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Ayah</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Bahagia Dan Derita</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Berjumpa Lagi</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Bis Sekolah</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Buat Apa Susah</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Bujangan</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Bunga Di Tepi Jalan</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Cinta Mulia</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Cintamu Tlah Berlalu</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Dara Manisku</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Derita</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Desaku</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Desember</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Diana</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Doa Suciku</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Gadis Manis</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Haru Dan Bahagia</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Hatiku Beku</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Hatimu Hatiku</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Hidup Yang Sepi</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Jemu</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Kapan-kapan</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Kembali</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Keroncong Pertemuan</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Kisah Sedih Di Hari Minggu</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Kolam Susu</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Kursi Emas</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Layang</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Manis Dan Sayang</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Mari</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Mari Berjoget</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Mawar Bunga</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Muda Mudi</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Nusantara 2</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Nusantara 3</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Nusantara 6</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Nusantara 7</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Oh Kasihan</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Oh Kau Taku</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Pagi Yang Indah</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Papiku Mamiku</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Pelangi</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Rasa Hatiku</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Remaja ABCD</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Tak Usah Kau Sesali</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Terlambat</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Termenung Lesu</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Terulang Lagi</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Tiba-tiba Kumenangis</td>
+          </tr>
+          <tr>
+            <td>Koes Plus</td>
+            <td>Why Do you Love Me</td>
+          </tr>
+          <tr>
+            <td>Last Child</td>
+            <td>Percayalah</td>
+          </tr>
+          <tr>
+            <td>Lionel Ritchie</td>
+            <td>Hello</td>
+          </tr>
+          <tr>
+            <td>Maher Zein</td>
+            <td>Insyaallah</td>
+          </tr>
+          <tr>
+            <td>Mashabi</td>
+            <td>Hilang Tak Berkesan</td>
+          </tr>
+          <tr>
+            <td>Mashabi</td>
+            <td>Kesunyian Jiwa</td>
+          </tr>
+          <tr>
+            <td>Mashabi</td>
+            <td>Kesunyian Jiwa</td>
+          </tr>
+          <tr>
+            <td>Mayumi Itsowa</td>
+            <td>Kokoronotomo</td>
+          </tr>
+          <tr>
+            <td>Metallica</td>
+            <td>Nothing Else Matter</td>
+          </tr>
+          <tr>
+            <td>MLTR</td>
+            <td>Sleeping Child</td>
+          </tr>
+          <tr>
+            <td>Mr.Big</td>
+            <td>Wild World</td>
+          </tr>
+          <tr>
+            <td>Muchsin Alatas</td>
+            <td>Pasrah</td>
+          </tr>
+          <tr>
+            <td>Muchsin Alatas</td>
+            <td>Renungkanlah</td>
+          </tr>
+          <tr>
+            <td>Naff</td>
+            <td>Akhirnya Kumenemukanmu</td>
+          </tr>
+          <tr>
+            <td>Naff</td>
+            <td>Kenanglah Aku</td>
+          </tr>
+          <tr>
+            <td>Nidji</td>
+            <td>Biarlah</td>
+          </tr>
+          <tr>
+            <td>Nidji</td>
+            <td>Hapus Aku</td>
+          </tr>
+          <tr>
+            <td>Nirvana</td>
+            <td>Come As You Are</td>
+          </tr>
+          <tr>
+            <td>Nirvana</td>
+            <td>Smells Like teen spirit</td>
+          </tr>
+          <tr>
+            <td>Nirvana</td>
+            <td>The Man Who Sold The World</td>
+          </tr>
+          <tr>
+            <td>Nisa Sabyan</td>
+            <td>Deen Assalam</td>
+          </tr>
+          <tr>
+            <td>Nisa Sabyan</td>
+            <td>Ya Asyiqol</td>
+          </tr>
+          <tr>
+            <td>Nisa Sabyan</td>
+            <td>Ya Maulana</td>
+          </tr>
+          <tr>
+            <td>No Koes</td>
+            <td>Layar Tancep</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Alusia</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Cicak Rowo</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Euis</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Hilangnya Seorang Gadis</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Jandaku</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Kambanglah Bungo</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Oh Carol</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Pemuda Idaman</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Pepito Mi Corazon</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>poco</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Polo Pakita</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Rek Ayo Rek</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Sai Anju Ma Ai</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Sio Mamae</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Teluk Bayur</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Tiga Malam</td>
+          </tr>
+          <tr>
+            <td>No Name</td>
+            <td>Ya Rasululla ( Cindai )</td>
+          </tr>
+          <tr>
+            <td>Noah</td>
+            <td>Cinta Bukan Dusta</td>
+          </tr>
+          <tr>
+            <td>Noah</td>
+            <td>Separuh Aku</td>
+          </tr>
+          <tr>
+            <td>Noah</td>
+            <td>Seperti Kemarin</td>
+          </tr>
+          <tr>
+            <td>Noah</td>
+            <td>Tak Lagi Sama</td>
+          </tr>
+          <tr>
+            <td>Novia Kolopaking</td>
+            <td>Dengan Menyebut Nama Allah</td>
+          </tr>
+          <tr>
+            <td>Oasis</td>
+            <td>Don't Look Back In Anger</td>
+          </tr>
+          <tr>
+            <td>Opick</td>
+            <td>Bila Waktu Tlah Berakhir</td>
+          </tr>
+          <tr>
+            <td>Opick</td>
+            <td>Rapuh</td>
+          </tr>
+          <tr>
+            <td>Padi</td>
+            <td>Begitu Indah</td>
+          </tr>
+          <tr>
+            <td>Padi</td>
+            <td>Menanti Sebuah Jawaban</td>
+          </tr>
+          <tr>
+            <td>Padi</td>
+            <td>Semua Tak Sama</td>
+          </tr>
+          <tr>
+            <td>Padi</td>
+            <td>Sesuatu Yang Indah</td>
+          </tr>
+          <tr>
+            <td>Panbers</td>
+            <td>Akhir Cinta</td>
+          </tr>
+          <tr>
+            <td>Panbers</td>
+            <td>Cinta Dan Permata</td>
+          </tr>
+          <tr>
+            <td>Panbers</td>
+            <td>Hidup Terkekang</td>
+          </tr>
+          <tr>
+            <td>Panbers</td>
+            <td>Pilu</td>
+          </tr>
+          <tr>
+            <td>Panbers</td>
+            <td>Tak Kusangka</td>
+          </tr>
+          <tr>
+            <td>Panbers</td>
+            <td>Terlambat</td>
+          </tr>
+          <tr>
+            <td>Panbers</td>
+            <td>Terlambat Sudah</td>
+          </tr>
+          <tr>
+            <td>Pance</td>
+            <td>Kucari Jalan Terbaik</td>
+          </tr>
+          <tr>
+            <td>Peterpan</td>
+            <td>Ada Apa Denganmu</td>
+          </tr>
+          <tr>
+            <td>Peterpan</td>
+            <td>Bintang Di Surga</td>
+          </tr>
+          <tr>
+            <td>Peterpan</td>
+            <td>Menunggumu</td>
+          </tr>
+          <tr>
+            <td>Peterpan</td>
+            <td>Mimpi Yang Sempurna</td>
+          </tr>
+          <tr>
+            <td>Peterpan</td>
+            <td>Mungkin Nanti</td>
+          </tr>
+          <tr>
+            <td>Peterpan</td>
+            <td>Semua Tentang Kita</td>
+          </tr>
+          <tr>
+            <td>Peter Maffay</td>
+            <td>Du</td>
+          </tr>
+          <tr>
+            <td>Projector</td>
+            <td>Sudah Kutahu</td>
+          </tr>
+          <tr>
+            <td>Radja</td>
+            <td>Jujur</td>
+          </tr>
+          <tr>
+            <td>Rhoma Irama</td>
+            <td>Perjuangan Dan Doa</td>
+          </tr>
+          <tr>
+            <td>Rhoma Irama</td>
+            <td>Terajana</td>
+          </tr>
+          <tr>
+            <td>Rod Steward</td>
+            <td>Have I Told You Lately</td>
+          </tr>
+          <tr>
+            <td>Rod Steward</td>
+            <td>Have You Ever Seen The Rain</td>
+          </tr>
+          <tr>
+            <td>Rosa</td>
+            <td>Takkan Berpaling Darimu</td>
+          </tr>
+          <tr>
+            <td>Rotin Sulu</td>
+            <td>Diwajahmu Kulihat Bulan</td>
+          </tr>
+          <tr>
+            <td>Ruth Sahanaya</td>
+            <td>Kaulah Segalanya</td>
+          </tr>
+          <tr>
+            <td>Samsons</td>
+            <td>Kenangan Terindah</td>
+          </tr>
+          <tr>
+            <td>Santana</td>
+            <td>Corazon</td>
+          </tr>
+          <tr>
+            <td>Santana</td>
+            <td>Smooth</td>
+          </tr>
+          <tr>
+            <td>Scorpions</td>
+            <td>Always Somewhere</td>
+          </tr>
+          <tr>
+            <td>Scorpions</td>
+            <td>Still Loving You</td>
+          </tr>
+          <tr>
+            <td>Scorpions</td>
+            <td>When The Smoke Is Going Down</td>
+          </tr>
+          <tr>
+            <td>Seventeen</td>
+            <td>Hal Terindah</td>
+          </tr>
+          <tr>
+            <td>Seventeen</td>
+            <td>Jaga Slalu Hatimu</td>
+          </tr>
+          <tr>
+            <td>Seventeen</td>
+            <td>Kemarin</td>
+          </tr>
+          <tr>
+            <td>Seventeen</td>
+            <td>Menemukanmu</td>
+          </tr>
+          <tr>
+            <td>Seventeen</td>
+            <td>Ramadhan Yang Indah</td>
+          </tr>
+          <tr>
+            <td>Sheila On 7</td>
+            <td>Dan</td>
+          </tr>
+          <tr>
+            <td>Sheila On 7</td>
+            <td>Kita</td>
+          </tr>
+          <tr>
+            <td>Sheila On 7</td>
+            <td>Pejantan Tangguh</td>
+          </tr>
+          <tr>
+            <td>Sheila On 7</td>
+            <td>Seberapa Pantas</td>
+          </tr>
+          <tr>
+            <td>Slank</td>
+            <td>Ku Tak Bisa</td>
+          </tr>
+          <tr>
+            <td>Slank</td>
+            <td>Virus</td>
+          </tr>
+          <tr>
+            <td>ST 12</td>
+            <td>Rasa Yang Tertinggal</td>
+          </tr>
+          <tr>
+            <td>ST 12</td>
+            <td>Jangan Pernah Berubah</td>
+          </tr>
+          <tr>
+            <td>ST 12</td>
+            <td>Kebesaranmu</td>
+          </tr>
+          <tr>
+            <td>ST 12</td>
+            <td>Kepingan Hati</td>
+          </tr>
+          <tr>
+            <td>Steelheart</td>
+            <td>She’s Gone</td>
+          </tr>
+          <tr>
+            <td>Tantowi Yahya</td>
+            <td>Sebiduk Ditepi Sungai Musi</td>
+          </tr>
+          <tr>
+            <td>Tetty Kadi</td>
+            <td>Sepanjang Jalan Kenangan</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Can't Buy Me Love</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Come Together</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Day Tripper</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Don't Let Me Down</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Drive My Car</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Hey Jude</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>I Feel Fine</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>I Saw Her Standing There</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>I Should Known Better</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Let It Be</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Michelle</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>My Bonnie</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Norwegian Wood</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>O Bladi O Blada</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Oh Darling</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Something</td>
+          </tr>
+          <tr>
+            <td>The Beatles</td>
+            <td>Ticket To Ride</td>
+          </tr>
+          <tr>
+            <td>The Bee Gees</td>
+            <td>Don’t Forget To Remember</td>
+          </tr>
+          <tr>
+            <td>The Bee Gees</td>
+            <td>To Love Somebody</td>
+          </tr>
+          <tr>
+            <td>The Bee Gees</td>
+            <td>Words</td>
+          </tr>
+          <tr>
+            <td>The Mercy’s</td>
+            <td>Ayah</td>
+          </tr>
+          <tr>
+            <td>The Mercy’s</td>
+            <td>Biarku Sendiri</td>
+          </tr>
+          <tr>
+            <td>The Mercy’s</td>
+            <td>Bunga Mawar</td>
+          </tr>
+          <tr>
+            <td>The Mercy’s</td>
+            <td>Dalam Kerinduan</td>
+          </tr>
+          <tr>
+            <td>The Mercy’s</td>
+            <td>Hidupku Sunyi</td>
+          </tr>
+          <tr>
+            <td>The Mercy’s</td>
+            <td>Pergi Tanpa Berita</td>
+          </tr>
+          <tr>
+            <td>The Mercy’s</td>
+            <td>Seorang Pramuria</td>
+          </tr>
+          <tr>
+            <td>The Mercy’s</td>
+            <td>Tiada Lagi</td>
+          </tr>
+          <tr>
+            <td>The Mercy’s</td>
+            <td>Usah Kau Harap</td>
+          </tr>
+          <tr>
+            <td>The Rock</td>
+            <td>Munajat Cinta</td>
+          </tr>
+          <tr>
+            <td>Uje</td>
+            <td>Sepohon Kayu</td>
+          </tr>
+          <tr>
+            <td>Uje</td>
+            <td>Bidadari Surga</td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Bila Tiba</td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Demi Waktu</td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Dengan Nafasmu</td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Luka Disini</td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Andai Kutahu</td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Seperti Yang Dulu</td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Sesungguhnya</td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Surgamu</td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Untukmu Selamanya</td>
+          </tr>
+          <tr>
+            <td>Utopia</td>
+            <td>Mencintaimu Sampai Mati</td>
+          </tr>
+          <tr>
+            <td>Victor Hutabarat</td>
+            <td>O tano Batak</td>
+          </tr>
+          <tr>
+            <td>Victor Hutabarat</td>
+            <td>Fatwa Pujangga</td>
+          </tr>
+          <tr>
+            <td>Virgoun</td>
+            <td>Surat Cinta Untuk Starla</td>
+          </tr>
+          <tr>
+            <td>Wali</td>
+            <td>Yank</td>
+          </tr>
+          <tr>
+            <td>Helloween</td>
+            <td>Forever and One</td>
+          </tr>
+          <tr>
+            <td>White Lion</td>
+            <td>Till death do us part</td>
+          </tr>
+          <tr>
+            <td>White Lion</td>
+            <td>You're all I need</td>
+          </tr>
+          <tr>
+            <td>Zivilia</td>
+            <td>Pintu Taubat</td>
+          </tr>
+          <tr>
+            <td>Iis Dahlia</td>
+            <td>Fatwa Pujangga</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--		Start Pagination -->
+      <div class="pagination-container">
+        <nav>
+          <ul class="pagination">
+            <!--	Here the JS Function Will Add the Rows -->
+          </ul>
+        </nav>
+      </div>
+      <div class="rows_count">Showing 11 to 20 of 91 entries</div>
+    </div>
+    <!-- 		End of Container -->
+
+    <!--  Developed By Yasser Mas -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

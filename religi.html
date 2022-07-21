@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Religi</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/98d921e819.js" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="#default" class="logo">
+        <img src="Image/logo.png" class="logo" />
+      </a>
+      <div class="header-right" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          <a href="index.html">Home</a>
+          <a href="songlist.html">Song List</a>
+          <a href="religi.html">Religi</a>
+          <a href="#about">Galery</a>
+        </a>
+      </div>
+    </div>
+    <!-- <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search" title="Type in a name" /> -->
+    <div class="container">
+      <div class="header_wrap">
+        <div class="num_rows">
+          <div class="form-group">
+            <!--		Show Numbers Of Rows 		-->
+            <select class="form-control" name="state" id="maxRows">
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+              <option value="50">50</option>
+              <option value="70">70</option>
+              <option value="100">100</option>
+              <option value="5000">Show ALL Rows</option>
+            </select>
+          </div>
+        </div>
+        <div class="tb_search">
+          <input type="text" id="search_input_all" onkeyup="FilterkeyWord_all_table()" placeholder="Search.." class="form-control" />
+        </div>
+      </div>
+      <table class="table table-striped table-class" id="table-id">
+        <thead>
+          <tr>
+            <th>Artist</th>
+            <th>Title</th>
+            <th>Song</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Afgan</td>
+            <td>Kepadamu Ku Bersujud</td>
+            <td>
+              <audio src="Audio/Afgan - PadaMu Ku Bersujud.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Ada Anak Bertanya Kepada Bapaknya</td>
+            <td>
+              <audio src="Audio/Bimbo - Ada Anak Bertanya Kepada Bapaknya.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Bermata Tapi Tak Melihat</td>
+            <td>
+              <audio src="Audio/Bimbo - Bermata Tapi Tak Melihat.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Rindu Kami Padamu Rasul</td>
+            <td>
+              <audio src="Audio/Bimbo - Rindu Kami Padamu Rasul.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Sajadah Panjang</td>
+            <td>
+              <audio src="Audio/Bimbo - Sajadah Panjang.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Bimbo</td>
+            <td>Tuhan</td>
+            <td>
+              <audio src="Audio/Bimbo - Tuhan.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Ebiet G Ade</td>
+            <td>KepadaMu Aku Pasrah</td>
+            <td>
+              <audio src="Audio/Ebiet G Ade - KepadaMu Aku Pasrah.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Gigi</td>
+            <td>Akhirnya</td>
+            <td>
+              <audio src="Audio/Gigi - Akhirnya.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Haddad Alwi</td>
+            <td>Al I'tirof</td>
+            <td>
+              <audio src="Audio/Haddad Alwi - Al I'tirof.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Haddad Alwi</td>
+            <td>Astaghfirullah</td>
+            <td>
+              <audio src="Audio/Haddad Alwi - Astaghfirullah.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Humood</td>
+            <td>Kun Anta</td>
+            <td>
+              <audio src="Audio/Humood - Kun Anta .ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Last Child</td>
+            <td>Percayalah</td>
+            <td>
+              <audio src="Audio/Last Child - Percayalah.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Maher Zain</td>
+            <td>Insha Allah</td>
+            <td>
+              <audio src="Audio/Maher Zain - Insha Allah.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Opick</td>
+            <td>Bila Waktu T'lah Berakhir</td>
+            <td>
+              <audio src="Audio/Opick - Bila Waktu T'lah Berakhir.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Opick</td>
+            <td>Dealova</td>
+            <td>
+              <audio src="Audio/Opick - Dealova.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Opick</td>
+            <td>Rapuh</td>
+            <td>
+              <audio src="Audio/Opick - Rapuh.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Sabyan</td>
+            <td>Deen Assalam</td>
+            <td>
+              <audio src="Audio/Sabyan - Deen Assalam.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Sabyan</td>
+            <td>Ya Maulana</td>
+            <td>
+              <audio src="Audio/Sabyan - Ya Maulana.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Seventeen</td>
+            <td>Ramadhan Yang Indah</td>
+            <td>
+              <audio src="Audio/Seventeen - Ramadhan Yang Indah.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>ST12</td>
+            <td>KebesaranMU</td>
+            <td>
+              <audio src="Audio/ST12 - KebesaranMU.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Andai Ku Tahu</td>
+            <td>
+              <audio src="Audio/Ungu - Andai Ku Tahu.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Bila Tiba</td>
+            <td>
+              <audio src="Audio/Ungu - Bila Tiba.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Dengan NafasMu</td>
+            <td>
+              <audio src="Audio/Ungu - Dengan NafasMu.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>Sesungguhnya</td>
+            <td>
+              <audio src="Audio/Ungu - Sesungguhnya.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Ungu</td>
+            <td>SurgaMU</td>
+            <td>
+              <audio src="Audio/Ungu - SurgaMU.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Ustad Jefri Al Buchori (Uje)</td>
+            <td>Sepohon Kayu</td>
+            <td>
+              <audio src="Audio/Ustad Jefri Al Buchori (Uje) - Sepohon Kayu.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Ustadz Jefri Al Buchori (Uje)</td>
+            <td>Bidadari Surga</td>
+            <td>
+              <audio src="Audio/Ustadz Jefri Al Buchori (Uje) - Bidadari Surga.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Versi Cindai</td>
+            <td>Ya Rasulullah</td>
+            <td>
+              <audio src="Audio/Ya Rasulullah Salamun Alaik Versi Cindai.ogg" controls></audio>
+            </td>
+          </tr>
+          <tr>
+            <td>Zivilia</td>
+            <td>Pintu Taubat</td>
+            <td>
+              <audio src="Audio/Zivilia - Pintu Taubat.ogg" controls></audio>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--		Start Pagination -->
+      <div class="pagination-container">
+        <nav>
+          <ul class="pagination">
+            <!--	Here the JS Function Will Add the Rows -->
+          </ul>
+        </nav>
+      </div>
+      <div class="rows_count">Showing 11 to 20 of 91 entries</div>
+    </div>
+    <!-- 		End of Container -->
+
+    <!--  Developed By Yasser Mas -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
