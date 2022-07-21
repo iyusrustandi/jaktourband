@@ -16,17 +16,16 @@
       <div class="header-right" id="myTopnav">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
-          <a href="#home">Home</a>
-          <a href="#home">Song List</a>
-          <a href="#contact">Religi</a>
+          <a href="index.html">Home</a>
+          <a href="songlist.html">Song List</a>
+          <a href="religi.html">Religi</a>
           <a href="#about">Galery</a>
-          <a><input id="sortData" type="text" placeholder="Search.." /></a>
         </a>
       </div>
     </div>
 
     <!-- Slideshow -->
-    <div>
+    <div id="slideshow">
       <div class="slideshow-container">
         <div class="mySlides fade">
           <div class="numbertext">1 / 5</div>
@@ -147,26 +146,6 @@
       }
     </script>
 
-    <script>
-      function myFunction() {
-        var x = document.getElementById('myTopnav');
-        if (x.className === 'header-right') {
-          x.className += ' responsive';
-        } else {
-          x.className = 'header-right';
-        }
-      }
-    </script>
-
-    <script>
-      var sidemenu = document.getElementById('header-right');
-
-      function openmenu() {
-        sidemenu.style.right = '0';
-      }
-      function closemenu() {
-        sidemenu.style.right = '-200px';
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
