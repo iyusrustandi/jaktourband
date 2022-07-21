@@ -48,6 +48,12 @@ body {
 .header-right .icon {
   display: none;
 }
+#slideshow {
+  padding: 15px 0;
+}
+#member {
+  padding: 15px 0;
+}
 
 @media screen and (max-width: 600px) {
   .header-right a:not(:first-child) {
@@ -185,7 +191,7 @@ img {
   }
 }
 
-/* member */
+/* --------member-------------- */
 .sub-title {
   font-size: 30px;
   font-weight: 600;
@@ -219,4 +225,54 @@ img {
   .gallery {
     width: 90px;
   }
+}
+
+/*----------------------------------------- Song List Table Style--------------------------------------- */
+body {
+  background-color: #eee;
+}
+
+table th,
+table td {
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background-color: #e4e3e3;
+}
+
+th {
+  background: #333;
+  color: #fff;
+}
+
+.pagination {
+  margin: 0;
+}
+
+.pagination li:hover {
+  cursor: pointer;
+}
+
+.header_wrap {
+  padding: 30px 0;
+}
+.num_rows {
+  width: 20%;
+  float: left;
+}
+.tb_search {
+  width: 25%;
+  float: right;
+}
+/* .pagination-container {
+  width: 70%;
+  float: left;
+} */
+
+.rows_count {
+  width: 100%;
+  float: right;
+  text-align: right;
+  color: #fff;
 }
