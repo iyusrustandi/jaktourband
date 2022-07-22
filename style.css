@@ -276,27 +276,4 @@ th {
   text-align: right;
   color: #fff;
 }
-/* ---------------------------------Lyrics-------------------------------------- */
-h2 {
-  padding: 30px;
-  color: #fff;
-  text-align: center;
-}
-.lyric {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 50%;
-}
-@media screen and (max-width: 600px) {
-  .lyric {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .lyric {
-    width: 100%;
-  }
-}
 
