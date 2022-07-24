@@ -51,9 +51,9 @@ body {
 #slideshow {
   padding: 15px 0;
 }
-#member {
+/* #member {
   padding: 15px 0;
-}
+} */
 
 @media screen and (max-width: 600px) {
   .header-right a:not(:first-child) {
@@ -201,7 +201,7 @@ img {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 175px;
 }
 
 .gallery:hover {
@@ -212,11 +212,19 @@ img {
   width: 100%;
   height: auto;
 }
-
 .desc {
   padding: 15px;
   text-align: center;
   color: #fff;
+}
+.copyright {
+  background-color: #184a7e;
+  padding: 15px;
+  width: 100%;
+  float: right;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
 }
 @media screen and (max-width: 600px) {
   .sub-title {
@@ -225,8 +233,10 @@ img {
   .gallery {
     width: 90px;
   }
+  .copyright {
+    font-size: 10px;
+  }
 }
-
 /*----------------------------------------- Song List Table Style--------------------------------------- */
 body {
   background-color: #eee;
@@ -246,13 +256,13 @@ th {
   color: #fff;
 }
 
-.pagination {
+/* .pagination {
   margin: 0;
 }
 
 .pagination li:hover {
   cursor: pointer;
-}
+} */
 
 .header_wrap {
   padding: 30px 0;
@@ -271,11 +281,20 @@ th {
 } */
 
 .rows_count {
-  width: 100%;
+  width: 75%;
   float: right;
   text-align: right;
   color: #fff;
 }
+@media screen and (max-width: 600px) {
+  .num_rows {
+    width: 25%;
+  }
+  .tb_search {
+    width: 30%;
+  }
+}
+
 /* ---------------------------------Lyrics-------------------------------------- */
 h2 {
   padding: 30px;
