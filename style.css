@@ -51,9 +51,9 @@ body {
 #slideshow {
   padding: 15px 0;
 }
-/* #member {
+#member {
   padding: 15px 0;
-} */
+}
 
 @media screen and (max-width: 600px) {
   .header-right a:not(:first-child) {
@@ -201,7 +201,7 @@ img {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 175px;
+  width: 100px;
 }
 
 .gallery:hover {
@@ -226,19 +226,43 @@ img {
   color: #fff;
   font-size: 14px;
 }
+/* ---------------------------social media icons----------------------- */
+div.media {
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div.media a {
+  padding: 10px 12px;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+div.media a:hover {
+  opacity: 0.8;
+}
+.fb {
+  background: #1877f2;
+}
+.insta {
+  background: #fb3958;
+}
 @media screen and (max-width: 600px) {
   .sub-title {
     font-size: 15px;
   }
   .gallery {
-    width: 90px;
+    width: 100px;
   }
   .copyright {
     font-size: 10px;
   }
 }
 /*----------------------------------------- Song List Table Style--------------------------------------- */
-body {
+table {
   background-color: #eee;
 }
 
