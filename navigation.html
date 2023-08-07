@@ -1,0 +1,30 @@
+<nav class="navbar">
+  <div class="logo_header">
+    <a href="https://jaktourband.com/"> <img src="Image/logo.png" class="logo" /></a>
+    <button class="navbar_toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+  <ul class="main_nav">
+    <li>
+      <a href="https://jaktourband.com/">Home</a>
+    </li>
+    <li>
+      <a href="songlist.html">Song List</a>
+    </li>
+    <li>
+      <a href="religi.html">Religi</a>
+    </li>
+    <li>
+      <a href="gallery.html">Gallery</a>
+    </li>
+  </ul>
+</nav>
+<script>
+  const navToggle = document.querySelector('.navbar_toggle');
+  const links = document.querySelector('.main_nav');
+
+  navToggle.addEventListener('click', function () {
+    links.classList.toggle('show_nav');
+  });
+</script>

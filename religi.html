@@ -5,295 +5,156 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Religi</title>
+    <link href="Image/icon.png" rel="icon" />
     <link rel="stylesheet" href="style.css" />
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <script src="https://kit.fontawesome.com/98d921e819.js" crossorigin="anonymous"></script>
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" /> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
-    <div class="header">
-      <a href="#default" class="logo">
-        <img src="Image/logo.png" class="logo" />
-      </a>
-      <div class="header-right" id="myTopnav">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-          <a href="index.html">Home</a>
-          <a href="songlist.html">Song List</a>
-          <a href="religi.html">Religi</a>
-          <a href="#about">Galery</a>
-        </a>
-      </div>
-    </div>
-    <!-- <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search" title="Type in a name" /> -->
-    <div class="container">
-      <div class="header_wrap">
-        <div class="num_rows">
-          <div class="form-group">
-            <!--		Show Numbers Of Rows 		-->
-            <select class="form-control" name="state" id="maxRows">
-              <option value="10">10</option>
-              <option value="15">15</option>
-              <option value="20">20</option>
-              <option value="31">Show ALL Rows</option>
-            </select>
-          </div>
-        </div>
-        <div class="tb_search">
-          <input type="text" id="search_input_all" onkeyup="FilterkeyWord_all_table()" placeholder="Search.." class="form-control" />
+    <div id="nav-placeholder"></div>
+    <div class="header_wrap">
+      <div class="num_rows">
+        <div class="form-group">
+          <select class="form-control" name="state" id="maxRows">
+            <option value="15">Show 15 Song</option>
+            <option value="50">Show 50 Song</option>
+            <option value="100">Show 100 Song</option>
+            <option value="150">Show 150 Song</option>
+            <option value="200">Show 200 Song</option>
+            <option value="350">Show All Song</option>
+          </select>
         </div>
       </div>
-      <table class="table table-responsive table-striped table-hover" id="table-id">
-        <thead class="table-dark">
-          <tr>
-            <th>Artist</th>
-            <th>Title</th>
-            <th>Song</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Afghan</td>
-            <td><a href="afghan_kepadamu_kubersujud.html">Kepadamu Aku Bersujud</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=JVZteytrEls" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Bimbo</td>
-            <td><a href="bimbo_ada_anak_bertanya.html">Ada Anak Bertanya Pada Bapaknya</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=rVTxh8-3NQk" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Bimbo</td>
-            <td><a href="bimbo_bermata_tak_melihat.html">Bermata Tapi Tak Melihat</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=EK1kK1DjlHQ" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Bimbo</td>
-            <td><a href="bimbo_rindu_kami_padamu.html">Rindu Kami Padamu</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=07OjmqZtYns" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Bimbo</td>
-            <td><a href="bimbo_sajadah_panjang.html">Sajadah Panjang</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=I45TESjdMew" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Bimbo</td>
-            <td><a href="bimbo_tuhan.html">Tuhan</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=B0cst7T8ZUc" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Ebiet G Ade</td>
-            <td><a href="ebiet_gade_kepadamu_aku_pasrah.html">KepadaMu Aku Pasrah</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=77bw5yn4iig" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Gigi</td>
-            <td><a href="gigi_akhirnya.html">Akhirnya</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=juxtFsVgjSQ" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Haddad Alwi</td>
-            <td><a href="haddad_alwi_alitiroof.html">Al I’tiroof</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=zeT7Gdm_uEM" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Haddad Alwi</td>
-            <td><a href="haddad_alwi_astagfirullah.html">Astagfirullah</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=tm1tAeyqWoA" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Humood</td>
-            <td><a href="humood_kun_anta.html">Kun Anta</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=qKVW_wJs91Q" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Last Child</td>
-            <td><a href="lastchild_percayalah.html">Percayalah</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=UYo-eL7-ogQ" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Maher Zein</td>
-            <td><a href="maherzein_insyaallah.html">Insyaallah</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=KfXIF2Mm2Kc" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Opick</td>
-            <td><a href="opick_bilawaktu.html">Bila Waktu Tlah Berakhir</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=eA_y31H3D5k" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Opick</td>
-            <td><a href="opick_dealova.html">Dealova</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=QbFnLXVZp_U" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Opick</td>
-            <td><a href="opick_rapuh.html">Rapuh</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=OUDB9-JkJio" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Nisa Sabyan</td>
-            <td><a href="nisasabyan_deenassalam.html">Deen Assalam</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=1OMD_LSELAM" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Nisa Sabyan</td>
-            <td><a href="nisasabyan_yaasyiqol.html">Ya Asyiqol</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=0GSsCYgsvG8" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Nisa Sabyan</td>
-            <td><a href="nisasabyan_yamaulana.html">Ya Maulana</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=Ii1jvubIC8g" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Rossa</td>
-            <td><a href="rossa_takkanberpaling.html">Takkan Berpaling Dari-Mu</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=lEAtSPGuH0I" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Seventeen</td>
-            <td><a href="seventeen_ramadhanyangindah.html">Ramadhan Yang Indah</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=LXLi63b4oQg" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>ST 12</td>
-            <td><a href="st12_kebesaranmu.html">KebesaranMu</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=fOfUGSs6VEw" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Ungu</td>
-            <td><a href="ungu_andaikutahu.html">Andai Kutahu</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=x9JLrJbyClk" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Ungu</td>
-            <td><a href="ungu_bilatiba.html">Bila Tiba</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=KgQrP1ykAp8" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Ungu</td>
-            <td><a href="ungu_dengannafasmu.html">Dengan Nafasmu</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=Z7begS5McN4" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Ungu</td>
-            <td><a href="ungu_sesungguhnya.html">Sesungguhnya</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=KTrEsj20lWM" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Ungu</td>
-            <td><a href="ungu_surgamu.html">Surgamu</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=4LERVRbuS6I" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Uje</td>
-            <td><a href="uje_sepohonkayu.html">Sepohon Kayu</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=yFntg1xSPx8" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Uje</td>
-            <td><a href="uje_bidadarisurga.html">Bidadari Surga</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=2EHy7rafNgY" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>No Name</td>
-            <td><a href="yarasulullahversicindai.html">Ya Rasululla ( Cindai )</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=BsTDb6lv8vM" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td>Zivilia</td>
-            <td><a href="zivilia_pintutaubat.html">Pintu Taubat</a></td>
-            <td>
-              <a class="btn btn-danger btn-sm" href="https://www.youtube.com/watch?v=wnS1njMJu9E" role="button">Youtube<i class="fa fa-youtube-play"></i></a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <!--		Start Pagination -->
-      <div class="pagination-container">
-        <nav>
-          <ul class="pagination">
-            <!--	Here the JS Function Will Add the Rows -->
-          </ul>
-        </nav>
+      <div class="tb_search">
+        <input type="text" id="search_input_all" onkeyup="FilterkeyWord_all_table()" placeholder="Search Artist or Title...." class="form-control" />
       </div>
-      <div class="rows_count">Showing 11 to 20 of 91 entries</div>
     </div>
-    <div class="copyright">
-      Copyright &copy; Jaktour Band 2022. Made by
-      <a href="https://iyusrustandi.github.io/" style="color: #fff">Iyus Rustandi</a>
-    </div>
-    <!-- 		End of Container -->
+    <table class="table table-responsive table-striped table-hover" id="table-id">
+      <thead class="table-dark">
+        <tr>
+          <th>Artist</th>
+          <th>Title</th>
+          <th>Lyric</th>
+          <th>Song</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
 
-    <!--  Developed By Yasser Mas -->
+    <div class="d-flex justify-content-center mt-3">
+      <div id="pagination-container"></div>
+    </div>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script>
+      $(document).ready(function () {
+        var tableData;
+        var pageSize = 15;
+        var currentPage = 1;
+
+        // Load data from JSON file
+        $.getJSON('religi.json', function (data) {
+          tableData = data;
+          updateTable();
+          renderPagination();
+        });
+
+        // Update table based on current page and search input
+        function updateTable() {
+          var searchInput = $('#search_input_all').val().toLowerCase();
+          var filteredData = tableData.filter(function (item) {
+            return item.artist.toLowerCase().includes(searchInput) || item.song.toLowerCase().includes(searchInput);
+          });
+
+          var startIndex = (currentPage - 1) * pageSize;
+          var endIndex = startIndex + pageSize;
+          var paginatedData = filteredData.slice(startIndex, endIndex);
+
+          var tableBody = $('#table-id tbody');
+          tableBody.empty();
+
+          for (var i = 0; i < paginatedData.length; i++) {
+            var row = $('<tr>');
+            row.append($('<td>').text(startIndex + i + 1));
+            row.append($('<td>').text(paginatedData[i].artist));
+            row.append($('<td>').text(paginatedData[i].song));
+            var lyricButton = $('<button>').addClass('btn btn-primary btn-sm').html('<i class="fas fa-paper-plane"></i> Lyric');
+            lyricButton.attr('onclick', 'window.open("' + paginatedData[i].lyrics + '","_blank")');
+            row.append($('<td>').append(lyricButton));
+            var youtubeButton = $('<button>').addClass('btn btn-danger btn-sm').html('<i class="fab fa-youtube"></i> YouTube');
+            youtubeButton.attr('onclick', 'window.open("' + paginatedData[i].youtube + '","_blank")');
+            row.append($('<td>').append(youtubeButton));
+            tableBody.append(row);
+          }
+        }
+
+        // Render pagination based on current page and total data count
+        function renderPagination() {
+          var totalData = tableData.length;
+          var totalPages = Math.ceil(totalData / pageSize);
+          var startIndex = (currentPage - 1) * pageSize + 1;
+          var endIndex = startIndex + pageSize - 1;
+          if (endIndex > totalData) {
+            endIndex = totalData;
+          }
+
+          var paginationContainer = $('#pagination-container');
+          paginationContainer.empty();
+
+          var previousButton = $('<button>').addClass('btn btn-warning').text('Previous');
+          var nextButton = $('<button>').addClass('btn btn-warning').text('Next');
+          var paginationInfo = $('<span>')
+            .addClass('text-white')
+            .text('Showing ' + startIndex + ' to ' + endIndex + ' of ' + totalData + ' entries');
+
+          previousButton.on('click', function () {
+            if (currentPage > 1) {
+              currentPage--;
+              updateTable();
+              renderPagination();
+            }
+          });
+
+          nextButton.on('click', function () {
+            if (currentPage < totalPages) {
+              currentPage++;
+              updateTable();
+              renderPagination();
+            }
+          });
+
+          if (currentPage === 1) {
+            previousButton.prop('disabled', true);
+          }
+
+          if (currentPage === totalPages) {
+            nextButton.prop('disabled', true);
+          }
+
+          paginationContainer.append(previousButton);
+          paginationContainer.append(paginationInfo);
+          paginationContainer.append(nextButton);
+        }
+
+        // Max rows event listener
+        $('#maxRows').on('change', function () {
+          pageSize = parseInt($(this).val());
+          currentPage = 1;
+          updateTable();
+          renderPagination();
+        });
+
+        // Search input event listener
+        $('#search_input_all').on('input', function () {
+          currentPage = 1;
+          updateTable();
+          renderPagination();
+        });
+      });
+    </script>
   </body>
 </html>
