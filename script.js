@@ -1,81 +1,81 @@
-function myFunction() {
-  var x = document.getElementById('myTopnav');
-  if (x.className === 'header-right') {
-    x.className += ' responsive';
-  } else {
-    x.className = 'header-right';
-  }
-}
+// ==========================Navbar&footer=====================================
+$.get('navigation.html', function (data) {
+  $('#nav-placeholder').replaceWith(data);
+});
 
-// ----------------------Songlist pagination
-getPagination('#table-id');
-$('#maxRows').trigger('change');
-function getPagination(table) {
-  $('#maxRows').on('change', function () {
-    $('.pagination').html(''); // reset pagination div
-    var trnum = 0; // reset tr counter
-    var maxRows = parseInt($(this).val()); // get Max Rows from select option
+$.get('footer.html', function (data) {
+  $('#footer-placeholder').replaceWith(data);
+});
 
-    var totalRows = $(table + ' tbody tr').length; // numbers of rows
-    $(table + ' tr:gt(0)').each(function () {
-      // each TR in  table and not the header
-      trnum++; // Start Counter
-      if (trnum > maxRows) {
-        // if tr number gt maxRows
+// // ==================================Songlist Pagintaion===========================
+// getPagination('#table-id');
+// $('#maxRows').trigger('change');
+// function getPagination(table) {
+//   $('#maxRows').on('change', function () {
+//     $('.pagination').html(''); // reset pagination div
+//     var trnum = 0; // reset tr counter
+//     var maxRows = parseInt($(this).val()); // get Max Rows from select option
 
-        $(this).hide(); // fade it out
-      }
-      if (trnum <= maxRows) {
-        $(this).show();
-      } // else fade in Important in case if it ..
-    }); //  was fade out to fade it in
-    if (totalRows > maxRows) {
-      // if tr total rows gt max rows option
-      var pagenum = Math.ceil(totalRows / maxRows); // ceil total(rows/maxrows) to get ..
-      //	numbers of pages
-      // for (var i = 1; i <= pagenum; ) {
-      //   // for each page append pagination li
-      //   $('.pagination')
-      //     .append('<li data-page="' + i + '">\
-      //                         <span>' + i++ + '<span class="sr-only">(current)</span></span>\
-      //                       </li>')
-      //     .show();
-      // } // end for i
-    } // end if row count > max rows
-    $('.pagination li:first-child').addClass('active'); // add active class to the first li
+//     var totalRows = $(table + ' tbody tr').length; // numbers of rows
+//     $(table + ' tr:gt(0)').each(function () {
+//       // each TR in  table and not the header
+//       trnum++; // Start Counter
+//       if (trnum > maxRows) {
+//         // if tr number gt maxRows
 
-    //SHOWING ROWS NUMBER OUT OF TOTAL DEFAULT
-    showig_rows_count(maxRows, 1, totalRows);
-    //SHOWING ROWS NUMBER OUT OF TOTAL DEFAULT
+//         $(this).hide(); // fade it out
+//       }
+//       if (trnum <= maxRows) {
+//         $(this).show();
+//       } // else fade in Important in case if it ..
+//     }); //  was fade out to fade it in
+//     if (totalRows > maxRows) {
+//       // if tr total rows gt max rows option
+//       var pagenum = Math.ceil(totalRows / maxRows); // ceil total(rows/maxrows) to get ..
+//       //	numbers of pages
+//       // for (var i = 1; i <= pagenum; ) {
+//       //   // for each page append pagination li
+//       //   $('.pagination')
+//       //     .append('<li data-page="' + i + '">\
+//       //                         <span>' + i++ + '<span class="sr-only">(current)</span></span>\
+//       //                       </li>')
+//       //     .show();
+//       // } // end for i
+//     } // end if row count > max rows
+//     $('.pagination li:first-child').addClass('active'); // add active class to the first li
 
-    $('.pagination li').on('click', function (e) {
-      // on click each page
-      e.preventDefault();
-      var pageNum = $(this).attr('data-page'); // get it's number
-      var trIndex = 0; // reset tr counter
-      $('.pagination li').removeClass('active'); // remove active class from all li
-      $(this).addClass('active'); // add active class to the clicked
+//     //SHOWING ROWS NUMBER OUT OF TOTAL DEFAULT
+//     showig_rows_count(maxRows, 1, totalRows);
+//     //SHOWING ROWS NUMBER OUT OF TOTAL DEFAULT
 
-      //SHOWING ROWS NUMBER OUT OF TOTAL
-      showig_rows_count(maxRows, pageNum, totalRows);
-      //SHOWING ROWS NUMBER OUT OF TOTAL
+//     $('.pagination li').on('click', function (e) {
+//       // on click each page
+//       e.preventDefault();
+//       var pageNum = $(this).attr('data-page'); // get it's number
+//       var trIndex = 0; // reset tr counter
+//       $('.pagination li').removeClass('active'); // remove active class from all li
+//       $(this).addClass('active'); // add active class to the clicked
 
-      $(table + ' tr:gt(0)').each(function () {
-        // each tr in table not the header
-        trIndex++; // tr index counter
-        // if tr index gt maxRows*pageNum or lt maxRows*pageNum-maxRows fade if out
-        if (trIndex > maxRows * pageNum || trIndex <= maxRows * pageNum - maxRows) {
-          $(this).hide();
-        } else {
-          $(this).show();
-        } //else fade in
-      }); // end of for each tr in table
-    }); // end of on click pagination list
-  });
-  // end of on select change
+//       //SHOWING ROWS NUMBER OUT OF TOTAL
+//       showig_rows_count(maxRows, pageNum, totalRows);
+//       //SHOWING ROWS NUMBER OUT OF TOTAL
 
-  // END OF PAGINATION
-}
+//       $(table + ' tr:gt(0)').each(function () {
+//         // each tr in table not the header
+//         trIndex++; // tr index counter
+//         // if tr index gt maxRows*pageNum or lt maxRows*pageNum-maxRows fade if out
+//         if (trIndex > maxRows * pageNum || trIndex <= maxRows * pageNum - maxRows) {
+//           $(this).hide();
+//         } else {
+//           $(this).show();
+//         } //else fade in
+//       }); // end of for each tr in table
+//     }); // end of on click pagination list
+//   });
+//   // end of on select change
+
+//   // END OF PAGINATION
+// }
 
 // SI SETTING
 $(function () {
@@ -92,9 +92,9 @@ function showig_rows_count(maxRows, pageNum, totalRows) {
   $('.rows_count').html(string);
 }
 
-// CREATING INDEX
+// ===================automatic number table======================
 function default_index() {
-  $('table tr:eq(0)').prepend('<th> ID </th>');
+  $('table tr:eq(0)').prepend('<th> No </th>');
 
   var id = 0;
 
