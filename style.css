@@ -243,21 +243,20 @@ th {
 
 /* ======================lyrics======================= */
 h2 {
-   font-size: 3vw;
+  font-size: 30px;
   padding: 30px;
   color: #fff;
   text-align: center;
 }
 .lyric {
-  font-size: 1.5vw;
+  font-size: 25px;
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 50%;
+  width: 80%;
   color: #000;
 }
-
 
 /* ===========================Gallery========================= */
 .container {
@@ -448,14 +447,16 @@ img {
   .tb_search {
     width: 30%;
   }
+
   /* =======lyrics====== */
   h2 {
-   font-size: 6vw;
-}
-.lyric {
-  font-size: 4vw;
-   width: 80%; 
-}
+    font-size: 30px;
+  }
+  .lyric {
+    font-size: 25px;
+    width: 80%;
+  }
+
   /* ======gallery======= */
   .title {
     font-size: 17px;
