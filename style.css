@@ -454,6 +454,7 @@ img {
 }
 .lyric {
   font-size: 4vw;
+   width: 75%; 
 }
   /* ======gallery======= */
   .title {
