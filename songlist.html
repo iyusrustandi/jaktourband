@@ -13,6 +13,9 @@
     <script src="jquery-3.7.0.min.js"></script>
   </head>
   <body>
+    <div class="loading-overlay">
+      <div class="loading-spinner"></div>
+    </div>
     <div id="nav-placeholder"></div>
     <div class="header_wrap">
       <div class="num_rows">
@@ -57,11 +60,15 @@
         var pageSize = 15;
         var currentPage = 1;
 
+         $('.loading-overlay').show();
+
         // Load data from JSON file
         $.getJSON('data.json', function (data) {
           tableData = data;
           updateTable();
           renderPagination();
+
+           $('.loading-overlay').hide();
         });
 
         // Update table based on current page and search input
