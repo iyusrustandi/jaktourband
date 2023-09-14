@@ -809,11 +809,23 @@
     "lyrics": "https://jaktourband.vercel.app/kangen_band_cinta_yang_sempurna.html ",
     "youtube": "https://www.youtube.com/watch?v=MlI8BioxZ84"
   },
+    {
+    "artist": "Kerispatih",
+    "song": "Aku Harus Jujur",
+    "lyrics": "https://jaktourband.vercel.app/kerispatih-aku-harus-jujur.html ",
+    "youtube": "https://www.youtube.com/watch?v=ZIN_RLgu87w"
+  },
   {
     "artist": "Kerispatih",
     "song": "Demi Cinta",
     "lyrics": "https://jaktourband.vercel.app/kerispatih_demi_cinta.html ",
     "youtube": "https://www.youtube.com/watch?v=zVOEvOxR7VI"
+  },
+   {
+    "artist": "Kerispatih",
+    "song": "Tapi Bukan Aku",
+    "lyrics": "https://jaktourband.vercel.app/kerispatih-tapi-bukan-aku.html ",
+    "youtube": "https://www.youtube.com/watch?v=yeLw09QRN9I"
   },
   {
     "artist": "Koes Plus",
@@ -2002,6 +2014,12 @@
     "song": "Munajat Cinta",
     "lyrics": "https://jaktourband.vercel.app/therock_munajatcinta.html ",
     "youtube": "https://www.youtube.com/watch?v=O6LPIl8V9hE"
+  },
+    {
+    "artist": "The Rollies",
+    "song": "Kau Yang Kusayang",
+    "lyrics": "https://jaktourband.vercel.app/therollies-kau-yang-kusayang.html ",
+    "youtube": "https://www.youtube.com/watch?v=-gX6mbcBL2w"
   },
   {
     "artist": "Titiek Sandhora",
