@@ -42,10 +42,10 @@
     "youtube": "https://www.youtube.com/watch?v=2yQebpHJ0O4"
   },
   {
-    "artist": "Anima",
-    "song": "Bintang",
-    "lyrics": "https://jaktourband.vercel.app/anima-bintang.html",
-    "youtube": "https://www.youtube.com/watch?v=_phhDcP7SCM"
+    "artist": "Anggi Marito",
+    "song": "Tak Segampang Itu",
+    "lyrics": "https://jaktourband.vercel.app/anggi-marito-tak-segampang-itu.html",
+    "youtube": "https://www.youtube.com/watch?v=7rCDUFh9kzc"
   },
   {
     "artist": "Anji",
@@ -283,6 +283,12 @@
   },
   {
     "artist": "Broery Marantika Ft. Dewi Yull",
+    "song": "Kharisma Cinta",
+    "lyrics": "broery_kharisma-cinta.html ",
+    "youtube": "https://www.youtube.com/watch?v=H6minp7tL68 "
+  },
+  {
+    "artist": "Broery Marantika Ft. Dewi Yull",
     "song": "Rindu Yang Terlarang",
     "lyrics": "https://jaktourband.vercel.app/broery_rindu_yang_terlarang.html ",
     "youtube": "https://www.youtube.com/watch?v=khSAe_Xt68A "
@@ -304,6 +310,12 @@
     "song": "Widuri",
     "lyrics": "https://jaktourband.vercel.app/bobtutupoli_widuri.html ",
     "youtube": "https://www.youtube.com/watch?v=jFbLqzeo_2M "
+  },
+  {
+    "artist": "Budi Doremi",
+    "song": "Mesin Waktu",
+    "lyrics": "https://jaktourband.vercel.app/Budi-Doremi-Mesin-Waktu.html ",
+    "youtube": "https://www.youtube.com/watch?v=AURkGj0jEx4 "
   },
   {
     "artist": "Cake",
@@ -653,6 +665,12 @@
     "lyrics": "https://jaktourband.vercel.app/faith_no_more_easy.html ",
     "youtube": "https://www.youtube.com/watch?v=4K0mjMRTiec"
   },
+    {
+    "artist": "Farid Hardja",
+    "song": "Ini Rindu",
+    "lyrics": "https://jaktourband.vercel.app/farid-hardja-ini-rindu.html ",
+    "youtube": "https://www.youtube.com/watch?v=W-ZTUUTj1Bc"
+  },
   {
     "artist": "Firman",
     "song": "Kehilangan",
@@ -712,6 +730,12 @@
     "song": "Astagfirullah",
     "lyrics": "https://jaktourband.vercel.app/haddad_alwi_astagfirullah.html ",
     "youtube": "https://www.youtube.com/watch?v=tm1tAeyqWoA"
+  },
+  {
+    "artist": "Happy Asmara",
+    "song": "Rungkad",
+    "lyrics": "https://jaktourband.vercel.app/happy-amara-rungkad.html ",
+    "youtube": "https://www.youtube.com/watch?v=15VwayFF0jA"
   },
   {
     "artist": "Hello",
@@ -804,12 +828,18 @@
     "youtube": "https://www.youtube.com/watch?v=9tZPmSv6DTs"
   },
   {
+    "artist": "Kahitna",
+    "song": "Cantik",
+    "lyrics": "https://jaktourband.vercel.app/kahitna-cantik.html ",
+    "youtube": "https://www.youtube.com/watch?v=v5x1YmNV_C4"
+  },
+  {
     "artist": "Kangen Band",
     "song": "Cinta yang sempurna",
     "lyrics": "https://jaktourband.vercel.app/kangen_band_cinta_yang_sempurna.html ",
     "youtube": "https://www.youtube.com/watch?v=MlI8BioxZ84"
   },
-    {
+  {
     "artist": "Kerispatih",
     "song": "Aku Harus Jujur",
     "lyrics": "https://jaktourband.vercel.app/kerispatih-aku-harus-jujur.html ",
@@ -821,7 +851,7 @@
     "lyrics": "https://jaktourband.vercel.app/kerispatih_demi_cinta.html ",
     "youtube": "https://www.youtube.com/watch?v=zVOEvOxR7VI"
   },
-   {
+  {
     "artist": "Kerispatih",
     "song": "Tapi Bukan Aku",
     "lyrics": "https://jaktourband.vercel.app/kerispatih-tapi-bukan-aku.html ",
@@ -1182,6 +1212,12 @@
     "youtube": "https://www.youtube.com/watch?v=K38t2--GwSQ"
   },
   {
+    "artist": "Mahalini",
+    "song": "Sisa Rasa",
+    "lyrics": "https://jaktourband.vercel.app/mahalini-sisa-rasa.html ",
+    "youtube": "https://www.youtube.com/watch?v=Wh66ThpxvI4"
+  },
+  {
     "artist": "Maher Zein",
     "song": "Insyaallah",
     "lyrics": "https://jaktourband.vercel.app/maherzein_insyaallah.html ",
@@ -1446,16 +1482,16 @@
     "youtube": "https://www.youtube.com/watch?v=yp01Iiod7ks"
   },
   {
+    "artist": "Nyong Franco",
+    "song": "Gemu Fa Mi Re",
+    "lyrics": "https://jaktourband.vercel.app/Nyong-Franco-Gemu-Fa-Mi-Re.html ",
+    "youtube": "https://www.youtube.com/watch?v=6A_5_VYK1Dg"
+  },
+  {
     "artist": "Oasis",
     "song": "Don't Look Back In Anger",
     "lyrics": "https://jaktourband.vercel.app/oasis_dontlookback.html ",
     "youtube": "https://www.youtube.com/watch?v=r8OipmKFDeM"
-  },
-  {
-    "artist": "Once Mekel",
-    "song": "Kucinta Kau Apa Adanya",
-    "lyrics": "https://jaktourband.vercel.app/once-kucinta-kau-apa-adanya.html ",
-    "youtube": "https://www.youtube.com/watch?v=euB5nmxzPnY"
   },
   {
     "artist": "Opick",
@@ -2015,7 +2051,7 @@
     "lyrics": "https://jaktourband.vercel.app/therock_munajatcinta.html ",
     "youtube": "https://www.youtube.com/watch?v=O6LPIl8V9hE"
   },
-    {
+  {
     "artist": "The Rollies",
     "song": "Kau Yang Kusayang",
     "lyrics": "https://jaktourband.vercel.app/therollies-kau-yang-kusayang.html ",
