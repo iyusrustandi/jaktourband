@@ -1837,12 +1837,6 @@
   },
   {
     "artist": "ST 12",
-    "song": "Rasa Yang Tertinggal",
-    "lyrics": "https://iyusrustandi.github.io/jaktourband/st12_rasayangtertinggal.html ",
-    "youtube": "https://www.youtube.com/watch?v=obJf1BwVu4U"
-  },
-  {
-    "artist": "ST 12",
     "song": "Jangan Pernah Berubah",
     "lyrics": "https://iyusrustandi.github.io/jaktourband/st12_janganpernah.html ",
     "youtube": "https://www.youtube.com/watch?v=INwWgtkL3Cg"
@@ -1858,6 +1852,18 @@
     "song": "Kepingan Hati",
     "lyrics": "https://iyusrustandi.github.io/jaktourband/st12_kepinganhati.html ",
     "youtube": "https://www.youtube.com/watch?v=HLy_L1a2zBM"
+  },
+  {
+    "artist": "ST 12",
+    "song": "Rasa Yang Tertinggal",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/st12_rasayangtertinggal.html ",
+    "youtube": "https://www.youtube.com/watch?v=obJf1BwVu4U"
+  },
+  {
+    "artist": "ST 12",
+    "song": "Saat Terakhir",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/st12-saat-terakhir.html ",
+    "youtube": "https://youtu.be/s45w3pIqmn8?si=35RY3nx4Gx1tL0nI"
   },
   {
     "artist": "Steelheart",
