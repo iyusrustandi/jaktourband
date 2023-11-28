@@ -11,6 +11,42 @@
     "youtube": "https://www.youtube.com/watch?v=euB5nmxzPnY"
   },
 
+{
+    "artist": "Alan Walker x Emma Steinbakken",
+    "song": "Not You",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/alan-walker-not-you.html",
+    "youtube": "https://www.youtube.com/watch?v=447oq3hr-Bg"
+  },
+{
+    "artist": "Anggi Marito",
+    "song": "Tak Segampang Itu",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/anggi-marito-tak-segampang-itu.html",
+    "youtube": "https://www.youtube.com/watch?v=7rCDUFh9kzc"
+  },
+{
+    "artist": "Mahalini",
+    "song": "Sisa Rasa",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/mahalini-sisa-rasa.html ",
+    "youtube": "https://www.youtube.com/watch?v=Wh66ThpxvI4"
+  },
+ {
+    "artist": "Kahitna",
+    "song": "Cantik",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/kahitna-cantik.html ",
+    "youtube": "https://www.youtube.com/watch?v=v5x1YmNV_C4"
+  },
+{
+    "artist": "Jose Mari Chan Ft. Regine Velasquez",
+    "song": "Please Be Careful With My Heart",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/jose-mari-please-be-careful.html ",
+    "youtube": "https://www.youtube.com/watch?v=xOQg24J5fWk"
+  },
+{
+    "artist": "Blue",
+    "song": "Sorry Seems to Be the Hardest Word",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/blue-sorry-seems-to-be.html",
+    "youtube": "https://www.youtube.com/watch?v=OXqw6ERK09o"
+  },
 
 
 
