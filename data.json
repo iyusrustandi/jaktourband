@@ -279,7 +279,7 @@
   {
     "artist": "Broery Marantika Ft. Dewi Yull",
     "song": "Kharisma Cinta",
-    "lyrics": "https://iyusrustandi.github.io/jaktourband/broery_kharisma-cinta.html ",
+    "lyrics": "broery_kharisma-cinta.html ",
     "youtube": "https://www.youtube.com/watch?v=H6minp7tL68 "
   },
   {
@@ -1667,6 +1667,12 @@
     "song": "Komang",
     "lyrics": "https://iyusrustandi.github.io/jaktourband/raim-laode-komang.html ",
     "youtube": "https://www.youtube.com/watch?v=NkHDA7z7N4A"
+  },
+  {
+    "artist": "RAN",
+    "song": "Pandangan Pertama",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/ran-pandangan-pertama.html ",
+    "youtube": "https://www.youtube.com/watch?v=DeWlw6jn-qw"
   },
   {
     "artist": "Rani",
