@@ -47,7 +47,12 @@
     "lyrics": "https://iyusrustandi.github.io/jaktourband/amysearch_cinta_kita.html",
     "youtube": "https://www.youtube.com/watch?v=2yQebpHJ0O4"
   },
-  
+  {
+    "artist": "Andy Williams",
+    "song": "Love Story",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/andy-williams-love-story.html",
+    "youtube": "https://www.youtube.com/watch?v=_ek7ZdZbovM"
+  },
   {
     "artist": "Anji",
     "song": "Dia",
@@ -177,7 +182,7 @@
   {
     "artist": "Bimbo",
     "song": "Rindu Kami Padamu",
-    "lyrics":" https://iyusrustandi.github.io/jaktourband/bimbo_rindu_kami_padamu.html ",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/https://jaktourband.combimbo_rindu_kami_padamu.html",
     "youtube": "https://www.youtube.com/watch?v=07OjmqZtYns"
   },
   {
@@ -372,7 +377,7 @@
     "lyrics": "https://iyusrustandi.github.io/jaktourband/cokelat_karma.html ",
     "youtube": "https://www.youtube.com/watch?v=46Zzuogc67A "
   },
-    {
+  {
     "artist": "Cliff Richard",
     "song": "Congratulations",
     "lyrics": "https://iyusrustandi.github.io/jaktourband/cliff-richard-congratulations.html ",
@@ -419,6 +424,12 @@
     "song": "Hidup Dibui",
     "lyrics": "https://iyusrustandi.github.io/jaktourband/dlloyd_hidup_dibui.html ",
     "youtube": "https://www.youtube.com/watch?v=k1NV4jATtPk "
+  },
+  {
+    "artist": "D'lloyd",
+    "song": "Keagungan Tuhan",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/dlloyd-keagungan-tuhan.html ",
+    "youtube": "https://www.youtube.com/watch?v=P5jB6pP08e0 "
   },
   {
     "artist": "D'lloyd",
@@ -696,7 +707,7 @@
     "lyrics": "https://iyusrustandi.github.io/jaktourband/firman_kehilangan.html ",
     "youtube": "https://www.youtube.com/watch?v=y5v6THcwgfA"
   },
-    {
+  {
     "artist": "Frank Sinatra",
     "song": "My Way",
     "lyrics": "https://iyusrustandi.github.io/jaktourband/frank-sinatra-my-way.html ",
