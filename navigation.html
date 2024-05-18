@@ -1,8 +1,125 @@
-<nav class="navbar">
+<!--================================================== Ver 1 ==================================================-->
+
+<!-- <style>
+  nav {
+  background-image: url('../Image/header.png');
+  background: #00000f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar_toggle {
+  margin-left: 5%;
+  font-size: 30px;
+  color: #ffffff;
+  background: transparent;
+  border-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  display: none;
+}
+.logo {
+  width: 125px;
+  height: 50px;
+  font-weight: bold;
+}
+.logo_header {
+  display: flex;
+  margin-left: 2%;
+ 
+}
+.logo_header a:hover {
+  background-color: rgb(234, 235, 244);
+  width: 125px;
+  height: 50px;
+  border-radius: 8px;
+}
+.main_nav {
+  display: flex;
+  width: 50%;
+  float: right;
+  margin-right: 2%;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 1vw;
+}
+.main_nav li:hover {
+  background-color: rgba(1, 8, 43, 1);
+
+}
+.main_nav li a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* ======navbar======= */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: 2%;
+    background-color: transparent;
+    font-size: 20px;
+  }
+  .main_nav {
+    display: none;
+  }
+  .show_nav {
+    padding-top: 2%;
+    display: flex;
+    width: 100vw;
+    height: 25vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .main_nav li {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    padding: 0%;
+    text-decoration: none;
+  }
+  .navbar_toggle {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 30px;
+    color: #ffffff;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    display: block;
+  }
+  .logo_header {
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 2%;
+  }
+}
+</style> -->
+
+<!-- <nav class="navbar">
   <div class="logo_header">
-    <a href="https://jaktourband.vercel.app/"><img src="Image/logo.png" class="logo" loading="lazy" /></a>
+    <a href="https://jaktourband.vercel.app/"><img src="../Image/logo.png" class="logo" loading="lazy" /></a>
     <button class="navbar_toggle">
-      <img src="Image/bars.png" alt="Toggle Navigation" loading="lazy" />
+      <img src="../Image/bars.png" alt="Toggle Navigation" loading="lazy" />
     </button>
   </div>
   <ul class="main_nav">
@@ -10,13 +127,13 @@
       <a href="https://jaktourband.vercel.app/">Home</a>
     </li>
     <li>
-      <a href="songlist.html">Song List</a>
+      <a href="../songlist.html">Song List</a>
     </li>
     <li>
-      <a href="religi.html">Religi</a>
+      <a href="../religi.html">Religi</a>
     </li>
     <li>
-      <a href="gallery.html">Gallery</a>
+      <a href="../gallery.html">Gallery</a>
     </li>
   </ul>
 </nav>
@@ -27,4 +144,204 @@
   navToggle.addEventListener('click', function () {
     links.classList.toggle('show_nav');
   });
-</script>
+</script> -->
+
+<!--================================================== Ver 2 ==================================================-->
+
+<style>
+  h1 {
+    margin: 20px 0;
+    color: #fff;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    height: 65px;
+    border-radius: 0 0 15px 15px;
+    padding: 0 25px;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .nav-tabs {
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    list-style: none;
+  }
+  .nav-tabs a {
+    text-decoration: none;
+    color: #111;
+  }
+
+  .nav-tab:not(:last-child) {
+    padding: 10px 25px;
+    margin: 0;
+    border-right: 1px solid #eee;
+  }
+
+  .nav-tab:last-child {
+    padding: 10px 0 0 25px;
+  }
+
+  .nav-tab,
+  .menu-btn {
+    cursor: pointer;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) {
+    .nav-container {
+      position: fixed;
+      display: none;
+      overflow-y: auto;
+      z-index: -1;
+      top: 0;
+      right: 0;
+      width: 280px;
+      height: 100%;
+      background: #fff;
+      box-shadow: -1px 0 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-tabs {
+      flex-direction: column;
+      align-items: start;
+      margin-top: 80px;
+      width: 100%;
+    }
+
+    .nav-tab:not(:last-child) {
+      padding: 20px 25px;
+      margin: 0;
+      border-right: unset;
+      border-bottom: 1px solid #f5f5f5;
+    }
+
+    .nav-tab:last-child {
+      padding: 15px 25px;
+    }
+
+    .menu-btn {
+      position: relative;
+      display: block;
+      margin: 0;
+      width: 20px;
+      height: 15px;
+      cursor: pointer;
+      z-index: 2;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .menu-btn .menu {
+      display: block;
+      width: 100%;
+      height: 2px;
+      border-radius: 2px;
+      background: #111;
+    }
+
+    .menu-btn .menu:nth-child(2) {
+      margin-top: 4px;
+      opacity: 1;
+    }
+
+    .menu-btn .menu:nth-child(3) {
+      margin-top: 4px;
+    }
+
+    #menuToggle:checked + .menu-btn .menu {
+      transition: transform 0.2s ease;
+    }
+
+    #menuToggle:checked + .menu-btn .menu:nth-child(1) {
+      transform: translate3d(0, 6px, 0) rotate(45deg);
+    }
+
+    #menuToggle:checked + .menu-btn .menu:nth-child(2) {
+      transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+      opacity: 0;
+    }
+
+    #menuToggle:checked + .menu-btn .menu:nth-child(3) {
+      transform: translate3d(0, -6px, 0) rotate(-45deg);
+    }
+
+    #menuToggle:checked ~ .nav-container {
+      z-index: 1;
+      display: flex;
+      animation: menu-slide-left 0.3s ease;
+    }
+    @keyframes menu-slide-left {
+      0% {
+        transform: translateX(200px);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+  }
+</style>
+<nav>
+  <div class="nav-wrapper">
+    <div class="logo-container">
+      <a href="https://jaktourband.vercel.app/"><img src="Image/logo.png" class="logo" loading="lazy" /></a>
+    </div>
+    <nav>
+      <input class="hidden" type="checkbox" id="menuToggle" />
+      <label class="menu-btn" for="menuToggle">
+        <div class="menu"></div>
+        <div class="menu"></div>
+        <div class="menu"></div>
+      </label>
+      <div class="nav-container">
+        <ul class="nav-tabs">
+          <li class="nav-tab">
+            <a href="https://jaktourband.vercel.app/">Home</a>
+          </li>
+          <li class="nav-tab">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-tab">
+            <a href="#member">Member</a>
+          </li>
+          <li class="nav-tab">
+            <a href="songlist.html">Song List</a>
+          </li>
+          <!-- <li class="nav-tab">
+            <a href="../religi.html">Religi</a>
+          </li> -->
+          <li class="nav-tab">
+            <a href="gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</nav>
