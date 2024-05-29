@@ -259,48 +259,6 @@ th {
   color: #fff;
 }
 
-/* ======================lyrics======================= */
-.lyric-container {
-  padding-top: 15px;
-}
-h2 {
-  font-size: 3vw;
-  padding: 30px;
-  color: #fff;
-  text-align: center;
-}
-.lyric {
-  font-size: 1.5vw;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 50%;
-  color: #000;
-}
-.guide {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  line-height: 1.5;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  background-color: rgba(255, 255, 255, 1);
-  background-color: #a7b4ce !important;
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.22), 1px 0px 0px 0px rgba(0, 0, 0, 0.22), 1px 2px 0px 0px rgba(0, 0, 0, 0.22), 2px 1px 0px 0px rgba(0, 0, 0, 0.22), 2px 3px 0px 0px rgba(0, 0, 0, 0.22), 3px 2px 0px 0px rgba(0, 0, 0, 0.22),
-    3px 4px 0px 0px rgba(0, 0, 0, 0.22), 4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22), 5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22), 6px 5px 0px 0px rgba(0, 0, 0, 0.22),
-    6px 7px 0px 0px rgba(0, 0, 0, 0.22), 7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22), 8px 7px 0px 0px rgba(0, 0, 0, 0.22);
-}
-.guide p {
-  margin-left: 1rem;
-}
-.reff {
-  position: relative;
-  left: 30px;
-}
-
 /* ===========================Gallery========================= */
 .container {
   position: relative;
