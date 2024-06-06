@@ -1476,12 +1476,6 @@
     "youtube": "blank"
   },
   {
-    "artist": "No Name",
-    "song": "Polo Pakita",
-    "lyrics": "https://iyusrustandi.github.io/jaktourband/Lyrics/blank",
-    "youtube": "blank"
-  },
-  {
     "artist": "Noah",
     "song": "Andaikan Kau Datang",
     "lyrics": "https://iyusrustandi.github.io/jaktourband/Lyrics/noah-andaikan-kau-datang.html ",
@@ -1930,6 +1924,12 @@
     "song": "Mungkinkah",
     "lyrics": "https://iyusrustandi.github.io/jaktourband/Lyrics/stinky -mungkinkah.html ",
     "youtube": "https://www.youtube.com/watch?v=hw7jnRtFzFo"
+  },
+  {
+    "artist": "Tantowi Yahya",
+    "song": "Polo Pakita",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/Lyrics/tantowi-yahya-polo-pakita.html",
+    "youtube": "https://www.youtube.com/watch?v=_8GKKlWyGMs"
   },
   {
     "artist": "Tantowi Yahya",
