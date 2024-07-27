@@ -10,7 +10,12 @@
     "lyrics": "https://jaktourband.vercel.app/once-kucinta-kau-apa-adanya.html ",
     "youtube": "https://www.youtube.com/watch?v=euB5nmxzPnY"
   },
-
+  {
+    "artist": "Mahalini",
+    "song": "Melawan Bohongi Hati",
+    "lyrics": "https://iyusrustandi.github.io/jaktourband/Lyrics/mahalini-bohongi-hati.html ",
+    "youtube": "https://www.youtube.com/watch?v=weG-sqHHCB8"
+  },
 {
     "artist": "Alan Walker x Emma Steinbakken",
     "song": "Not You",
@@ -22,12 +27,6 @@
     "song": "Tak Segampang Itu",
     "lyrics": "https://iyusrustandi.github.io/jaktourband/anggi-marito-tak-segampang-itu.html",
     "youtube": "https://www.youtube.com/watch?v=7rCDUFh9kzc"
-  },
-{
-    "artist": "Mahalini",
-    "song": "Sisa Rasa",
-    "lyrics": "https://iyusrustandi.github.io/jaktourband/mahalini-sisa-rasa.html ",
-    "youtube": "https://www.youtube.com/watch?v=Wh66ThpxvI4"
   },
  {
     "artist": "Kahitna",

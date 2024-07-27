@@ -1,7 +1,8 @@
 <style>
   .footer {
   background-color: #01082b;
-  margin-top: 30px;
+ position: sticky;
+  padding-top: 15px;
   border-top: 3px solid rgba(255, 255, 255, 0.15);
 
 }
@@ -39,9 +40,12 @@
   font-size: 14px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+  .footer{
+    padding-top: 15px;
+  }
   .sub {
-    font-size: 8px;
+    font-size: 9px;
   }
   .contact-items a {
     font-size: 12px;

@@ -163,7 +163,10 @@ div.media a:hover {
 }
 
 /* ===================songlist=================================== */
-
+.table-container {
+  height: 100vh;
+  margin-bottom: 10rem;
+}
 table {
   background-color: #fff;
   width: 100%;

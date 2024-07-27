@@ -20,6 +20,7 @@ a {
 /* ======================lyrics======================= */
 .lyric-container {
   padding-top: 15px;
+  height: 100vh;
 }
 h2 {
   font-size: 3vw;

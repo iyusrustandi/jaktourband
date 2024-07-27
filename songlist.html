@@ -12,41 +12,41 @@
   </head>
   <body>
     <div id="nav-placeholder"></div>
-
-    <div class="header_wrap">
-      <div class="num-rows">
-        <div class="form-group">
-          <select class="form-control" name="state" id="maxRows">
-            <option value="15">Show 15 Song</option>
-            <option value="50">Show 50 Song</option>
-            <option value="100">Show 100 Song</option>
-            <option value="150">Show 150 Song</option>
-            <option value="200">Show 200 Song</option>
-            <option value="350">Show All Song</option>
-          </select>
+    <div class="table-container">
+      <div class="header_wrap">
+        <div class="num-rows">
+          <div class="form-group">
+            <select class="form-control" name="state" id="maxRows">
+              <option value="15">Show 15 Song</option>
+              <option value="50">Show 50 Song</option>
+              <option value="100">Show 100 Song</option>
+              <option value="150">Show 150 Song</option>
+              <option value="200">Show 200 Song</option>
+              <option value="350">Show All Song</option>
+            </select>
+          </div>
+        </div>
+        <div class="tb-search">
+          <input type="text" id="search_input_all" onkeyup="FilterkeyWord_all_table()" placeholder="Search Artist or Title...." class="form-control" />
         </div>
       </div>
-      <div class="tb-search">
-        <input type="text" id="search_input_all" onkeyup="FilterkeyWord_all_table()" placeholder="Search Artist or Title...." class="form-control" />
+
+      <table class="table" id="table-id">
+        <thead>
+          <tr>
+            <th>Artist</th>
+            <th>Title</th>
+            <th>Lyric</th>
+            <th>Song</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <div>
+        <div id="pagination-container"></div>
       </div>
     </div>
-
-    <table class="table" id="table-id">
-      <thead>
-        <tr>
-          <th>Artist</th>
-          <th>Title</th>
-          <th>Lyric</th>
-          <th>Song</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-
-    <div>
-      <div id="pagination-container"></div>
-    </div>
-
     <div id="footer-placeholder"></div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="js/script.js"></script>
