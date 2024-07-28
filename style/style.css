@@ -2,42 +2,44 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: Arial, sans-serif;
-  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='3840' preserveAspectRatio='none' viewBox='0 0 1920 3840'%3e%3cg mask='url(%26quot%3b%23SvgjsMask4173%26quot%3b)' fill='none'%3e%3crect width='1920' height='3840' x='0' y='0' fill='url(%23SvgjsLinearGradient4174)'%3e%3c/rect%3e%3cpath d='M0 0L294.47 0L0 586.06z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 586.06L294.47 0L1000.83 0L0 2098.67z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 2098.67L1000.83 0L1045.02 0L0 2712.33z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 2712.33L1045.02 0L1257.57 0L0 3229.31z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1920 3840L1002.3 3840L1920 2598.13z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1920 2598.13L1002.3 3840L697.96 3840L1920 1552.6200000000001z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1920 1552.62L697.96 3840L628.85 3840L1920 1337.8999999999999z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1920 1337.9L628.8500000000001 3840L600.1700000000002 3840L1920 1044.45z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask4173'%3e%3crect width='1920' height='3840' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='100%25' x2='50%25' y2='0%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4174'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(5%2c 69%2c 133%2c 1)' offset='0'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); */
-  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='3840' height='2160' preserveAspectRatio='none' viewBox='0 0 3840 2160'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1062%26quot%3b)' fill='none'%3e%3crect width='3840' height='2160' x='0' y='0' fill='rgba(1%2c 42%2c 83%2c 1)'%3e%3c/rect%3e%3cpath d='M0 0L2963.37 0L0 2368.75z' filter='url(%23SvgjsFilter1063)' fill='rgba(1%2c 10%2c 57%2c 1)'%3e%3c/path%3e%3cpath d='M0 2160L2963.37 2160L0 -208.75z' filter='url(%23SvgjsFilter1063)' fill='rgba(1%2c 10%2c 57%2c 1)'%3e%3c/path%3e%3cpath d='M3840 2160L876.6300000000001 2160L3840 -208.75z' filter='url(%23SvgjsFilter1063)' fill='rgba(1%2c 10%2c 57%2c 1)'%3e%3c/path%3e%3cpath d='M3840 0L876.6300000000001 0L3840 2368.75z' filter='url(%23SvgjsFilter1063)' fill='rgba(1%2c 10%2c 57%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1062'%3e%3crect width='3840' height='2160' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cfilter height='130%25' id='SvgjsFilter1063'%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='-5' in='TopLeftG' result='TopLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopLeftO' result='TopLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='-5' in='TopRightG' result='TopRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopRightO' result='TopRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='5' in='BottomLeftG' result='BottomLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomLeftO' result='BottomLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='5' in='BottomRightG' result='BottomRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomRightO' result='BottomRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeMerge%3e%3cfeMergeNode in='TopLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='TopRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='SourceGraphic'%3e%3c/feMergeNode%3e%3c/feMerge%3e%3c/filter%3e%3c/defs%3e%3c/svg%3e"); */
-
   background-image: url('../Image/background.png');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 a {
   text-decoration: none;
 }
-
-/* Navbar style on navigation.html file */
 
 /* ============================Slideshow============================== */
 #slideshow {
   padding: 15px 0;
 }
+
 #member {
   padding: 15px 0;
 }
+
 .mySlides {
   display: none;
 }
+
 img {
   vertical-align: middle;
   border-radius: 8px;
 }
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -47,6 +49,7 @@ img {
   width: 100%;
   text-align: center;
 }
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -54,6 +57,7 @@ img {
   position: absolute;
   top: 0;
 }
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -64,14 +68,17 @@ img {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
 .active,
 .dot:hover {
   background-color: #717171;
 }
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -88,6 +95,7 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 #about {
   background: rgba(0, 20, 162, 0.25);
   border-radius: 16px;
@@ -96,6 +104,7 @@ img {
   -webkit-backdrop-filter: blur(4.7px);
   border: 1px solid rgba(0, 20, 162, 1);
 }
+
 img.about {
   border-radius: 25px;
   display: block;
@@ -104,6 +113,7 @@ img.about {
   max-width: 1000px;
   margin-top: 5px;
 }
+
 .description {
   border-radius: 25px;
   text-align: center;
@@ -114,7 +124,6 @@ img.about {
 
 /* ======================member============================== */
 .gallery {
-  /* From https://css.glass */
   background: rgba(1, 8, 43, 1);
   margin: 5px;
   border-top-left-radius: 25px;
@@ -123,14 +132,17 @@ img.about {
   float: left;
   width: 100px;
 }
+
 .gallery:hover {
   border: 1px solid #777;
 }
+
 .gallery img {
   border-top-left-radius: 25px;
   width: 100%;
   height: auto;
 }
+
 .desc {
   padding: 15px;
   text-align: center;
@@ -144,6 +156,7 @@ div.media {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 div.media a {
   padding: 10px 12px;
   border-radius: 3px;
@@ -152,21 +165,20 @@ div.media a {
   display: inline-block;
   margin-bottom: 10px;
 }
+
 div.media a:hover {
   opacity: 0.8;
 }
+
 .fb {
   background: rgb(59, 89, 152);
 }
+
 .insta {
   background: #fb3958;
 }
 
 /* ===================songlist=================================== */
-.table-container {
-  height: 100vh;
-  margin-bottom: 10rem;
-}
 table {
   background-color: #fff;
   width: 100%;
@@ -266,12 +278,11 @@ th {
 .container {
   position: relative;
 }
-img {
-  vertical-align: middle;
-}
+
 .cursor {
   cursor: pointer;
 }
+
 .title {
   padding: 25px;
   text-align: center;
@@ -297,11 +308,7 @@ img {
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-}
+
 .caption-container {
   text-align: center;
   background-color: rgb(96, 1, 122);
@@ -314,6 +321,7 @@ img {
   margin: 0px auto;
   max-width: 1000px;
 }
+
 .mySlides {
   display: none;
   margin: 0px auto;
@@ -323,65 +331,24 @@ img {
 
 #video {
   padding-top: 75px;
-  padding-bottom: 50px;
 }
+
+.video {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 5px;
+}
+
 .video-container {
-  width: 40%;
-  padding: 10px;
-  background: rgb(2, 8, 118);
-  border-radius: 25px;
-  display: inline-block;
+  padding: 1rem;
+  width: 400px;
+  height: 225px;
 }
 
-.responsive-video {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-}
-
-.responsive-video iframe,
-.responsive-video video {
-  position: absolute;
-  width: 100%;
+iframe {
+  border: 0;
   height: 100%;
-}
-
-/* ================mobile phone display================== */
-
-@media only screen and (max-width: 600px) {
-  /* ======about & member===== */
-  .sub-title {
-    font-size: 15px;
-  }
-  .gallery {
-    width: 100px;
-  }
-  .description {
-    font-size: 14px;
-  }
-
-  /* =======lyrics====== */
-  h2 {
-    font-size: 6vw;
-  }
-  .lyric {
-    width: 85%;
-    font-size: 4vw;
-  }
-  /* ======gallery======= */
-  .title {
-    font-size: 17px;
-  }
-  .numbertext {
-    font-size: 10px;
-  }
-  .caption-container {
-    font-size: 12px;
-  }
-  .prev,
-  .next {
-    font-size: 12px;
-  }
+  width: 100%;
 }
