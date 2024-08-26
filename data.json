@@ -23,6 +23,13 @@
     "lyrics": "https://jaktourband.vercel.app/Lyrics/adaband_masih_sahabatku_kekasihku.html",
     "youtube": "https://www.youtube.com/watch?v=SRb2XwBTKx8"
   },
+
+  {
+    "artist": "Ada Band",
+    "song": "Setengah Hati",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/adaband-setengah-hati.html",
+    "youtube": "https://www.youtube.com/watch?v=hpWMruJan8Q"
+  },
   {
     "artist": "Adera",
     "song": "Lebih Indah",
@@ -30,10 +37,16 @@
     "youtube": "https://www.youtube.com/watch?v=OqsM5kQYjTc"
   },
   {
-    "artist": "Afghan",
+    "artist": "Afgan",
     "song": "Kepadamu Aku Bersujud",
-    "lyrics": "https://jaktourband.vercel.app/Lyrics/afghan_kepadamu_kubersujud.html",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/afgan_kepadamu_kubersujud.html",
     "youtube": "https://www.youtube.com/watch?v=JVZteytrEls"
+  },
+  {
+    "artist": "Afgan",
+    "song": "Terlalu Cinta",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/afgan-terlalu-cinta.html",
+    "youtube": "https://www.youtube.com/watch?v=1lC-11bfl-A"
   },
   {
     "artist": "Alfian Harahap",
@@ -118,6 +131,12 @@
     "song": "Pergi Pagi Pulang Pagi",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/armada_pergi_pagi_pulang_pagi.html",
     "youtube": "https://www.youtube.com/watch?v=akcqE3aN8aY"
+  },
+  {
+    "artist": "Barry L & The Rhythm Service",
+    "song": "Sesaat Kau Hadir",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/barry-likumhuwa-sesaat-kau-hadir.html",
+    "youtube": "https://www.youtube.com/watch?v=zhdemh8dvIQ"
   },
   {
     "artist": "BCL Feat. Ari Lasso",
@@ -1360,6 +1379,12 @@
     "song": "Kenanglah Aku",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/naff_kenanglahaku.html ",
     "youtube": "https://www.youtube.com/watch?v=ZNBnGg6JRt4"
+  },
+  {
+    "artist": "Naff",
+    "song": "Terendap Laraku",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/naff-terendap-laraku.html ",
+    "youtube": "https://www.youtube.com/watch?v=2Qo29yaNvS4"
   },
   {
     "artist": "Naif",
