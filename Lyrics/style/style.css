@@ -44,12 +44,21 @@ h2 {
     3px 4px 0px 0px rgba(0, 0, 0, 0.22), 4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22), 5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22), 6px 5px 0px 0px rgba(0, 0, 0, 0.22),
     6px 7px 0px 0px rgba(0, 0, 0, 0.22), 7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22), 8px 7px 0px 0px rgba(0, 0, 0, 0.22);
 }
+.guide {
+  margin-bottom: 1rem;
+}
 .guide p {
   margin-left: 1rem;
+}
+.verse {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
 }
 .reff {
   position: relative;
   left: 30px;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 /* ================mobile phone display================== */
