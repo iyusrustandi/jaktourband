@@ -1344,9 +1344,21 @@
     "youtube": "https://www.youtube.com/watch?v=ozXZnwYTMbs"
   },
   {
-    "artist": "Michale Buble",
+    "artist": "Michael Buble ft. Loren Allerd",
+    "song": "Help Me Make It Through The Night",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/michael-buble-help-me-make-it-through-the-night.html ",
+    "youtube": "https://www.youtube.com/watch?v=0gXqvwaR4OU"
+  },
+  {
+    "artist": "Michael Buble",
+    "song": "Home",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/michael-buble-home.html ",
+    "youtube": "https://www.youtube.com/watch?v=lbSOLBMUvIE"
+  },
+  {
+    "artist": "Michael Buble",
     "song": "Sway",
-    "lyrics": "https://jaktourband.vercel.app/Lyrics/michale-buble-sway.html ",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/michael-buble-sway.html ",
     "youtube": "https://www.youtube.com/watch?v=xeMOO5EudYs"
   },
   {
@@ -2063,6 +2075,12 @@
     "song": "Drive My Car",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/thebeatles_drivemycar.html ",
     "youtube": "https://www.youtube.com/watch?v=kfSQkZuIx84"
+  },
+  {
+    "artist": "The Beatles",
+    "song": "Here, There and Everywhere",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/thebeatles-here-there-and-everywhere.html ",
+    "youtube": "https://www.youtube.com/watch?v=FusIKjztap8"
   },
   {
     "artist": "The Beatles",
