@@ -702,8 +702,14 @@
     "youtube": "https://www.youtube.com/watch?v=rgSzJixLwG8"
   },
   {
+    "artist": "Elliot James Reay",
+    "song": "I Think They Call This Love",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/elliot-james-reay-i-think-they-call-this-call-love.html",
+    "youtube": "https://www.youtube.com/watch?v=MxfbUPpwDlw"
+  },
+  {
     "artist": "Elvis Presley",
-    "song": "It’s Now Or Never",
+    "song": "It's Now Or Never",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/elvis_presley_its_now_or_never.html ",
     "youtube": "https://www.youtube.com/watch?v=Uwelrtb8Oho"
   },
@@ -1612,6 +1618,12 @@
     "song": "Don't Look Back In Anger",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/oasis_dontlookback.html ",
     "youtube": "https://www.youtube.com/watch?v=r8OipmKFDeM"
+  },
+  {
+    "artist": "Once",
+    "song": "Symphoni Yang Indah",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/once-symphoni-yang-indah.html ",
+    "youtube": "https://www.youtube.com/watch?v=IzsOi_3TzM8"
   },
   {
     "artist": "Opick",
