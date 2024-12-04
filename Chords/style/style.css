@@ -29,7 +29,7 @@ a {
 }
 h2 {
   font-size: 3vw;
-  padding: 30px;
+  padding: 10px;
   color: #fff;
   text-align: center;
 }
@@ -42,35 +42,12 @@ h2 {
   width: 50%;
   color: #000;
   line-height: 1.5;
-  margin-bottom: 10px;
 }
 .lyric pre {
   font-family: inherit;
   white-space: pre-wrap;
 }
 
-.guide {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-  background-color: #cbd4f3;
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.22), 1px 0px 0px 0px rgba(0, 0, 0, 0.22), 1px 2px 0px 0px rgba(0, 0, 0, 0.22), 2px 1px 0px 0px rgba(0, 0, 0, 0.22), 2px 3px 0px 0px rgba(0, 0, 0, 0.22), 3px 2px 0px 0px rgba(0, 0, 0, 0.22),
-    3px 4px 0px 0px rgba(0, 0, 0, 0.22), 4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22), 5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22), 6px 5px 0px 0px rgba(0, 0, 0, 0.22),
-    6px 7px 0px 0px rgba(0, 0, 0, 0.22), 7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22), 8px 7px 0px 0px rgba(0, 0, 0, 0.22);
-}
-.guide p {
-  margin-left: 1rem;
-}
-.verse {
-  margin-top: 2rem;
-  margin-bottom: 2.5rem;
-  white-space: pre-wrap;
-}
 .reff {
   position: relative;
   left: 30px;
@@ -88,10 +65,22 @@ h2 {
 
 .button-container {
   display: flex;
+  margin: auto;
+  height: auto;
+  width: 25%;
+  border-radius: 5px;
   justify-content: center;
   align-items: center;
   gap: 15px;
   box-sizing: border-box;
+  background-color: #fff;
+}
+
+.button-container .button-text {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 2vw;
+  font-weight: bold;
 }
 
 .button-container button {
@@ -100,13 +89,26 @@ h2 {
   font-weight: bold;
   border: none;
   border-radius: 8px;
-  background-color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.button-container button:hover {
-  background-color: #fff;
+.decrement-button {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.increment-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.decrement-button:hover {
+  background-color: #e63939;
+}
+
+.increment-button:hover {
+  background-color: #45a049;
 }
 
 .section-title {
@@ -160,9 +162,6 @@ h2 {
   max-height: 500px;
 }
 
-@media (max-width: 600px) {
-}
-
 /* ================mobile phone display================== */
 
 @media only screen and (max-width: 768px) {
@@ -177,7 +176,7 @@ h2 {
   }
 
   h2 {
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .lyric {
     width: 85%;
@@ -192,7 +191,16 @@ h2 {
   .modal-content {
     width: 25%;
   }
-  .button-container button {
+  .button-container .button-text {
     font-size: 3vw;
+  }
+  .button-container {
+    margin: auto;
+    height: auto;
+    width: 45%;
+  }
+
+  .button-container button {
+    font-size: 2vw;
   }
 }
