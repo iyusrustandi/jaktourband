@@ -12,143 +12,147 @@
   </head>
   <body>
     <div id="nav-placeholder"></div>
+
     <div class="table-container">
       <div class="header_wrap">
         <div class="num-rows">
           <div class="form-group">
-            <select class="form-control" name="state" id="maxRows">
-              <option value="15">Show 15 Song</option>
-              <option value="50">Show 50 Song</option>
-              <option value="100">Show 100 Song</option>
-              <option value="150">Show 150 Song</option>
-              <option value="200">Show 200 Song</option>
-              <option value="350">Show All Song</option>
+            <select class="form-control" id="maxRows">
+              <option value="15">Show 15 Songs</option>
+              <option value="50">Show 50 Songs</option>
+              <option value="100">Show 100 Songs</option>
+              <option value="150">Show 150 Songs</option>
+              <option value="200">Show 200 Songs</option>
+              <option value="350">Show All Songs</option>
             </select>
           </div>
         </div>
         <div class="tb-search">
-          <input type="text" id="search_input_all" onkeyup="FilterkeyWord_all_table()" placeholder="Search Artist or Title...." class="form-control" />
+          <input type="text" id="search_input_all" placeholder="Search Artist or Title..." class="form-control" aria-label="Search Artist or Title" />
         </div>
       </div>
 
       <table class="table" id="table-id">
         <thead>
           <tr>
-            <th>Artist</th>
-            <th>Title</th>
-            <th>Lyric</th>
-            <th>Song</th>
+            <th scope="col">Artist</th>
+            <th scope="col">Title</th>
+            <th scope="col">Lyric</th>
+            <th scope="col">YouTube</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+          <!-- Dynamic rows will be inserted here -->
+        </tbody>
       </table>
 
-      <div>
-        <div id="pagination-container"></div>
-      </div>
+      <div id="pagination-container"></div>
     </div>
+
     <div id="footer-placeholder"></div>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script>
       $(document).ready(function () {
-        var tableData;
-        var pageSize = 15;
-        var currentPage = 1;
+        let tableData = [];
+        let pageSize = 15;
+        let currentPage = 1;
 
         // Load data from JSON file
-        $.getJSON('data.json', function (data) {
-          tableData = data;
-          updateTable();
-          renderPagination();
-        });
-
-        // Update table based on current page and search input
-        function updateTable() {
-          var searchInput = $('#search_input_all').val().toLowerCase();
-          var filteredData = tableData.filter(function (item) {
-            return item.artist.toLowerCase().includes(searchInput) || item.song.toLowerCase().includes(searchInput);
+        $.getJSON('data.json')
+          .done((data) => {
+            tableData = data;
+            updateTable();
+            renderPagination();
+          })
+          .fail(() => {
+            console.error('Failed to load data.json');
+            $('#table-id tbody').html('<tr><td colspan="5">Error loading data</td></tr>');
           });
 
-          var startIndex = (currentPage - 1) * pageSize;
-          var endIndex = startIndex + pageSize;
-          var paginatedData = filteredData.slice(startIndex, endIndex);
+        // Update table content
+        function updateTable() {
+          const searchInput = $('#search_input_all').val().toLowerCase();
+          const filteredData = tableData.filter((item) => item.artist.toLowerCase().includes(searchInput) || item.song.toLowerCase().includes(searchInput));
 
-          var tableBody = $('#table-id tbody');
+          const startIndex = (currentPage - 1) * pageSize;
+          const paginatedData = filteredData.slice(startIndex, startIndex + pageSize);
+
+          const tableBody = $('#table-id tbody');
           tableBody.empty();
 
-          for (var i = 0; i < paginatedData.length; i++) {
-            var row = $('<tr>');
-            row.append($('<td>').text(startIndex + i + 1));
-            row.append($('<td>').text(paginatedData[i].artist));
-            row.append($('<td>').text(paginatedData[i].song));
-            var lyricButton = $('<button>').addClass('btn-lyric').html('Lyric');
-            lyricButton.attr('onclick', 'window.open("' + paginatedData[i].lyrics + '","_blank")');
-            row.append($('<td>').append(lyricButton));
-            var youtubeButton = $('<button>').addClass('btn-youtube').html(' YouTube');
-            youtubeButton.attr('onclick', 'window.open("' + paginatedData[i].youtube + '","_blank")');
-            row.append($('<td>').append(youtubeButton));
-            tableBody.append(row);
+          if (paginatedData.length === 0) {
+            tableBody.append('<tr><td colspan="5">No data found</td></tr>');
+            return;
           }
+
+          paginatedData.forEach((item, index) => {
+            const row = `
+        <tr>
+          <td>${startIndex + index + 1}</td>
+          <td>${item.artist}</td>
+          <td>${item.song}</td>
+          <td><button class="btn-lyric" onclick="window.open('${item.lyrics || '#'}', '_blank')">Lyric</button></td>
+          <td><button class="btn-youtube" onclick="window.open('${item.youtube || '#'}', '_blank')">YouTube</button></td>
+        </tr>`;
+            tableBody.append(row);
+          });
         }
 
-        // Render pagination based on current page and total data count
+        // Render pagination
         function renderPagination() {
-          var totalData = tableData.length;
-          var totalPages = Math.ceil(totalData / pageSize);
-          var startIndex = (currentPage - 1) * pageSize + 1;
-          var endIndex = startIndex + pageSize - 1;
-          if (endIndex > totalData) {
-            endIndex = totalData;
-          }
+          const filteredData = tableData.filter((item) => item.artist.toLowerCase().includes($('#search_input_all').val().toLowerCase()) || item.song.toLowerCase().includes($('#search_input_all').val().toLowerCase()));
 
-          var paginationContainer = $('#pagination-container');
+          const totalData = filteredData.length;
+          const totalPages = Math.ceil(totalData / pageSize);
+
+          const startIndex = (currentPage - 1) * pageSize + 1;
+          const endIndex = Math.min(startIndex + pageSize - 1, totalData);
+
+          const paginationContainer = $('#pagination-container');
           paginationContainer.empty();
 
-          var previousButton = $('<button>').addClass('btn-pagination').text('Previous');
-          var nextButton = $('<button>').addClass('btn-pagination').text('Next');
-          var paginationInfo = $('<span>')
+          const previousButton = $('<button>')
+            .addClass('btn-pagination')
+            .text('Previous')
+            .prop('disabled', currentPage === 1)
+            .on('click', () => {
+              if (currentPage > 1) {
+                currentPage--;
+                updateTable();
+                renderPagination();
+              }
+            });
+
+          const nextButton = $('<button>')
+            .addClass('btn-pagination')
+            .text('Next')
+            .prop('disabled', currentPage === totalPages)
+            .on('click', () => {
+              if (currentPage < totalPages) {
+                currentPage++;
+                updateTable();
+                renderPagination();
+              }
+            });
+
+          const paginationInfo = $('<span>')
             .addClass('text-pagination')
             .text('Showing ' + startIndex + ' to ' + endIndex + ' of ' + totalData + ' entries');
 
-          previousButton.on('click', function () {
-            if (currentPage > 1) {
-              currentPage--;
-              updateTable();
-              renderPagination();
-            }
-          });
-
-          nextButton.on('click', function () {
-            if (currentPage < totalPages) {
-              currentPage++;
-              updateTable();
-              renderPagination();
-            }
-          });
-
-          if (currentPage === 1) {
-            previousButton.prop('disabled', true);
-          }
-
-          if (currentPage === totalPages) {
-            nextButton.prop('disabled', true);
-          }
-
-          paginationContainer.append(previousButton);
-          paginationContainer.append(paginationInfo);
-          paginationContainer.append(nextButton);
+          paginationContainer.append(previousButton, paginationInfo, nextButton);
         }
 
-        // Max rows event listener
+        // Rows per page selector
         $('#maxRows').on('change', function () {
-          pageSize = parseInt($(this).val());
+          pageSize = parseInt($(this).val(), 10);
           currentPage = 1;
           updateTable();
           renderPagination();
         });
 
-        // Search input event listener
+        // Search input
         $('#search_input_all').on('input', function () {
           currentPage = 1;
           updateTable();

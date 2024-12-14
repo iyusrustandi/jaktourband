@@ -12,48 +12,50 @@
   </head>
   <body>
     <div id="nav-placeholder"></div>
+
     <div class="table-container">
       <div class="header_wrap">
         <div class="num-rows">
           <div class="form-group">
-            <select class="form-control" name="state" id="maxRows">
-              <!-- <option value="15">Show 15 Song</option> -->
-              <option value="50">Show 50 Song</option>
-              <option value="100">Show 100 Song</option>
-              <option value="150">Show 150 Song</option>
-              <option value="200">Show 200 Song</option>
-              <option value="350">Show All Song</option>
+            <select class="form-control" id="maxRows">
+              <option value="15">Show 15 Songs</option>
+              <option value="50">Show 50 Songs</option>
+              <option value="100">Show 100 Songs</option>
+              <option value="150">Show 150 Songs</option>
+              <option value="200">Show 200 Songs</option>
+              <option value="350">Show All Songs</option>
             </select>
           </div>
         </div>
         <div class="tb-search">
-          <input type="text" id="search_input_all" onkeyup="FilterkeyWord_all_table()" placeholder="Search Artist or Title...." class="form-control" />
+          <input type="text" id="search_input_all" placeholder="Search Artist or Title..." class="form-control" aria-label="Search Artist or Title" />
         </div>
       </div>
 
       <table class="table" id="table-id">
         <thead>
           <tr>
-            <th>Artist</th>
-            <th>Title</th>
-            <th>Chords</th>
+            <th scope="col">Artist</th>
+            <th scope="col">Title</th>
+            <th scope="col">Chords</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+          <!-- Dynamic rows will be inserted here -->
+        </tbody>
       </table>
 
-      <div>
-        <div id="pagination-container"></div>
-      </div>
+      <div id="pagination-container"></div>
     </div>
+
     <div id="footer-placeholder"></div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script>
       $(document).ready(function () {
-        var tableData;
-        var pageSize = 50;
-        var currentPage = 1;
+        let tableData = [];
+        let pageSize = 25;
+        let currentPage = 1;
 
         // Load data from JSON file
         $.getJSON('data-chords.json', function (data) {
@@ -62,26 +64,25 @@
           renderPagination();
         });
 
-        // new pagiantion layout
         function renderPagination() {
-          var totalData = tableData.length;
-          var totalReady = tableData.filter(function (item) {
-            return item.status === 'Ready';
-          }).length;
+          const totalData = tableData.length;
+          const totalReady = tableData.filter((item) => item.status === 'Ready').length;
+          const totalPages = Math.ceil(totalData / pageSize);
+          const startIndex = (currentPage - 1) * pageSize + 1;
+          const endIndex = Math.min(startIndex + pageSize - 1, totalData);
 
-          var totalPages = Math.ceil(totalData / pageSize);
-          var startIndex = (currentPage - 1) * pageSize + 1;
-          var endIndex = startIndex + pageSize - 1;
-          if (endIndex > totalData) {
-            endIndex = totalData;
-          }
-
-          var paginationContainer = $('#pagination-container');
+          const paginationContainer = $('#pagination-container');
           paginationContainer.empty();
 
-          var previousButton = $('<button>').addClass('btn-pagination').text('Previous');
-          var nextButton = $('<button>').addClass('btn-pagination').text('Next');
-          var paginationInfo = $('<span>').addClass('text-pagination').text(`Ready ${totalReady} of ${totalData} entries `);
+          const previousButton = $('<button>')
+            .addClass('btn-pagination')
+            .text('Previous')
+            .prop('disabled', currentPage === 1);
+          const nextButton = $('<button>')
+            .addClass('btn-pagination')
+            .text('Next')
+            .prop('disabled', currentPage === totalPages);
+          const paginationInfo = $('<span>').addClass('text-pagination').text(`Ready ${totalReady} of ${totalData} entries (Showing ${startIndex} to ${endIndex})`);
 
           previousButton.on('click', function () {
             if (currentPage > 1) {
@@ -99,52 +100,35 @@
             }
           });
 
-          if (currentPage === 1) {
-            previousButton.prop('disabled', true);
-          }
-
-          if (currentPage === totalPages) {
-            nextButton.prop('disabled', true);
-          }
-
-          paginationContainer.append(previousButton);
-          paginationContainer.append(paginationInfo);
-          paginationContainer.append(nextButton);
+          paginationContainer.append(previousButton, paginationInfo, nextButton);
         }
-        // Update table based on current page and search input
+
         function updateTable() {
-          var searchInput = $('#search_input_all').val().toLowerCase();
-          var filteredData = tableData.filter(function (item) {
-            return item.artist.toLowerCase().includes(searchInput) || item.song.toLowerCase().includes(searchInput);
-          });
+          const searchInput = $('#search_input_all').val().toLowerCase();
+          const filteredData = tableData.filter((item) => item.artist.toLowerCase().includes(searchInput) || item.song.toLowerCase().includes(searchInput));
 
-          var startIndex = (currentPage - 1) * pageSize;
-          var endIndex = startIndex + pageSize;
-          var paginatedData = filteredData.slice(startIndex, endIndex);
+          const startIndex = (currentPage - 1) * pageSize;
+          const paginatedData = filteredData.slice(startIndex, startIndex + pageSize);
 
-          var tableBody = $('#table-id tbody');
+          const tableBody = $('#table-id tbody');
           tableBody.empty();
 
-          for (var i = 0; i < paginatedData.length; i++) {
-            var row = $('<tr>');
-            row.append($('<td>').text(startIndex + i + 1));
-            row.append($('<td>').text(paginatedData[i].artist));
-            row.append($('<td>').text(paginatedData[i].song));
+          paginatedData.forEach((item, index) => {
+            const row = $('<tr>');
+            row.append($('<td>').text(startIndex + index + 1));
+            row.append($('<td>').text(item.artist));
+            row.append($('<td>').text(item.song));
 
-            // Menambahkan tombol status yang juga membuka halaman chords
-            var statusButton = $('<button>').addClass('btn-status').text(paginatedData[i].status);
-            statusButton.attr('onclick', 'window.open("' + paginatedData[i].chords + '", "_blank")');
-
-            if (paginatedData[i].status.toLowerCase() === 'ready') {
-              statusButton.addClass('btn-ready'); // Kelas untuk status ready
-            } else if (paginatedData[i].status.toLowerCase() === 'empty') {
-              statusButton.addClass('btn-empty'); // Kelas untuk status empty
-            }
+            const statusButton = $('<button>')
+              .addClass('btn-status')
+              .text(item.status)
+              .on('click', () => window.open(item.chords, '_blank'))
+              .toggleClass('btn-ready', item.status.toLowerCase() === 'ready')
+              .toggleClass('btn-empty', item.status.toLowerCase() === 'empty');
 
             row.append($('<td>').append(statusButton));
-
             tableBody.append(row);
-          }
+          });
         }
 
         $('#maxRows').on('change', function () {
@@ -154,7 +138,6 @@
           renderPagination();
         });
 
-        // Search input event listener
         $('#search_input_all').on('input', function () {
           currentPage = 1;
           updateTable();

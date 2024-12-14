@@ -179,102 +179,156 @@ div.media a:hover {
 }
 
 /* ===================songlist=================================== */
+/* Table Styling */
 table {
-  background-color: #fff;
+  background-color: #ffffff;
   width: 100%;
   border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 table th,
 table td {
   text-align: left;
-  padding: 5px;
+  padding: 10px 15px; /* Increased padding for better readability */
   border: 1px solid #ddd;
 }
 
+table th {
+  background-color: #333;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 table tr:nth-child(even) {
-  background-color: #e4e3e3;
+  background-color: #f7f7f7; /* Lightened the color for a modern look */
 }
 
-th {
-  background: #333;
-  color: #fff;
+table tr:hover {
+  background-color: #e0e0e0; /* Highlight row on hover */
+  cursor: pointer; /* Makes rows interactive */
 }
 
+/* Form Control Styling */
 .form-control {
   padding: 10px;
   border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
   margin-top: 25px;
   margin-bottom: 5px;
-  font-size: 1rem;
+  transition: border-color 0.3s ease;
 }
 
+.form-control:focus {
+  border-color: #007bff; /* Adds focus effect */
+  outline: none;
+}
+
+/* Header Controls */
 .num-rows {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .tb-search {
   display: block;
   float: right;
+  max-width: 300px;
+}
+
+/* Button Styles */
+.btn-lyric,
+.btn-youtube,
+.btn-pagination {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn-lyric {
   background-color: #0804f9;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-weight: 400;
-  color: #ffffff;
-  box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17), inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
-  text-align: center;
-  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 
-.btn-lyric:active,
-.btn-youtube:active {
-  box-shadow: inset 0 0.6em 2em -0.3em rgba(0, 0, 0, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+.btn-lyric:hover {
+  background-color: #0503c7;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn-youtube {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-weight: 400;
-  color: #ffffff;
   background-color: #ff1100;
-  box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17), inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
-  text-align: center;
-  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.btn-youtube:hover {
+  background-color: #d40d00;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn-pagination {
   background-color: #ffc107;
-  padding: 0.5rem 1rem;
-  margin: 0 1rem 1rem 0;
-  border-radius: 5px;
-  font-weight: 400;
   color: #000;
-  box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17), inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 
+.btn-pagination:hover {
+  background-color: #e6a700;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Pagination Container */
 #pagination-container {
   margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .text-pagination {
-  color: #fff;
+  color: #fff7fe; /* Adjusted color for better readability */
+  font-weight: bold;
 }
 
-/* chords */
+/* Responsiveness */
+@media (max-width: 768px) {
+  .num-rows {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .tb-search {
+    display: block;
+    float: none;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+
+  table th,
+  table td {
+    padding: 8px 10px;
+  }
+}
+
+/* ===========================Chords========================= */
 .btn-status {
   display: inline-block;
   padding: 0.5rem 1rem;
