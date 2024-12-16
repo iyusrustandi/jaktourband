@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Lyrics Viewer</title>
+    <link href="Image/icon.png" rel="icon" />
+    <link rel="stylesheet" href="Lyrics/style/style.css" />
+    <script src="js/jquery-3.7.0.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="nav-placeholder"></div>
+
+    <!-- Main Content -->
+    <main role="main">
+      <!-- Lyrics Container -->
+      <section class="lyric-container">
+        <h2 id="lyric-title" aria-level="1">Loading...</h2>
+        <div id="lyric-content" aria-live="polite">
+          <p>Loading lyrics...</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="js/script.js"></script>
+    <script>
+      $(document).ready(function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const artist = urlParams.get('artist');
+        const song = urlParams.get('song');
+        const lyricsFile = urlParams.get('lyrics')?.trim();
+
+        //head title
+        if (artist && song) {
+          $('#page-title').text(`${artist} - ${song}`);
+        } else {
+          $('#page-title').text('Lyrics Viewer');
+        }
+
+        // Set the lyric title
+        if (artist && song) {
+          $('#lyric-title').text(`${artist} - ${song}`);
+        } else {
+          $('#lyric-title').text('Lyrics Viewer');
+        }
+
+        // Load lyrics from the specified file
+        if (lyricsFile) {
+          $.ajax({
+            url: lyricsFile,
+            method: 'GET',
+            dataType: 'html',
+            success: function (data) {
+              $('#lyric-content').html(data);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+              console.error('Failed to load lyrics:', lyricsFile, textStatus, errorThrown);
+              $('#lyric-content').html(`<p>Lyrics not found or failed to load.<br>File: ${lyricsFile}<br>Status: ${jqXHR.status}</p>`);
+            },
+          });
+        } else {
+          console.error('Lyrics file URL is missing.');
+          $('#lyric-content').html('<p>No lyrics file specified.</p>');
+        }
+      });
+    </script>
+  </body>
+</html>

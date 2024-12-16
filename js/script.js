@@ -97,3 +97,110 @@ function FilterkeyWord_all_table() {
 
 //   console.log(newUrl);
 // });
+
+//songlist.html script
+// $(document).ready(function () {
+//   let tableData = [];
+//   let pageSize = 15;
+//   let currentPage = 1;
+
+//   // Load data from JSON file
+//   $.getJSON('data.json')
+//     .done((data) => {
+//       tableData = data;
+//       updateTable();
+//       renderPagination();
+//     })
+//     .fail(() => {
+//       console.error('Failed to load data.json');
+//       $('#table-id tbody').html('<tr><td colspan="5">Error loading data</td></tr>');
+//     });
+
+//   // Update table content
+//   function updateTable() {
+//     const searchInput = $('#search_input_all').val().toLowerCase();
+//     const filteredData = tableData.filter((item) => item.artist.toLowerCase().includes(searchInput) || item.song.toLowerCase().includes(searchInput));
+
+//     const startIndex = (currentPage - 1) * pageSize;
+//     const paginatedData = filteredData.slice(startIndex, startIndex + pageSize);
+
+//     const tableBody = $('#table-id tbody');
+//     tableBody.empty();
+
+//     if (paginatedData.length === 0) {
+//       tableBody.append('<tr><td colspan="5">No data found</td></tr>');
+//       return;
+//     }
+
+//     paginatedData.forEach((item, index) => {
+//       const row = `
+//         <tr>
+//           <td>${startIndex + index + 1}</td>
+//           <td>${item.artist}</td>
+//           <td>${item.song}</td>
+//           <td><button class="btn-lyric" onclick="window.open('${item.lyrics || '#'}', '_blank')">Lyric</button></td>
+//           <td><button class="btn-youtube" onclick="window.open('${item.youtube || '#'}', '_blank')">YouTube</button></td>
+//         </tr>`;
+//       tableBody.append(row);
+//     });
+//   }
+
+//   // Render pagination
+//   function renderPagination() {
+//     const filteredData = tableData.filter((item) => item.artist.toLowerCase().includes($('#search_input_all').val().toLowerCase()) || item.song.toLowerCase().includes($('#search_input_all').val().toLowerCase()));
+
+//     const totalData = filteredData.length;
+//     const totalPages = Math.ceil(totalData / pageSize);
+
+//     const startIndex = (currentPage - 1) * pageSize + 1;
+//     const endIndex = Math.min(startIndex + pageSize - 1, totalData);
+
+//     const paginationContainer = $('#pagination-container');
+//     paginationContainer.empty();
+
+//     const previousButton = $('<button>')
+//       .addClass('btn-pagination')
+//       .text('Previous')
+//       .prop('disabled', currentPage === 1)
+//       .on('click', () => {
+//         if (currentPage > 1) {
+//           currentPage--;
+//           updateTable();
+//           renderPagination();
+//         }
+//       });
+
+//     const nextButton = $('<button>')
+//       .addClass('btn-pagination')
+//       .text('Next')
+//       .prop('disabled', currentPage === totalPages)
+//       .on('click', () => {
+//         if (currentPage < totalPages) {
+//           currentPage++;
+//           updateTable();
+//           renderPagination();
+//         }
+//       });
+
+//     const paginationInfo = $('<span>')
+//       .addClass('text-pagination')
+//       .text('Showing ' + startIndex + ' to ' + endIndex + ' of ' + totalData + ' entries');
+
+//     paginationContainer.append(previousButton, paginationInfo, nextButton);
+//   }
+
+//   // Rows per page selector
+//   $('#maxRows').on('change', function () {
+//     pageSize = parseInt($(this).val(), 10);
+//     currentPage = 1;
+//     updateTable();
+//     renderPagination();
+//   });
+
+//   // Search input
+//   $('#search_input_all').on('input', function () {
+//     currentPage = 1;
+//     updateTable();
+//     renderPagination();
+//   });
+// });

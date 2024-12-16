@@ -88,14 +88,28 @@
           }
 
           paginatedData.forEach((item, index) => {
+            // const lyricsUrl = `Lyrics/lyrics-layout.html?artist=${encodeURIComponent(item.artist)}&song=${encodeURIComponent(item.song)}&lyrics=${encodeURIComponent(item.lyrics)}`;
+            const lyricsUrl = `lyrics-layout.html?artist=${encodeURIComponent(item.artist)}&song=${encodeURIComponent(item.song)}&lyrics=${encodeURIComponent(item.lyrics.trim())}`;
+
             const row = `
-        <tr>
-          <td>${startIndex + index + 1}</td>
-          <td>${item.artist}</td>
-          <td>${item.song}</td>
-          <td><button class="btn-lyric" onclick="window.open('${item.lyrics || '#'}', '_blank')">Lyric</button></td>
-          <td><button class="btn-youtube" onclick="window.open('${item.youtube || '#'}', '_blank')">YouTube</button></td>
-        </tr>`;
+                  <tr>
+                    <td>${startIndex + index + 1}</td>
+                    <td>${item.artist}</td>
+                    <td>${item.song}</td>
+                    <td>
+                      <a href="${lyricsUrl}" 
+                        class="btn-lyric ${item.lyrics ? '' : 'disabled'}" 
+                        target="${item.lyrics ? '_self' : ''}" 
+                        aria-label="${item.lyrics ? 'View lyrics' : 'Lyrics not available'}">Lyric</a>
+                    </td>
+                    <td>
+                      <a href="${item.youtube || '#'}" 
+                        class="btn-youtube ${item.youtube ? '' : 'disabled'}" 
+                        target="${item.youtube ? '_blank' : ''}" 
+                        rel="noopener noreferrer" 
+                        aria-label="${item.youtube ? 'Watch video' : 'Video not available'}">YouTube</a>
+                    </td>
+                  </tr>`;
             tableBody.append(row);
           });
         }
