@@ -7,24 +7,17 @@ html {
   overflow: auto;
 }
 /* ====================== Lyrics Section ======================= */
-.lyric-container,
-.lyric {
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+.lyric-container {
   font-family: Georgia, serif;
-  font-size: 32px;
-  line-height: 1.5;
-  color: #000;
 }
 
 .lyric {
-  font-size: 1.2vw;
+  font-size: 20px;
   background-color: #fefefe;
   margin: 20px auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 50%; /* Lebar default untuk desktop */
+  width: 50%;
   color: #000;
   border-radius: 8px;
 }
