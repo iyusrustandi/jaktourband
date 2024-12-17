@@ -17,12 +17,6 @@ html {
   line-height: 1.5;
   color: #000;
 }
-h2 {
-  font-size: 2.5vw; /* Default untuk layar besar */
-  padding: 20px;
-  color: #fff;
-  text-align: center;
-}
 
 .lyric {
   font-size: 1.2vw;
@@ -63,29 +57,19 @@ h2 {
 
 /* Tablet View: Layar dengan lebar maksimum 1024px */
 @media only screen and (max-width: 1024px) {
-  h2 {
-    font-size: 3.5vw; /* Lebih besar sedikit untuk tablet */
-    padding: 15px;
-  }
-
   .lyric {
     font-size: 32px;
-    width: 70%; /* Perlebar untuk tablet */
+    width: 90%; /* Perlebar untuk tablet */
     padding: 15px;
   }
 
   .guide {
-    font-size: 1.6vw;
+    font-size: 32px;
   }
 }
 
 /* Mobile View: Layar dengan lebar maksimum 768px */
 @media only screen and (max-width: 768px) {
-  h2 {
-    font-size: 5vw; /* Ukuran judul lebih besar untuk HP */
-    padding: 10px;
-  }
-
   .lyric {
     font-size: 32px; /* Font lebih besar untuk keterbacaan */
     width: 90%; /* Hampir memenuhi layar */
@@ -93,7 +77,7 @@ h2 {
   }
 
   .guide {
-    font-size: 3.5vw;
+    font-size: 32px;
     padding: 8px;
   }
 
