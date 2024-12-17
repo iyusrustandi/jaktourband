@@ -1,27 +1,22 @@
-/* ====================== Global Reset ======================= */
-* {
+body,
+html {
   margin: 0;
   padding: 0;
-}
-body {
-  font-family: Arial, sans-serif;
-  background-image: url('../Image/background.png');
+  width: 100%;
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  overflow: auto;
 }
-a {
-  text-decoration: none;
-}
-
 /* ====================== Lyrics Section ======================= */
-.lyric-container {
+.lyric-container,
+.lyric {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
   font-family: Georgia, serif;
-  margin: auto;
-  padding: 1rem;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
 }
-
 h2 {
   font-size: 2.5vw; /* Default untuk layar besar */
   padding: 20px;
