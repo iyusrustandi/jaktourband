@@ -58,3 +58,51 @@ h2 {
   position: relative;
   left: 30px;
 }
+
+/* ====================== Responsive Media Queries ======================= */
+
+/* Tablet View: Layar dengan lebar maksimum 1024px */
+@media only screen and (max-width: 1024px) {
+  h2 {
+    font-size: 3.5vw; /* Lebih besar sedikit untuk tablet */
+    padding: 15px;
+  }
+
+  .lyric {
+    font-size: 32px;
+    width: 70%; /* Perlebar untuk tablet */
+    padding: 15px;
+  }
+
+  .guide {
+    font-size: 1.6vw;
+  }
+}
+
+/* Mobile View: Layar dengan lebar maksimum 768px */
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 5vw; /* Ukuran judul lebih besar untuk HP */
+    padding: 10px;
+  }
+
+  .lyric {
+    font-size: 32px; /* Font lebih besar untuk keterbacaan */
+    width: 90%; /* Hampir memenuhi layar */
+    padding: 10px;
+  }
+
+  .guide {
+    font-size: 3.5vw;
+    padding: 8px;
+  }
+
+  .verse,
+  .reff {
+    margin: 1rem 0;
+  }
+
+  .reff {
+    left: 10px;
+  }
+}
