@@ -1,47 +1,113 @@
-/* ======================lyrics======================= */
+/* ====================== Global Reset ======================= */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../Image/background.png');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+
+/* ====================== Lyrics Section ======================= */
 .lyric-container {
   font-family: Georgia, serif;
+  margin: auto;
+  padding: 1rem;
 }
+
 h2 {
-  font-size: 3vw;
-  padding: 30px;
+  font-size: 2.5vw; /* Default untuk layar besar */
+  padding: 20px;
   color: #fff;
   text-align: center;
 }
+
 .lyric {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   background-color: #fefefe;
-  margin: auto;
+  margin: 20px auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 50%;
+  width: 50%; /* Lebar default untuk desktop */
   color: #000;
+  border-radius: 8px;
 }
+
 .guide {
-  max-width: 100%;
-  width: auto;
-  height: auto;
   line-height: 1.5;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 10px;
   margin-bottom: 1rem;
   background-color: #cbd4f3;
   color: #000;
   border-radius: 8px;
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.22), 1px 0px 0px 0px rgba(0, 0, 0, 0.22), 1px 2px 0px 0px rgba(0, 0, 0, 0.22), 2px 1px 0px 0px rgba(0, 0, 0, 0.22), 2px 3px 0px 0px rgba(0, 0, 0, 0.22), 3px 2px 0px 0px rgba(0, 0, 0, 0.22),
-    3px 4px 0px 0px rgba(0, 0, 0, 0.22), 4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22), 5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22), 6px 5px 0px 0px rgba(0, 0, 0, 0.22),
-    6px 7px 0px 0px rgba(0, 0, 0, 0.22), 7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22), 8px 7px 0px 0px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
+
 .guide p {
   margin-left: 1rem;
 }
-.verse {
-  margin-top: 2rem;
-  margin-bottom: 2.5rem;
+
+.verse,
+.reff {
+  margin: 2rem 0;
 }
+
 .reff {
   position: relative;
   left: 30px;
-  margin-top: 2rem;
-  margin-bottom: 2.5rem;
+}
+
+/* ====================== Responsive Media Queries ======================= */
+
+/* Tablet View: Layar dengan lebar maksimum 1024px */
+@media only screen and (max-width: 1024px) {
+  h2 {
+    font-size: 3.5vw; /* Lebih besar sedikit untuk tablet */
+    padding: 15px;
+  }
+
+  .lyric {
+    font-size: 1.8vw;
+    width: 70%; /* Perlebar untuk tablet */
+    padding: 15px;
+  }
+
+  .guide {
+    font-size: 1.6vw;
+  }
+}
+
+/* Mobile View: Layar dengan lebar maksimum 768px */
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 5vw; /* Ukuran judul lebih besar untuk HP */
+    padding: 10px;
+  }
+
+  .lyric {
+    font-size: 3.5vw; /* Font lebih besar untuk keterbacaan */
+    width: 90%; /* Hampir memenuhi layar */
+    padding: 10px;
+  }
+
+  .guide {
+    font-size: 3.5vw;
+    padding: 8px;
+  }
+
+  .verse,
+  .reff {
+    margin: 1rem 0;
+  }
+
+  .reff {
+    left: 10px;
+  }
 }
