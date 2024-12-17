@@ -33,7 +33,7 @@ html {
   max-width: 100%;
   width: auto;
   height: auto;
-  line-height: 1.5;
+  line-height: 1;
   padding-top: 8px;
   padding-bottom: 8px;
   margin-bottom: 16px;
@@ -49,14 +49,16 @@ html {
   margin-left: 16px;
 }
 
-.verse,
-.reff {
-  margin: 16px 0;
+.verse {
+  margin-top: 32px;
+  margin-bottom: 40px;
 }
 
 .reff {
   position: relative;
   left: 30px;
+  margin-top: 32px;
+  margin-bottom: 40px;
 }
 
 /* ====================== Responsive Media Queries ======================= */
