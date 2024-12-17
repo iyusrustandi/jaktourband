@@ -53,32 +53,14 @@ html {
   left: 30px;
 }
 
-/* ====================== Responsive Media Queries ======================= */
-
-/* Tablet View: Layar dengan lebar maksimum 1024px */
-@media only screen and (max-width: 1024px) {
-  .lyric {
-    font-size: 32px;
-    width: 90%; /* Perlebar untuk tablet */
-    padding: 5px;
-  }
-
-  .guide {
-    font-size: 32px;
-  }
-}
-
-/* Mobile View: Layar dengan lebar maksimum 768px */
 @media only screen and (max-width: 768px) {
   .lyric {
-    font-size: 32px; /* Font lebih besar untuk keterbacaan */
-    width: 90%; /* Hampir memenuhi layar */
-    padding: 5px;
+    font-size: 32px;
+    width: 90%;
   }
 
   .guide {
     font-size: 32px;
-    padding: 5px;
   }
 
   .verse,
