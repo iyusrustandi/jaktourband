@@ -60,7 +60,7 @@ html {
   .lyric {
     font-size: 32px;
     width: 90%; /* Perlebar untuk tablet */
-    padding: 15px;
+    padding: 5px;
   }
 
   .guide {
@@ -73,12 +73,12 @@ html {
   .lyric {
     font-size: 32px; /* Font lebih besar untuk keterbacaan */
     width: 90%; /* Hampir memenuhi layar */
-    padding: 10px;
+    padding: 5px;
   }
 
   .guide {
     font-size: 32px;
-    padding: 8px;
+    padding: 5px;
   }
 
   .verse,
