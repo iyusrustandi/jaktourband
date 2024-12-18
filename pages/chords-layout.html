@@ -50,7 +50,7 @@
         // Load chords content
         if (cleanChordFile) {
           $.ajax({
-            url: cleanChordFile,
+            url: `../${cleanChordFile}`,
             method: 'GET',
             dataType: 'html',
             success: function (data) {
