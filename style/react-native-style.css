@@ -14,14 +14,13 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 /* ====================== Lyrics Section ======================= */
 .lyric-container {
   font-family: Georgia, serif;
 }
 
 .lyric {
-  font-size: 20px;
+  font-size: 24px;
   background-color: #fefefe;
   margin: 20px auto;
   padding: 20px;
@@ -66,7 +65,7 @@ body {
 /* ====================== Responsive Media Queries ======================= */
 @media only screen and (max-width: 1024px) {
   .lyric {
-    font-size: 32px;
+    font-size: 36px;
     width: 95%;
   }
 
@@ -77,12 +76,12 @@ body {
 
 @media only screen and (max-width: 768px) {
   .lyric {
-    font-size: 32px;
+    font-size: 36px;
     width: 95%;
   }
 
   .guide {
-    font-size: 32px;
+    font-size: 36px;
   }
 
   .verse,
