@@ -1,4 +1,4 @@
-body,
+/* body,
 html {
   font-family: Arial, sans-serif;
   background-image: url('../Image/background.png');
@@ -6,7 +6,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 /* ====================== Lyrics Section ======================= */
 .lyric-container {
   font-family: Georgia, serif;
