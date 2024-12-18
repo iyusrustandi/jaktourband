@@ -65,23 +65,23 @@ body {
 /* ====================== Responsive Media Queries ======================= */
 @media only screen and (max-width: 1024px) {
   .lyric {
-    font-size: 36px;
+    font-size: 34px;
     width: 95%;
   }
 
   .guide {
-    font-size: 36px;
+    font-size: 34px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .lyric {
-    font-size: 36px;
+    font-size: 34px;
     width: 95%;
   }
 
   .guide {
-    font-size: 36px;
+    font-size: 34px;
   }
 
   .verse,

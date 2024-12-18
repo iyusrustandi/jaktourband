@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chords</title>
-    <link href="Image/icon.png" rel="icon" />
-    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link href="/Image/icon.png" rel="icon" />
+    <link rel="stylesheet" type="text/css" href="/style/style.css" />
     <script src="https://kit.fontawesome.com/98d921e819.js" crossorigin="anonymous"></script>
-    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="/js/jquery-3.7.0.min.js"></script>
   </head>
   <body>
     <div id="nav-placeholder"></div>
@@ -50,7 +50,7 @@
 
     <div id="footer-placeholder"></div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="/js/script.js"></script>
     <script>
       $(document).ready(function () {
         let tableData = [];
@@ -58,7 +58,7 @@
         let currentPage = 1;
 
         // Load data from JSON file
-        $.getJSON('data-chords.json', function (data) {
+        $.getJSON('/api/data-chords.json', function (data) {
           tableData = data;
           updateTable();
           renderPagination();
