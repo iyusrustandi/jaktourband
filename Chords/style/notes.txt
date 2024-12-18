@@ -41,13 +41,19 @@ D#         F                  Bb
    Comin' down on a sunny day
 
  prject/
+├── api/
+│   └── data.json
 ├── components/
 │   ├── lyrics.html
 │   ├── navbar.html
 │   └── footer.html
+├── pages/
+|   ├── lyrics-layout.html
+|   ├── gallery.html
+│   └── songlist.html
 ├── js/
 │   └── script.js
-├── Lyrics/
+├── lyrics/
 |   ├── components/
 │   |   ├── navbar.html
 │   |   └── footer.html  
@@ -57,5 +63,6 @@ D#         F                  Bb
 │   |   └── style.css  
 │   ├── song2.html
 │   └── song1.html
-├── songlist.html
+├── index.html
 └── ...  
+

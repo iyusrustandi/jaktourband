@@ -119,14 +119,21 @@
             row.append($('<td>').text(item.artist));
             row.append($('<td>').text(item.song));
 
-            const statusButton = $('<button>')
-              .addClass('btn-status')
-              .text(item.status)
-              .on('click', () => window.open(item.chords, '_blank'))
-              .toggleClass('btn-ready', item.status.toLowerCase() === 'ready')
-              .toggleClass('btn-empty', item.status.toLowerCase() === 'empty');
+            // Membuat URL yang aman dengan encodeURIComponent
+            const chords = `chords-layout.html?artist=${encodeURIComponent(item.artist)}&song=${encodeURIComponent(item.song)}&chords=${encodeURIComponent(item.chords.trim())}`;
 
-            row.append($('<td>').append(statusButton));
+            // Membuat tombol Chords
+            const chordsButton = $('<button>')
+              .addClass('btn-status')
+              .text('Chords')
+              .toggleClass('btn-ready', item.status.toLowerCase() === 'ready')
+              .toggleClass('btn-empty', item.status.toLowerCase() === 'empty')
+              .on('click', () => {
+                // Arahkan ke halaman chords-layout.html dengan parameter query
+                window.location.href = chords;
+              });
+
+            row.append($('<td>').append(chordsButton));
             tableBody.append(row);
           });
         }
