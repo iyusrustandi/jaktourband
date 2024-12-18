@@ -1,11 +1,11 @@
-body,
+/* body,
 html {
   background-image: url('https://jaktourband.vercel.app/Image/background.png');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 /* ====================== Lyrics Section ======================= */
 .lyric-container {
   font-family: Georgia, serif;
