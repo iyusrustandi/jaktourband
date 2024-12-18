@@ -2,11 +2,19 @@ body,
 html {
   font-family: Georgia, serif;
   background-image: url('../Image/background.png');
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 /* ====================== Lyrics Section ======================= */
 .lyric-container {
   font-family: Georgia, serif;
