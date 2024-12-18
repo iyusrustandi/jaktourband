@@ -51,3 +51,29 @@
 
 
 
+
+ prject/
+├── api/
+│   └── data.json
+├── components/
+│   ├── lyrics.html
+│   ├── navbar.html
+│   └── footer.html
+├── pages/
+|   ├── lyrics-layout.html
+|   ├── gallery.html
+│   └── songlist.html
+├── js/
+│   └── script.js
+├── lyrics/
+|   ├── components/
+│   |   ├── navbar.html
+│   |   └── footer.html  
+|   ├── js/
+│   |   └── script.js
+|   ├── style/
+│   |   └── style.css  
+│   ├── song2.html
+│   └── song1.html
+├── index.html
+└── ...  
