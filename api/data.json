@@ -775,6 +775,12 @@
   },
   {
     "artist": "George Baker",
+    "song": "Baby Blue",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/george-baker-baby-blue.html ",
+    "youtube": "https://www.youtube.com/watch?v=EGHJlANUaYI"
+  },
+  {
+    "artist": "George Baker",
     "song": "I've Been Away Too Long",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/george_baker_ive_been_away.html ",
     "youtube": "https://www.youtube.com/watch?v=TfvAStsJBEM"
