@@ -672,6 +672,12 @@
     "youtube": "https://www.youtube.com/watch?v=gze8Oz5EJBo"
   },
   {
+    "artist": "Edo Kondologit",
+    "song": "Aku Papua",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/edo-kondologit-aku-papua.html ",
+    "youtube": "https://www.youtube.com/watch?v=1bzNm5ApUg4"
+  },
+  {
     "artist": "Eddy Silitonga",
     "song": "Alusi Au",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/eddysilitonga_alusiau.html ",
@@ -796,6 +802,12 @@
     "song": "Akhirnya",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/gigi_akhirnya.html ",
     "youtube": "https://www.youtube.com/watch?v=juxtFsVgjSQ"
+  },
+  {
+    "artist": "Glenn Fredly",
+    "song": "Rame Rame (Cover Sekawan Band Pandawa)",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/glenn-fredly-rame-rame-cover-sekawan-band-pandawa.html ",
+    "youtube": "https://www.youtube.com/watch?v=Ceh6_MSB8p4"
   },
   {
     "artist": "Glenn Fredly",
@@ -1288,6 +1300,12 @@
     "song": "Why Do you Love Me",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/koesplus_why_do_you.html ",
     "youtube": "https://www.youtube.com/watch?v=VR_79nv92SQ"
+  },
+  {
+    "artist": "Laticquee Production",
+    "song": "Sajojo (Cover Reggae)",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/lacticquee-production-sajojo-reggae.html ",
+    "youtube": "https://www.youtube.com/watch?v=HdMmCZBMADk"
   },
   {
     "artist": "Last Child",
