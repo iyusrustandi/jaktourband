@@ -19,6 +19,12 @@
   },
   {
     "artist": "Ada Band",
+    "song": "Nyawa Hidupku",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/ada-band-nyawa-hidupku.html",
+    "youtube": "https://www.youtube.com/watch?v=CfR6_VMce90"
+  },
+  {
+    "artist": "Ada Band",
     "song": "Masih Sahabatku Kekasihku",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/adaband_masih_sahabatku_kekasihku.html",
     "youtube": "https://www.youtube.com/watch?v=SRb2XwBTKx8"
@@ -352,6 +358,12 @@
     "song": "Mesin Waktu",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/Budi-Doremi-Mesin-Waktu.html ",
     "youtube": "https://www.youtube.com/watch?v=AURkGj0jEx4 "
+  },
+  {
+    "artist": "Budi Doremi",
+    "song": "Ramadhan Penuh Cinta",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/budi-doremi-ramadhan-penuh-cinta.html ",
+    "youtube": "https://www.youtube.com/watch?v=cTXYFaZBjjw "
   },
   {
     "artist": "Cake",
