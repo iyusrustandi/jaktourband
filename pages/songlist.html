@@ -60,7 +60,7 @@
         let currentPage = 1;
 
         // Load data from JSON file
-        $.getJSON('/api/data.json')
+        $.getJSON('/api/data-site.json')
           .done((data) => {
             tableData = data;
             updateTable();
