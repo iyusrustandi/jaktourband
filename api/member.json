@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Iyan",
+    "role": "Vocalist",
+    "image": "https://jaktourband.vercel.app/images/iyan.jpeg",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  {
+    "name": "Diki",
+    "role": "Vocalist",
+    "image": "https://jaktourband.vercel.app/images/diki.jpeg",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  {
+    "name": "Pumar",
+    "role": "Bassist",
+    "image": "https://jaktourband.vercel.app/images/pumar.jpeg",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  {
+    "name": "Polo",
+    "role": "Guitarist",
+    "image": "https://jaktourband.vercel.app/images/polo.jpeg",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  {
+    "name": "Iyus",
+    "role": "Guitarist",
+    "image": "https://jaktourband.vercel.app/images/iyus.jpeg",
+    "facebook": "https://web.facebook.com/iyus.rustandi.7",
+    "instagram": "https://www.instagram.com/iyusrustandi1/"
+  },
+  {
+    "name": "Sule",
+    "role": "Drummer",
+    "image": "https://jaktourband.vercel.app/images/sule.jpeg",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  {
+    "name": "Tedy",
+    "role": "Drummer",
+    "image": "https://jaktourband.vercel.app/images/tedy.jpeg",
+    "facebook": "#",
+    "instagram": "#"
+  }
+]

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaktour Band</title>
+    <link href="images/icon.png" rel="icon" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/glider.min.css" />
+    <script src="https://kit.fontawesome.com/98d921e819.js" crossorigin="anonymous"></script>
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <!-- Google tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-237019443-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-237019443-1');
+    </script>
+    <style>
+      /* Hero Section */
+      .hero {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url('../images/hero.jpg') no-repeat center center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Overlay */
+      .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      /* Teks dengan efek typing */
+      .hero-content {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+        z-index: 1;
+      }
+
+      /* Efek garis berkedip */
+      #typing-text::after {
+        content: '|';
+        display: inline-block;
+        animation: blink 0.7s infinite;
+      }
+
+      @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1><span id="typing-text"></span></h1>
+      </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const text = 'Jaktourband'; // Teks yang diketik
+        let index = 0;
+        const typingText = document.getElementById('typing-text');
+
+        function typeEffect() {
+          if (index < text.length) {
+            typingText.innerHTML += text.charAt(index);
+            index++;
+            setTimeout(typeEffect, 150); // Kecepatan mengetik
+          } else {
+            setTimeout(eraseEffect, 1000); // Tunggu sebelum menghapus
+          }
+        }
+
+        function eraseEffect() {
+          if (index > 0) {
+            typingText.innerHTML = text.substring(0, index - 1);
+            index--;
+            setTimeout(eraseEffect, 100); // Kecepatan menghapus
+          } else {
+            setTimeout(typeEffect, 500); // Mulai ulang setelah terhapus
+          }
+        }
+
+        typeEffect(); // Jalankan efek pertama kali
+      });
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

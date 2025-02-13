@@ -1,17 +1,20 @@
 [
   {
-    "slideshow": "https://jaktourband.vercel.app/Image/slide1.jpeg"
+    "slideshow": "https://jaktourband.vercel.app/images/slide1.jpeg"
   },
   {
-    "slideshow": "https://jaktourband.vercel.app/Image/slide2.jpeg"
+    "slideshow": "https://jaktourband.vercel.app/images/slide2.jpeg"
   },
   {
-    "slideshow": "https://jaktourband.vercel.app/Image/slide3.jpeg"
+    "slideshow": "https://jaktourband.vercel.app/images/slide3.jpeg"
   },
   {
-    "slideshow": "https://jaktourband.vercel.app/Image/slide4.jpeg"
+    "slideshow": "https://jaktourband.vercel.app/images/slide4.jpeg"
   },
   {
-    "slideshow": "https://jaktourband.vercel.app/Image/slide5.jpeg"
+    "slideshow": "https://jaktourband.vercel.app/images/slide5.jpeg"
+  },
+  {
+    "slideshow": "https://jaktourband.vercel.app/images/slide6.jpeg"
   }
 ]

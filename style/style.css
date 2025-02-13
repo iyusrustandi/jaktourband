@@ -127,7 +127,7 @@ table {
 /* Body Styling */
 body {
   font-family: Arial, sans-serif;
-  background-image: url('../Image/background.png');
+  background-image: url('../images/background.png');
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
