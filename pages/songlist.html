@@ -60,7 +60,7 @@
         let currentPage = 1;
 
         // Load data from JSON file
-        $.getJSON('/api/data-site.json')
+        $.getJSON('/api/data.json')
           .done((data) => {
             tableData = data;
             updateTable();
@@ -88,27 +88,33 @@
           }
 
           paginatedData.forEach((item, index) => {
-            const lyricsUrl = `/pages/lyrics-layout.html?artist=${encodeURIComponent(item.artist)}&song=${encodeURIComponent(item.song)}&lyrics=${encodeURIComponent(item.lyrics.trim())}`;
+            let lyricsUrl = '#'; // Default jika tidak ada lirik
+
+            if (item.lyrics) {
+              // Selalu arahkan ke `lyrics-layout.html` dan kirim URL lirik sebagai query parameter
+              lyricsUrl = `/pages/lyrics-layout.html?artist=${encodeURIComponent(item.artist.trim())}&song=${encodeURIComponent(item.song.trim())}&lyrics=${encodeURIComponent(item.lyrics.trim())}`;
+            }
 
             const row = `
-                  <tr>
-                    <td>${startIndex + index + 1}</td>
-                    <td>${item.artist}</td>
-                    <td>${item.song}</td>
-                    <td>
-                      <a href="${lyricsUrl}" 
-                        class="btn-lyric ${item.lyrics ? '' : 'disabled'}" 
-                        target="${item.lyrics ? '_self' : ''}" 
-                        aria-label="${item.lyrics ? 'View lyrics' : 'Lyrics not available'}">Lyric</a>
-                    </td>
-                    <td>
-                      <a href="${item.youtube || '#'}" 
-                        class="btn-youtube ${item.youtube ? '' : 'disabled'}" 
-                        target="${item.youtube ? '_blank' : ''}" 
-                        rel="noopener noreferrer" 
-                        aria-label="${item.youtube ? 'Watch video' : 'Video not available'}">YouTube</a>
-                    </td>
-                  </tr>`;
+      <tr>
+        <td>${startIndex + index + 1}</td>
+        <td>${item.artist}</td>
+        <td>${item.song}</td>
+        <td>
+          <a href="${lyricsUrl}" 
+            class="btn-lyric ${item.lyrics ? '' : 'disabled'}" 
+            target="${item.lyrics ? '_self' : ''}" 
+            aria-label="${item.lyrics ? 'View lyrics' : 'Lyrics not available'}">Lyric</a>
+        </td>
+        <td>
+          <a href="${item.youtube || '#'}" 
+            class="btn-youtube ${item.youtube ? '' : 'disabled'}" 
+            target="${item.youtube ? '_blank' : ''}" 
+            rel="noopener noreferrer" 
+            aria-label="${item.youtube ? 'Watch video' : 'Video not available'}">YouTube</a>
+        </td>
+      </tr>`;
+
             tableBody.append(row);
           });
         }

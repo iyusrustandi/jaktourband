@@ -60,7 +60,7 @@
         let currentPage = 1;
 
         // Load data from JSON file
-        $.getJSON('/api/religi-site.json')
+        $.getJSON('/api/religi.json')
           .done((data) => {
             tableData = data;
             updateTable();
