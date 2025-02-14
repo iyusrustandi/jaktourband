@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesHtml += `
           <div class="mySlides">
             <div class="numbertext">${index + 1} / ${data.length}</div>
-            <img src="${item.src}" style="width: 100%" class="iamges" alt="${item.alt}" />
+            <img src="${item.src}" style="width: 100%" class="iamges" year="${item.year}" />
           </div>`;
       });
 
@@ -60,7 +60,7 @@ function showSlides(n) {
 
   slides[slideIndex - 1].style.display = 'block';
   dots[slideIndex - 1].className += ' active';
-  captionText.innerHTML = dots[slideIndex - 1].alt;
+  captionText.innerHTML = dots[slideIndex - 1].year;
 }
 
 // Memuat Galeri Video dari JSON
