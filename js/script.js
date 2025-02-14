@@ -7,6 +7,118 @@ $.get('/components/footer.html', function (data) {
   $('#footer-placeholder').replaceWith(data);
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  fetchSlideshow();
+  fetchAbout();
+  fetchMembers();
+});
+
+async function fetchSlideshow() {
+  try {
+    const response = await fetch('api/slideshow.json');
+    const slides = await response.json();
+    const container = document.getElementById('slideshow-container');
+    const dotsContainer = document.getElementById('dots-container');
+
+    container.innerHTML = '';
+    dotsContainer.innerHTML = '';
+
+    slides.forEach((slide, index) => {
+      // Create slide
+      const slideDiv = document.createElement('div');
+      slideDiv.classList.add('mySlides', 'fade');
+      slideDiv.innerHTML = `
+        <div class="numbertext">${index + 1} / ${slides.length}</div>
+        <img src="${slide.slideshow}" alt="Slideshow Image" style="width: 100%" />
+      `;
+      container.appendChild(slideDiv);
+
+      // Create dot
+      const dot = document.createElement('span');
+      dot.classList.add('dot');
+      dot.setAttribute('onclick', `currentSlide(${index + 1})`);
+      dotsContainer.appendChild(dot);
+    });
+
+    showSlides();
+  } catch (error) {
+    console.error('Error fetching slideshow data:', error);
+  }
+}
+
+let slideIndex = 0;
+function showSlides() {
+  let slides = document.getElementsByClassName('mySlides');
+  let dots = document.getElementsByClassName('dot');
+
+  if (slides.length === 0) return;
+
+  for (let slide of slides) slide.style.display = 'none';
+  for (let dot of dots) dot.classList.remove('active');
+
+  slideIndex = (slideIndex + 1) % slides.length;
+
+  slides[slideIndex].style.display = 'block';
+  dots[slideIndex].classList.add('active');
+
+  setTimeout(showSlides, 3000);
+}
+
+async function fetchAbout() {
+  try {
+    const response = await fetch('api/about.json');
+    const data = await response.json();
+    document.getElementById('about-image').src = data.image;
+    document.getElementById('about-description').innerText = data.description;
+  } catch (error) {
+    console.error('Error fetching about data:', error);
+  }
+}
+
+async function fetchMembers() {
+  try {
+    const response = await fetch('api/member.json');
+    const members = await response.json();
+    const container = document.getElementById('member-container');
+
+    container.innerHTML = '';
+
+    members.forEach((member) => {
+      const memberDiv = document.createElement('div');
+      memberDiv.classList.add('gallery');
+      memberDiv.innerHTML = `
+        <a target="_blank" href="#">
+          <img src="${member.image}" alt="${member.name}" />
+        </a>
+        <div class="desc">${member.role}</div>
+        <div class="media">
+          <a href="${member.facebook}" class="fb"><i class="fa fa-facebook"></i></a>
+          <a href="${member.instagram}" class="insta"><i class="fa fa-instagram"></i></a>
+        </div>
+      `;
+      container.appendChild(memberDiv);
+    });
+
+    // Inisialisasi Glider.js setelah anggota dimuat
+    new Glider(document.querySelector('.glider'), {
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      draggable: true,
+      dots: '.dots',
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next',
+      },
+      responsive: [
+        {breakpoint: 600, settings: {slidesToShow: 2, slidesToScroll: 1}},
+        {breakpoint: 900, settings: {slidesToShow: 3, slidesToScroll: 1}},
+      ],
+    });
+  } catch (error) {
+    console.error('Error fetching members:', error);
+  }
+}
+
 // SI SETTING
 $(function () {
   // Just to append id number for each row

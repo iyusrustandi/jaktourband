@@ -1,71 +1,100 @@
 <style>
   .footer {
-  background-color: #01082b;
- position: sticky;
-  padding-top: 15px;
-  border-top: 3px solid rgba(255, 255, 255, 0.15);
-
-}
-
-.sub {
-  text-align: center;
-  font-size: 18px;
-  color: white;
-}
-.contact-items a {
-  color: #fff;
-  font-size: 16px;
-  padding: 5px;
-}
-.contact-items {
-  text-align: center;
-  transition: transform 0.5s;
-  padding-bottom: 15px;
-}
-
-.contact-items i {
-  margin-left: 16px;
-
-}
-.contact-items a:hover {
-  opacity: 0.8;
-}
-.copyright {
-  background-color: #1877f2;
-  padding: 1rem;
-  width: 100%;
-  float: right;
-  text-align: center;
-  color: #fff;
-  font-size: 14px;
-}
-
-@media only screen and (max-width: 768px) {
-  .footer{
-    padding-top: 15px;
+    background-color: #01082b;
+    position: relative;
+    padding: 20px 0;
+    border-top: 3px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
   }
-  .sub {
-    font-size: 9px;
+
+  .sub h1 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
   }
+
+  .contact-items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+  }
+
   .contact-items a {
-    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
   }
+
+  .contact-items img {
+    width: 20px;
+    height: auto;
+  }
+
+  .contact-items a:hover {
+    opacity: 0.8;
+  }
+
   .copyright {
-    font-size: 12px;
+    background-color: #1877f2;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
   }
-}
+
+  .copyright a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .sub h1 {
+      font-size: 18px;
+    }
+
+    .contact-items a {
+      font-size: 14px;
+    }
+
+    .contact-items img {
+      width: 18px;
+    }
+
+    .copyright {
+      font-size: 12px;
+    }
+  }
 </style>
+
 <footer id="footer" class="footer">
-    <div class="sub">
-      <h1>Contact Us</h1>
-    </div>
-    <div class="contact-items">
-      <a style="text-decoration: none" href="#" class="email"><img src="../images/mail.png" loading="lazy"/> jaktourbandofc@gmail.com</a>
-      <a style="text-decoration: none" href="https://www.youtube.com/channel/UCD3fwZrfMwxgwkNFBITbsUA/featured" class="youtube"><img src="../images/youtube.png" loading="lazy"/></i> Jaktour Band</a>
-      <a style="text-decoration: none" href="https://jaktourband.vercel.app/" class="web"><img src="../images/globe.png" loading="lazy"/> jaktourband</a>
-    </div>
-    <div class="copyright">
-      Copyright &copy; Jaktour Band 2024. Made by
-      <a href="https://iyusrustandi.github.io/" style="color: #fff">Iyus Rustandi</a>
-    </div>
+  <div class="sub">
+    <h1>Contact Us</h1>
+  </div>
+
+  <div class="contact-items">
+    <a href="mailto:jaktourbandofc@gmail.com" class="email">
+      <img src="../images/mail.png" alt="Email" loading="lazy" />
+      jaktourbandofc@gmail.com
+    </a>
+    <a href="https://www.youtube.com/channel/UCD3fwZrfMwxgwkNFBITbsUA/featured" class="youtube">
+      <img src="../images/youtube.png" alt="YouTube" loading="lazy" />
+      Jaktour Band
+    </a>
+    <a href="https://jaktourband.vercel.app/" class="web">
+      <img src="../images/globe.png" alt="Website" loading="lazy" />
+      jaktourband
+    </a>
+  </div>
+
+  <div class="copyright">
+    Copyright &copy; Jaktour Band 2025. Made by
+    <a href="https://iyusrustandi-portfolio.vercel.app/">Iyus Rustandi</a>
+  </div>
 </footer>

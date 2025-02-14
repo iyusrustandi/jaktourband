@@ -245,6 +245,18 @@ img.about {
 }
 
 /* ======================member============================== */
+.glider-contain {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.glider {
+  display: flex;
+  gap: 10px; /* Jarak antar kartu */
+}
+
 .gallery {
   background: rgba(1, 8, 43, 1);
   margin: 5px;
@@ -275,7 +287,7 @@ img.about {
   color: #fff;
 }
 
-/* ========social media icons=========== */
+/* ======== Social Media Icons =========== */
 div.media {
   display: flex;
   column-gap: 5px;
@@ -302,6 +314,33 @@ div.media a:hover {
 
 .insta {
   background: #fb3958;
+}
+
+/* === Glider Navigation === */
+.glider-prev,
+.glider-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.glider-prev {
+  left: 0;
+}
+.glider-next {
+  right: 0;
+}
+
+.glider-prev:hover,
+.glider-next:hover {
+  background: rgba(0, 0, 0, 0.8);
 }
 
 /* ===================songlist=================================== */
@@ -489,10 +528,8 @@ button[disabled] {
 /* ===========================Gallery========================= */
 .container {
   position: relative;
-}
-
-.cursor {
-  cursor: pointer;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .title {
@@ -505,15 +542,48 @@ button[disabled] {
   margin-bottom: 15px;
 }
 
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Caption mengikuti ukuran gambar */
+.caption-container {
+  max-width: 100%;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: rgb(96, 1, 122);
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+/* Navigasi tombol */
 .prev,
 .next {
-  width: 100px;
-  height: 25px;
-  font-size: 14px;
+  width: 120px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: bold;
   color: #fff;
   border: none;
   border-radius: 5px;
   background-color: #074eab;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
 }
 
 .prev:hover,
@@ -521,46 +591,68 @@ button[disabled] {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.caption-container {
-  text-align: center;
-  background-color: rgb(96, 1, 122);
-  padding: 8px 16px;
-  color: white;
-  display: flex;
-  font-weight: bold;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0px auto;
-  max-width: 1000px;
-}
+/* Responsif */
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
 
-.mySlides {
-  display: none;
-  margin: 0px auto;
-  text-align: center;
-  max-width: 1000px;
+  .prev,
+  .next {
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .caption-container {
+    padding: 8px 12px;
+    text-align: center;
+  }
 }
 
 #video {
   padding-top: 75px;
 }
 
-.video {
-  display: flex;
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 20px;
   justify-content: center;
-  flex-wrap: wrap;
-  column-gap: 10px;
-  row-gap: 5px;
 }
 
 .video-container {
-  padding: 1rem;
-  width: 400px;
-  height: 225px;
+  background: #f9f9f9;
+  padding: 4px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
 }
 
-iframe {
-  border: 0;
-  height: 100%;
+.video-container:hover {
+  transform: scale(1.05);
+}
+
+.responsive-video {
+  position: relative;
   width: 100%;
+  padding-top: 56.25%; /* Aspek rasio 16:9 */
+}
+
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.video-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
 }

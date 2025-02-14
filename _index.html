@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaktour Band</title>
+    <link href="images/icon.png" rel="icon" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/glider.min.css" />
+    <script src="https://kit.fontawesome.com/98d921e819.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+
+    <!-- Google tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-237019443-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-237019443-1');
+    </script>
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+
+    <main>
+      <!-- Slideshow Section -->
+      <section id="slideshow">
+        <div class="slideshow-container" id="slideshow-container"></div>
+        <div id="dots-container" style="text-align: center"></div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class="sub-title"><h2>About</h2></div>
+        <img id="about-image" class="about" style="width: 100%" alt="About Image" />
+        <div class="description"><p id="about-description"></p></div>
+      </section>
+
+      <!-- Members Section -->
+      <section id="member">
+        <div class="sub-title"><h2>Member</h2></div>
+        <div class="glider-contain">
+          <button class="glider-prev">&laquo;</button>
+          <div class="glider" id="member-container"></div>
+          <button class="glider-next">&raquo;</button>
+          <div role="tablist" class="dots"></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/jquery-3.7.0.min.js" defer></script>
+    <script src="js/glider.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
