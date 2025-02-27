@@ -7,6 +7,12 @@
   },
   {
     "artist": "Ada Band",
+    "song": "Jalan Cahaya",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/ada-band-jalan-cahaya.html",
+    "youtube": "https://www.youtube.com/watch?v=o9u_iNUfsO4"
+  },
+  {
+    "artist": "Ada Band",
     "song": "Kau Auraku",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/adaband_kau_auraku.html",
     "youtube": "https://www.youtube.com/watch?v=I_vRw_N8wUs"
