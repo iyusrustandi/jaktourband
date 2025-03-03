@@ -1,0 +1,95 @@
+body,
+html {
+  font-family: Georgia, serif;
+  background-image: url('https://jaktourband.vercel.app//images/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+/* ====================== Lyrics Section ======================= */
+.lyric-container {
+  font-family: Georgia, serif;
+}
+
+.lyric {
+  font-size: 24px;
+  background-color: #fefefe;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  color: #000;
+  border-radius: 8px;
+}
+
+.guide {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  line-height: 0.5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 16px;
+  background-color: #cbd4f3;
+  color: #000;
+  border-radius: 8px;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.22), 1px 0px 0px 0px rgba(0, 0, 0, 0.22), 1px 2px 0px 0px rgba(0, 0, 0, 0.22), 2px 1px 0px 0px rgba(0, 0, 0, 0.22), 2px 3px 0px 0px rgba(0, 0, 0, 0.22), 3px 2px 0px 0px rgba(0, 0, 0, 0.22),
+    3px 4px 0px 0px rgba(0, 0, 0, 0.22), 4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22), 5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22), 6px 5px 0px 0px rgba(0, 0, 0, 0.22),
+    6px 7px 0px 0px rgba(0, 0, 0, 0.22), 7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22), 8px 7px 0px 0px rgba(0, 0, 0, 0.22);
+}
+
+.guide p {
+  margin-left: 16px;
+}
+
+.verse {
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.reff {
+  position: relative;
+  left: 32px;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+/* ====================== Responsive Media Queries ======================= */
+@media only screen and (max-width: 1024px) {
+  .lyric {
+    font-size: 34px;
+    width: 95%;
+  }
+
+  .guide {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .lyric {
+    font-size: 34px;
+    width: 95%;
+  }
+
+  .guide {
+    font-size: 34px;
+  }
+
+  .verse,
+  .reff {
+    margin: 8px 0;
+  }
+
+  .reff {
+    left: 10px;
+  }
+}
