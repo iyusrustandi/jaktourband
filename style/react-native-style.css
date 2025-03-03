@@ -1,20 +1,19 @@
-/* ===== Global Reset ===== */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-/* ===== Body & Background ===== */
 body,
 html {
   font-family: 'Poppins', Arial, sans-serif;
-  background: url('https://jaktourband.vercel.app/images/background.png') center/cover no-repeat;
-  background-attachment: fixed;
+  background-image: url('https://jaktourband.vercel.app//images/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
   margin: 0;
   padding: 0;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
 /* ====================== Lyrics Section ======================= */
 .lyric-container {
   font-family: Georgia, serif;
