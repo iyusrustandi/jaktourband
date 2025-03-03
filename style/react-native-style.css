@@ -15,107 +15,82 @@ html {
   padding: 0;
 }
 
-/* ===== Lyrics Container ===== */
+/* ====================== Lyrics Section ======================= */
+.lyric-container {
+  font-family: Georgia, serif;
+}
+
 .lyric {
-  background: #ffffff;
+  font-size: 24px;
+  background-color: #fefefe;
+  margin: 20px auto;
   padding: 20px;
-  margin: 30px auto;
-  max-width: 800px;
-  width: 90%;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-size: 18px;
-  line-height: 1.8;
-  color: #333;
-}
-
-/* ===== Section Titles (Guide: Intro, Outro, dll) ===== */
-.guide {
-  background-color: #f0f0f5;
-  padding: 10px 16px;
-  border-left: 5px solid #4a90e2;
-  font-weight: bold;
-  margin: 20px 0;
-  font-size: 16px;
-  color: #222;
-  border-radius: 6px;
-}
-
-/* ===== Section Spacing (Verse, Reff) ===== */
-.verse,
-.reff {
-  margin: 16px 0;
-}
-
-/* ===== Reff Highlight ===== */
-.reff {
-  font-weight: 500;
-  background-color: #f9f9f9;
-  padding: 12px 16px;
+  border: 1px solid #888;
+  width: 50%;
+  color: #000;
   border-radius: 8px;
-  border: 1px solid #e0e0e0;
 }
 
-/* ===== Optional Separator Between Sections ===== */
-.lyric div:not(:last-child) {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 12px;
-  margin-bottom: 12px;
+.guide {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  line-height: 0.5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 16px;
+  background-color: #cbd4f3;
+  color: #000;
+  border-radius: 8px;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.22), 1px 0px 0px 0px rgba(0, 0, 0, 0.22), 1px 2px 0px 0px rgba(0, 0, 0, 0.22), 2px 1px 0px 0px rgba(0, 0, 0, 0.22), 2px 3px 0px 0px rgba(0, 0, 0, 0.22), 3px 2px 0px 0px rgba(0, 0, 0, 0.22),
+    3px 4px 0px 0px rgba(0, 0, 0, 0.22), 4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22), 5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22), 6px 5px 0px 0px rgba(0, 0, 0, 0.22),
+    6px 7px 0px 0px rgba(0, 0, 0, 0.22), 7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22), 8px 7px 0px 0px rgba(0, 0, 0, 0.22);
 }
 
-/* ===== Responsive Design ===== */
-@media (max-width: 768px) {
+.guide p {
+  margin-left: 16px;
+}
+
+.verse {
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.reff {
+  position: relative;
+  left: 32px;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+/* ====================== Responsive Media Queries ======================= */
+@media only screen and (max-width: 1024px) {
   .lyric {
-    font-size: 24px;
-    padding: 15px;
+    font-size: 34px;
+    width: 95%;
   }
 
   .guide {
-    font-size: 24px;
-    padding: 8px 12px;
-  }
-
-  .reff {
-    font-size: 24px;
-    padding: 10px;
+    font-size: 34px;
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .lyric {
-    font-size: 14px;
-    padding: 12px;
+    font-size: 34px;
+    width: 95%;
   }
 
   .guide {
-    font-size: 13px;
-    padding: 6px 10px;
+    font-size: 34px;
+  }
+
+  .verse,
+  .reff {
+    margin: 8px 0;
   }
 
   .reff {
-    font-size: 14px;
-    padding: 8px;
+    left: 10px;
   }
-}
-
-/* ===== Optional Dark Mode Support (If Needed in the Future) ===== */
-body.dark {
-  background-color: #121212;
-  color: #f5f5f5;
-}
-
-body.dark .lyric {
-  background-color: #1f1f1f;
-  color: #f0f0f0;
-}
-
-body.dark .guide {
-  background-color: #2c2c2c;
-  border-left-color: #ffcc00;
-  color: #f0f0f0;
-}
-
-body.dark .reff {
-  background-color: #2c2c2c;
-  border-color: #444;
 }
