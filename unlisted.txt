@@ -46,7 +46,18 @@
     "lyrics": "https://iyusrustandi.github.io/jaktourband/blue-sorry-seems-to-be.html",
     "youtube": "https://www.youtube.com/watch?v=OXqw6ERK09o"
   },
-
+  {
+    "artist": "Alfred Gare & PAX Group",
+    "song": "Ikan Nae Di Pante",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/alfred-gare-ikan-nae-di-pante.html",
+    "youtube": "https://www.youtube.com/watch?v=ot-PdWnMks4"
+  },
+  {
+    "artist": "Edo Kondologit",
+    "song": "Aku Papua",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/edo-kondologit-aku-papua.html ",
+    "youtube": "https://www.youtube.com/watch?v=1bzNm5ApUg4"
+  },
 
 
 
