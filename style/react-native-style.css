@@ -49,8 +49,6 @@ html {
 
 /* ===== Reff Highlight ===== */
 .reff {
-  text-align: center;
-  font-style: italic;
   font-weight: 500;
   background-color: #f9f9f9;
   padding: 12px 16px;
@@ -68,17 +66,17 @@ html {
 /* ===== Responsive Design ===== */
 @media (max-width: 768px) {
   .lyric {
-    font-size: 16px;
+    font-size: 24px;
     padding: 15px;
   }
 
   .guide {
-    font-size: 14px;
+    font-size: 24px;
     padding: 8px 12px;
   }
 
   .reff {
-    font-size: 16px;
+    font-size: 24px;
     padding: 10px;
   }
 }
