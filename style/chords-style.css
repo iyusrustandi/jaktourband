@@ -104,12 +104,12 @@ h2 {
 
 .decrement-button {
   background-color: #ff4d4d;
-  color: white;
+  color: #fff;
 }
 
 .increment-button {
   background-color: #4caf50;
-  color: white;
+  color: #fff;
 }
 
 .decrement-button:hover {
