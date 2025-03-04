@@ -1,17 +1,21 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
   background-image: url('../images/background.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100%;
+  background-color: #222; /* Fallback color */
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
 }
@@ -29,66 +33,68 @@ a {
 .lyric-container {
   font-family: Georgia, serif;
 }
+
 h2 {
-  font-size: 3vw;
+  font-size: clamp(18px, 3vw, 36px);
   padding: 10px;
   color: #fff;
   text-align: center;
 }
+
 .lyric {
-  font-size: 1.5vw;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 50%;
-  color: #000;
-  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .lyric pre {
   font-family: inherit;
   white-space: pre-wrap;
 }
 
 .reff {
-  position: relative;
-  left: 30px;
+  font-size: 1.1em;
+  margin: 15px 0;
 }
 
 /* chord and button */
 .chord {
-  position: relative;
   display: inline-block;
-  text-decoration: none;
-  color: #cc0000;
   font-weight: bold;
-  cursor: pointer;
-  margin: 0 5px;
+  color: #eb0b0b;
+  padding: 2px 3px;
+  border-radius: 4px;
+  margin: 2px;
+  font-size: clamp(12px, 1.2vw, 18px);
 }
 
 .button-container {
   display: flex;
-  margin: auto;
-  height: auto;
-  width: 25%;
-  border-radius: 5px;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  box-sizing: border-box;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
   background-color: #fff;
+  border-radius: 8px;
 }
 
 .button-container .button-text {
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 2vw;
+  font-size: clamp(14px, 2vw, 18px);
   font-weight: bold;
 }
 
 .button-container button {
-  padding: 10px 20px;
-  font-size: 1vw;
+  padding: 10px 15px;
+  font-size: clamp(12px, 1.5vw, 16px);
   font-weight: bold;
   border: none;
   border-radius: 8px;
@@ -115,95 +121,110 @@ h2 {
 }
 
 .section-title {
-  display: block;
+  font-size: 1.2em;
   font-weight: bold;
+  margin: 10px 0;
 }
 
-/* Modal syle */
-.modal {
+/* Modal Style */
+#chord-modal {
   display: none;
   position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .modal-content {
-  position: relative;
-  margin: 10% auto;
   background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  width: 15%;
-  max-width: 500px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  max-width: 100%;
+  max-height: 90%;
+  overflow: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .close {
   position: absolute;
-  top: 10px;
-  right: 15px;
-  color: #aaa;
+  top: 5px;
+  right: 10px;
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
+  color: #f44336;
 }
 
 #chord-image {
-  width: 100%;
-  height: auto;
-  max-height: 500px;
+  max-width: 100%;
+  max-height: 60vh;
+  margin-top: 10px;
 }
 
-/* ================mobile phone display================== */
+#chord-message {
+  color: #e31708;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
 
+/* ====================== Mobile Responsiveness ===================== */
 @media only screen and (max-width: 768px) {
-  .sub-title {
-    font-size: 15px;
-  }
-  .gallery {
-    width: 100px;
-  }
-  .description {
-    font-size: 14px;
+  h2 {
+    font-size: clamp(16px, 4vw, 28px);
   }
 
-  h2 {
-    font-size: 4vw;
-  }
   .lyric {
-    width: 85%;
-    font-size: 2.75vw;
+    font-size: 14px;
+    max-width: 95%;
+    padding: 10px;
   }
-  .numbertext {
-    font-size: 10px;
+
+  .chord {
+    font-size: 14px;
+    padding: 1px 2px;
   }
-  .caption-container {
-    font-size: 12px;
+
+  .reff {
+    font-size: 1em;
   }
-  .modal-content {
-    width: 25%;
-  }
-  .button-container .button-text {
-    font-size: 3vw;
-  }
+
   .button-container {
-    margin: auto;
-    height: auto;
-    width: 45%;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    max-width: 300px;
+    padding: 15px;
+  }
+
+  .button-container .button-text {
+    font-size: 3.5vw;
   }
 
   .button-container button {
-    font-size: 2vw;
+    font-size: 3vw;
+    width: 100%;
+  }
+
+  #chord-modal {
+    width: 35%;
+    height: auto;
+    padding: 5px;
+  }
+
+  .modal-content {
+    width: 100%;
+    max-height: 80%;
   }
 }
