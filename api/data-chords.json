@@ -201,7 +201,7 @@
     "artist": "Bimbo",
     "song": "Bermata Tapi Tak Melihat",
     "chords": "/Chords/bimbo_bermata_tak_melihat.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bimbo",
@@ -217,15 +217,21 @@
   },
   {
     "artist": "Bimbo",
-    "song": "Rindu Kami Padamu",
+    "song": "Mawar Asuhan Rembulan",
+    "chords": "/Chords/bimbo-mawar-asuhan-rembulan.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Bimbo",
+    "song": "Rindu Rasul",
     "chords": "/Chords/bimbo_rindu_kami_padamu.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bimbo",
     "song": "Sajadah Panjang",
     "chords": "/Chords/bimbo_sajadah_panjang.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bimbo",
@@ -237,7 +243,7 @@
     "artist": "Bimbo",
     "song": "Tuhan",
     "chords": "/Chords/bimbo_tuhan.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bing Slamet",

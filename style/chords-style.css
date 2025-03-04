@@ -30,9 +30,6 @@ a {
 }
 
 /* ======================lyrics======================= */
-.lyric-container {
-  font-family: Georgia, serif;
-}
 
 h2 {
   font-size: clamp(18px, 3vw, 36px);
@@ -59,15 +56,17 @@ h2 {
 }
 
 .reff {
-  font-size: 1.1em;
+  font-size: clamp(12px, 1.2vw, 18px);
   margin: 15px 0;
+  position: relative;
+  left: 30px;
 }
 
 /* chord and button */
 .chord {
   display: inline-block;
+  color: #e31708;
   font-weight: bold;
-  color: #eb0b0b;
   padding: 2px 3px;
   border-radius: 4px;
   margin: 2px;
@@ -80,7 +79,7 @@ h2 {
   align-items: center;
   gap: 10px;
   width: 100%;
-  max-width: 400px;
+  max-width: 250px;
   margin: 20px auto;
   padding: 10px;
   background-color: #fff;
@@ -182,7 +181,7 @@ h2 {
 /* ====================== Mobile Responsiveness ===================== */
 @media only screen and (max-width: 768px) {
   h2 {
-    font-size: clamp(16px, 4vw, 28px);
+    font-size: 16px;
   }
 
   .lyric {
@@ -191,21 +190,16 @@ h2 {
     padding: 10px;
   }
 
+  .section-title {
+    font-size: 14px;
+  }
+
   .chord {
     font-size: 14px;
-    padding: 1px 2px;
   }
 
   .reff {
-    font-size: 1em;
-  }
-
-  .button-container {
-    flex-direction: column;
-    gap: 10px;
-    width: 90%;
-    max-width: 300px;
-    padding: 15px;
+    font-size: 14px;
   }
 
   .button-container .button-text {
