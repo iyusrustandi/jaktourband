@@ -1,41 +1,86 @@
-Intro : Am
+Intro : Bbm G# Bbm G#
 
-C Dm
-terlalu indah dilupakan
-G C
-terlalu sedih dikenangkan
-F C
-setelah aku jauh berjalan
-G C Em - F G - C
-dan kau . . ku tinggalkan . .
+G#                  Bbm
+ Terlalu indah dilupakan
+D#                  G#
+ Terlalu sedih dikenangkan
+C#                 G#
+ Setelah aku jauh berjalan
+    D#            G#   C#-D#
+Dan kau kutinggalkan
 
-* )
-C Dm
-betapa hatiku bersedih
-G C
-mengenang kasih dan sayangmu
-F C
-setulus pesanmu kepadaku
-G C Em - F G - C
-engkau … . kan menunggu
+G#                 Bbm
+ Betapa hatiku bersedih
+D#                      G#
+ Mengenang kasih dan sayangmu
+C#                  G#
+ Setulus pesanmu kepadaku
+   D#             G#  C#-D#
+Engkau kan menunggu
 
-reff :
-C Dm
-andaikan kau datang kemari
-G C
-jawaban apa yang kan ku beri
-F C
-adakah jalan yang kau temui
-G C Em - F G - C
-untuk kita … kembali lagi
 
-C Dm
-bersinarlah bulan purnama
-G C
-seindah serta tulus cintanya . .
-F C
-bersinarlah terus sampai nanti
-G C Em - F G - C
-lagu ini … . ku akhiri
+Reff
+G#                      Bbm
+ Andaikan kau datang kemari
+D#                     G#
+ Jawaban apa yang kan kuberi
+C#                      G#
+ Adakah jalan yang kau temui
+  D#                G#    C#-D#
+Untuk kita kembali lagi
 
-kembali ke : * ) , reff***
+G#                     Bbm
+ Bersinarlah bulan purnama
+D#                    G#
+ Seindah serta tulus cintanya
+C#                     G#
+ Bersinarlah terus sampai nanti
+  D#        G#      C#-D#
+Lagu ini kuakhiri
+
+G#                 Bbm
+ Betapa hatiku bersedih
+D#                      G#
+ Mengenang kasih dan sayangmu
+C#                  G#
+ Setulus pesanmu kepadaku
+   D#             G#  C#-D#
+Engkau kan menunggu
+
+
+Reff
+G#                      Bbm
+ Andaikan kau datang kemari
+D#                     G#
+ Jawaban apa yang kan kuberi
+C#                      G#
+ Adakah jalan yang kau temui
+  D#                G#    C#-D#
+Untuk kita kembali lagi
+
+G#                     Bbm
+ Bersinarlah bulan purnama
+D#                    G#
+ Seindah serta tulus cintanya
+C#                     G#
+ Bersinarlah terus sampai nanti
+  D#        G#      C#-D#
+Lagu ini kuakhiri
+
+G#                     Bbm
+ Bersinarlah bulan purnama
+D#                    G#
+ Seindah serta tulus cintanya
+C#                     G#
+ Bersinarlah terus sampai nanti
+  D#        G#      C#-D#
+Lagu ini kuakhiri
+
+G#                     Bbm
+ Bersinarlah bulan purnama
+D#                    G#
+ Seindah serta tulus cintanya
+C#                     G#
+ Bersinarlah terus sampai nanti
+  D#        G#      C#-D#
+Lagu ini kuakhiri
