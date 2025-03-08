@@ -39,11 +39,13 @@ h2 {
 }
 
 .lyric {
-  font-family: Arial, sans-serif;
+  font-family: 'Oxygen Mono', monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
   white-space: pre-wrap;
-  word-wrap: break-word;
   max-width: 90%;
-  margin: 20px auto;
+  margin: 0;
   padding: 15px;
   background: #f9f9f9;
   border-radius: 8px;
@@ -59,7 +61,7 @@ h2 {
   font-size: clamp(12px, 1.2vw, 18px);
   margin: 15px 0;
   position: relative;
-  left: 30px;
+  left: 15px;
 }
 
 /* chord and button */
@@ -67,9 +69,8 @@ h2 {
   display: inline-block;
   color: #e31708;
   font-weight: bold;
-  padding: 2px 3px;
+  padding: 2px 2px;
   border-radius: 4px;
-  margin: 2px;
   font-size: clamp(12px, 1.2vw, 18px);
 }
 
@@ -185,21 +186,21 @@ h2 {
   }
 
   .lyric {
-    font-size: 14px;
+    font-size: 12.5px;
     max-width: 95%;
     padding: 10px;
   }
 
   .section-title {
-    font-size: 14px;
+    font-size: 12.5px;
   }
 
   .chord {
-    font-size: 14px;
+    font-size: 12.5px;
   }
 
   .reff {
-    font-size: 14px;
+    font-size: 12.5px;
   }
 
   .button-container .button-text {

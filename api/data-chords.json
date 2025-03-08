@@ -195,7 +195,7 @@
     "artist": "Bimbo",
     "song": "Ada Anak Bertanya Pada Bapaknya",
     "chords": "/Chords/bimbo_ada_anak_bertanya.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bimbo",
@@ -207,7 +207,7 @@
     "artist": "Bimbo",
     "song": "Flamboyan",
     "chords": "/Chords/bimbo_flamboyan.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bimbo",
@@ -357,6 +357,12 @@
     "artist": "Budi Doremi",
     "song": "Mesin Waktu",
     "chords": "/Chords/Budi-Doremi-Mesin-Waktu.html ",
+    "status": "Ready"
+  },
+  {
+    "artist": "Budi Doremi",
+    "song": "Ramadhan Penuh Cinta",
+    "chords": "/Chords/budi-doremi-ramadhan-penuh-cinta.html ",
     "status": "Ready"
   },
   {
@@ -831,7 +837,7 @@
     "artist": "Haddad Alwi",
     "song": "Astagfirullah",
     "chords": "/Chords/haddad_alwi_astagfirullah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Happy Asmara",
@@ -1329,7 +1335,13 @@
     "artist": "Maher Zein",
     "song": "Insyaallah",
     "chords": "/Chords/maherzein_insyaallah.html ",
-    "status": "Empty"
+    "status": "Ready"
+  },
+  {
+    "artist": "Maher Zein",
+    "song": "Rahmatun Lil’Alameen",
+    "chords": "/Chords/maherzein-ramdatun-lil-alameen.html ",
+    "status": "Ready"
   },
   {
     "artist": "M Mashabi",
@@ -1533,7 +1545,7 @@
     "artist": "No Name",
     "song": "Ya Rasululla ( Cindai )",
     "chords": "/Chords/yarasulullahversicindai.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "No Name",
@@ -1611,7 +1623,7 @@
     "artist": "Novia Kolopaking",
     "song": "Dengan Menyebut Nama Allah",
     "chords": "/Chords/noviakolopaking_denganmenyebut.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Nyong Franco",
@@ -1635,19 +1647,19 @@
     "artist": "Opick",
     "song": "Bila Waktu Tlah Berakhir",
     "chords": "/Chords/opick_bilawaktu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Opick",
     "song": "Dealova",
     "chords": "/Chords/opick_dealova.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Opick",
     "song": "Rapuh",
     "chords": "/Chords/opick_rapuh.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Padi",
@@ -1953,7 +1965,7 @@
     "artist": "Seventeen",
     "song": "Ramadhan Yang Indah",
     "chords": "/Chords/seventeen_ramadhanyangindah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Sheila On 7",
@@ -2421,6 +2433,6 @@
     "artist": "Zivilia",
     "song": "Pintu Taubat",
     "chords": "/Chords/zivilia_pintutaubat.html ",
-    "status": "Empty"
+    "status": "Ready"
   }
 ]

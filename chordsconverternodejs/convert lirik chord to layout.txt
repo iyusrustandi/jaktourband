@@ -1,0 +1,5 @@
+
+- node js installed
+- copy lyric chord to 'const inputLirikChord = '
+- on terminal 'node convertLirikChord.js'
+- output will be 'outputLirikChord.html'
