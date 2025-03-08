@@ -123,7 +123,7 @@
             row.append($('<td>').text(item.song));
 
             // Membuat URL yang aman dengan encodeURIComponent
-            const chords = `chords-layout.html?artist=${encodeURIComponent(item.artist)}&song=${encodeURIComponent(item.song)}&chords=${encodeURIComponent(item.chords.trim())}`;
+            const chords = `chords-layout.html?artist=${encodeURIComponent(item.artist)}&song=${encodeURIComponent(item.song)}&chords=${encodeURIComponent((item.chords || '').trim())}`;
 
             // Membuat tombol Chords
             const chordsButton = $('<button>')
@@ -133,7 +133,7 @@
               .toggleClass('btn-empty', item.status.toLowerCase() === 'empty')
               .on('click', () => {
                 // Arahkan ke halaman chords-layout.html dengan parameter query
-                window.location.href = chords;
+                window.open(chords, '_blank', 'noopener,noreferrer');
               });
 
             row.append($('<td>').append(chordsButton));

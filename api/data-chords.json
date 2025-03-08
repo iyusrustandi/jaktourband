@@ -7,6 +7,12 @@
   },
   {
     "artist": "Ada Band",
+    "song": "Jalan Cahaya",
+    "chords": "/Chords/adaband_jalan_cahaya.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Ada Band",
     "song": "Kau Auraku",
     "chords": "/Chords/adaband_kau_auraku.html",
     "status": "Ready"
@@ -21,6 +27,12 @@
     "artist": "Ada Band",
     "song": "Masih Sahabatku Kekasihku",
     "chords": "/Chords/adaband_masih_sahabatku_kekasihku.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Ada Band",
+    "song": "Nyawa Hidupku",
+    "chords": "/Chords/adaband_nyawa_hidupku.html",
     "status": "Ready"
   },
   {
@@ -459,19 +471,19 @@
     "artist": "D'lloyd",
     "song": "Cinta Hampa",
     "chords": "/Chords/dlloyd_cinta_hampa.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "D'lloyd",
     "song": "Curi-curi",
     "chords": "/Chords/dlloyd-curi-curi.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "D'lloyd",
     "song": "Diam Diam Jatuh Cinta",
     "chords": "/Chords/dlloyd-diam-diam-jatuh-cinta.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "D'lloyd",
