@@ -177,19 +177,19 @@
     "artist": "Bee Gees",
     "song": "Don't Forget To Remember",
     "chords": "/Chords/beegees_don't_forget_to_remember.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bee Gees",
     "song": "To Love Somebody",
     "chords": "/Chords/beegees_to_love_somebody.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bee Gees",
     "song": "Words",
     "chords": "/Chords/beegees_words.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Betharia Sonata",
@@ -411,7 +411,7 @@
     "artist": "Christine Panjaitan ",
     "song": "Tangan Tak Sampai",
     "chords": "/Chords/christine-panjaitan-tangan-tak-sampai.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Chrisye",
@@ -561,7 +561,7 @@
     "artist": "Deddy Dores",
     "song": "Hilangnya Seorang Gadis",
     "chords": "/Chords/deddydores_hilangnya.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Deep Purple",
@@ -604,6 +604,12 @@
     "song": "Kangen",
     "chords": "/Chords/dewa19_kangen.html ",
     "status": "Empty"
+  },
+  {
+    "artist": "Dewa 19 Feat Ello",
+    "song": "Kau Yang Kusayang",
+    "chords": "/Chords/dewa19_feat_ello_kau_yang_kusayang.html ",
+    "status": "Ready"
   },
   {
     "artist": "Dewa 19",
@@ -771,7 +777,7 @@
     "artist": "Fahmi Sahab",
     "song": "Kopi Dangdut",
     "chords": "/Chords/fahmi-sahab-kopi-dangdut.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Faith No More",
@@ -873,7 +879,7 @@
     "artist": "Hendri Rotinsulu",
     "song": "Diwajahmu Kulihat Bulan",
     "chords": "/Chords/rotinsulu_diwajahmukulihat.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Hetty Koes Endang",
@@ -1515,19 +1521,19 @@
     "artist": "Nisa Sabyan",
     "song": "Deen Assalam",
     "chords": "/Chords/nisasabyan_deenassalam.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Nisa Sabyan",
     "song": "Ya Asyiqol",
     "chords": "/Chords/nisasabyan_yaasyiqol.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Nisa Sabyan",
     "song": "Ya Maulana",
     "chords": "/Chords/nisasabyan_yamaulana.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "No Koes",
@@ -1893,7 +1899,7 @@
     "artist": "Rossa",
     "song": "Takkan Berpaling Dari-Mu",
     "chords": "/Chords/rossa_takkanberpaling.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ruth Sahanaya",
@@ -2073,7 +2079,7 @@
     "artist": "Tantowi Yahya",
     "song": "Sebiduk Ditepi Sungai Musi",
     "chords": "/Chords/tantowiyahya_sebiduk.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Tetty Kadi",
@@ -2271,7 +2277,7 @@
     "artist": "The Rollies",
     "song": "Kau Yang Kusayang",
     "chords": "/Chords/therollies-kau-yang-kusayang.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Titiek Sandhora",
