@@ -20,7 +20,14 @@
         <h2 id="chord-title">Loading...</h2>
         <div id="transposebutton"></div>
         <div id="modal-placeholder"></div>
-        <div id="chord-content" aria-live="polite">
+
+        <!-- Animasi Loading -->
+        <div id="loading" class="loading-container">
+          <div class="spinner"></div>
+        </div>
+
+        <!-- Chords Content -->
+        <div id="chord-content" aria-live="polite" class="hidden">
           <p>Loading chords...</p>
         </div>
       </section>
@@ -53,8 +60,14 @@
             url: `../${cleanChordFile}`,
             method: 'GET',
             dataType: 'html',
+            beforeSend: function () {
+              $('#loading').removeClass('hidden'); // Tampilkan animasi loading
+              $('#chord-content').addClass('hidden'); // Sembunyikan konten sebelum data dimuat
+            },
             success: function (data) {
               $('#chord-content').html(data);
+              $('#loading').addClass('hidden'); // Sembunyikan animasi loading
+              $('#chord-content').removeClass('hidden'); // Tampilkan konten
             },
             error: function (jqXHR, textStatus, errorThrown) {
               console.error('Failed to load chords:', cleanChordFile, textStatus, errorThrown);
@@ -65,11 +78,15 @@
                   <strong>Status:</strong> ${jqXHR.status} (${textStatus})
                 </p>
               `);
+              $('#loading').addClass('hidden'); // Sembunyikan animasi loading
+              $('#chord-content').removeClass('hidden'); // Tampilkan pesan error
             },
           });
         } else {
           console.error('Chords file URL is missing.');
           $('#chord-content').html('<p>No chords file specified.</p>');
+          $('#loading').addClass('hidden'); // Sembunyikan animasi loading
+          $('#chord-content').removeClass('hidden'); // Tampilkan pesan error
         }
       });
     </script>
