@@ -417,7 +417,7 @@
     "artist": "Chrisye",
     "song": "Cintaku",
     "chords": "/Chords/chrisye-cintaku.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Cici Paramida",
@@ -723,13 +723,19 @@
     "artist": "Element",
     "song": "Cinta Sejati",
     "chords": "/Chords/element-cinta-sejati.html",
-    "status": "Empty"
+    "status": "Ready"
+  },
+  {
+    "artist": "Element",
+    "song": "Cinta Tak Bersyarat",
+    "chords": "/Chords/element-cinta-tak-bersyarat.html",
+    "status": "Ready"
   },
   {
     "artist": "Element",
     "song": "Rahasia Hati",
     "chords": "/Chords/element-rahasia-hati.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Elliot James Reay",
@@ -1323,7 +1329,7 @@
     "artist": "Lian Manurung",
     "song": "Sai Anju Ma Ai",
     "chords": "/Chords/lianmanurung_saianjumaau.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Lionel Richie",
@@ -1455,19 +1461,19 @@
     "artist": "Naff",
     "song": "Akhirnya Kumenemukanmu",
     "chords": "/Chords/naff_akhirnya.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Naff",
     "song": "Kenanglah Aku",
     "chords": "/Chords/naff_kenanglahaku.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Naff",
     "song": "Terendap Laraku",
     "chords": "/Chords/naff-terendap-laraku.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Naif",
@@ -1479,7 +1485,7 @@
     "artist": "Nanaku",
     "song": "Sio Mama",
     "chords": "/Chords/nanaku_siomama.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Nidji",
@@ -1839,7 +1845,7 @@
     "artist": "RAN",
     "song": "Pandangan Pertama",
     "chords": "/Chords/ran-pandangan-pertama.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Rani",
@@ -1911,19 +1917,19 @@
     "artist": "Samsons",
     "song": "Akhir Rasa Ini",
     "chords": "/Chords/samsons-akhir-rasa-ini.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Samsons",
     "song": "Di Ujung Jalan",
     "chords": "/Chords/samsons-diujung-jalan.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Samsons",
     "song": "Kenangan Terindah",
     "chords": "/Chords/samsons_kenanganterindah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Santana",
@@ -2301,7 +2307,7 @@
     "artist": "Trio Elexis",
     "song": "Jangan Salah Menilai",
     "chords": "/Chords/trio-elexis-jangan-salah-menilai.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Trio Elexis",
@@ -2415,7 +2421,7 @@
     "artist": "Victor Hutabarat",
     "song": "O Tano Batak",
     "chords": "/Chords/victorhut_otanobatak.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Virgoun",
