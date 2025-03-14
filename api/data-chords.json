@@ -57,7 +57,7 @@
     "artist": "Afgan",
     "song": "Kepadamu Aku Bersujud",
     "chords": "/Chords/afgan_kepadamu_kubersujud.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Afgan",
@@ -105,13 +105,13 @@
     "artist": "Ari Lasso",
     "song": "Arti Cinta",
     "chords": "/Chords/ari_lasso_arti_cinta.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ari Lasso",
     "song": "Hampa",
     "chords": "/Chords/ari_lasso_hampa.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ari Wibowo",
@@ -123,37 +123,37 @@
     "artist": "Armada",
     "song": "Asal Kau Bahagia",
     "chords": "/Chords/armada_asal_kau_bahagia.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Armada",
     "song": "Hargai Aku",
     "chords": "/Chords/armada_hargai_aku.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Armada",
     "song": "Harusnya Aku",
     "chords": "/Chords/armada_harusnya_aku.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Armada",
     "song": "Katakan Sejujurnya",
     "chords": "/Chords/armada_katakan_sejujurnya.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Armada",
     "song": "Mau Di Bawa Kemana",
     "chords": "/Chords/armada_mau_dibawa_kemana.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Armada",
     "song": "Pergi Pagi Pulang Pagi",
     "chords": "/Chords/armada_pergi_pagi_pulang_pagi.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Barry L & The Rhythm Service",
@@ -525,37 +525,37 @@
     "artist": "D'Masiv",
     "song": "Cinta Ini Membunuhku",
     "chords": "/Chords/dmasiv-cinta-ini-membunuhku.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "D'Masiv",
     "song": "Cinta Sampai Disini",
     "chords": "/Chords/dmasiv_cinta_sampai_disini.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "D'Masiv",
     "song": "Diantara Kalian",
     "chords": "/Chords/dmasiv_diantara_kalian.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "D'Masiv",
     "song": "Merindukanmu",
     "chords": "/Chords/dmasiv-merindukanmu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "D'Masiv",
     "song": "Pergilah kasih",
     "chords": "/Chords/dmasiv-pergilah-kasih.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Deddy Dores",
     "song": "Jangan Pisahkan",
     "chords": "/Chords/deddy_dores_jangan_pisahkan.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Deddy Dores",
@@ -579,31 +579,25 @@
     "artist": "Dewa 19",
     "song": "Angin",
     "chords": "/Chords/dewa19_angin.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Dewa 19",
     "song": "Arjuna",
     "chords": "/Chords/dewa19_arjuna.html ",
-    "status": "Empty"
-  },
-  {
-    "artist": "Dewa 19",
-    "song": "Bukan Rahasia",
-    "chords": "/Chords/dewa19_bukan_rahasia.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Dewa 19",
     "song": "Dua Sejoli",
     "chords": "/Chords/dewa19_dua_sejoli.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Dewa 19",
     "song": "Kangen",
     "chords": "/Chords/dewa19_kangen.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Dewa 19 Feat Ello",
@@ -615,25 +609,37 @@
     "artist": "Dewa 19",
     "song": "Pupus",
     "chords": "/Chords/dewa19_pupus.html ",
-    "status": "Empty"
+    "status": "Ready"
+  },
+  {
+    "artist": "Dewa 19",
+    "song": "Kirana",
+    "chords": "/Chords/dewa19_kirana.html ",
+    "status": "Ready"
   },
   {
     "artist": "Dewa 19",
     "song": "Kosong",
     "chords": "/Chords/dewa19_kosong.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Dewa 19",
     "song": "Roman Picisan",
     "chords": "/Chords/dewa19_roman_picisan.html ",
-    "status": "Empty"
+    "status": "Ready"
+  },
+  {
+    "artist": "Dewa 19",
+    "song": "Satu",
+    "chords": "/Chords/dewa19_satu.html ",
+    "status": "Ready"
   },
   {
     "artist": "Dewa 19",
     "song": "Separuh Nafas",
     "chords": "/Chords/dewa19_separuh_nafas.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Diana Nasution",
@@ -825,7 +831,7 @@
     "artist": "Gigi",
     "song": "Akhirnya",
     "chords": "/Chords/gigi_akhirnya.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Glenn Fredly",
@@ -855,7 +861,7 @@
     "artist": "Haddad Alwi",
     "song": "Al I’tiroof",
     "chords": "/Chords/haddad_alwi_alitiroof.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Haddad Alwi",
@@ -975,19 +981,19 @@
     "artist": "Kerispatih",
     "song": "Aku Harus Jujur",
     "chords": "/Chords/kerispatih-aku-harus-jujur.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Kerispatih",
     "song": "Demi Cinta",
     "chords": "/Chords/kerispatih_demi_cinta.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Kerispatih",
     "song": "Tapi Bukan Aku",
     "chords": "/Chords/kerispatih-tapi-bukan-aku.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
@@ -1477,9 +1483,9 @@
   },
   {
     "artist": "Naif",
-    "song": "Bencinta Untuk Mencinta",
+    "song": "Benci Untuk Mencinta",
     "chords": "/Chords/naif-benci-untuk-mencinta.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Nanaku",
@@ -1665,7 +1671,7 @@
     "artist": "Oasis",
     "song": "Don't Look Back In Anger",
     "chords": "/Chords/oasis_dontlookback.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Once",
@@ -1971,25 +1977,25 @@
     "artist": "Seventeen",
     "song": "Hal Terindah",
     "chords": "/Chords/seventeen_halterindah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Seventeen",
     "song": "Jaga Slalu Hatimu",
     "chords": "/Chords/seventeen_jagaslaluhatimu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Seventeen",
     "song": "Kemarin",
     "chords": "/Chords/seventeen_kemarin.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Seventeen",
     "song": "Menemukanmu",
     "chords": "/Chords/seventeen_menemukanmu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Seventeen",
@@ -2049,7 +2055,7 @@
     "artist": "ST 12",
     "song": "KebesaranMu",
     "chords": "/Chords/st12_kebesaranmu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "ST 12",
@@ -2325,25 +2331,25 @@
     "artist": "Uje",
     "song": "Sepohon Kayu",
     "chords": "/Chords/uje_sepohonkayu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Uje",
     "song": "Bidadari Surga",
     "chords": "/Chords/uje_bidadarisurga.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
     "song": "Andai Kutahu",
     "chords": "/Chords/ungu_andaikutahu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
     "song": "Bila Tiba",
     "chords": "/Chords/ungu_bilatiba.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
@@ -2361,7 +2367,7 @@
     "artist": "Ungu",
     "song": "Dengan Nafasmu",
     "chords": "/Chords/ungu_dengannafasmu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
@@ -2391,13 +2397,13 @@
     "artist": "Ungu",
     "song": "Sesungguhnya",
     "chords": "/Chords/ungu_sesungguhnya.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
     "song": "Surgamu",
     "chords": "/Chords/ungu_surgamu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
