@@ -1,25 +1,20 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Global Styles */
 body {
   font-family: Arial, sans-serif;
-  background-image: url('../images/background.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #222; /* Fallback color */
+  background: #222 url('../images/background.png') center/cover no-repeat;
   min-height: 100vh;
-  margin: 0;
-  padding: 0;
 }
 
-/* ======================lyrics======================= */
-
+/* ====================== Lyrics ===================== */
 h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   padding: 10px;
   color: #fff;
   text-align: center;
@@ -31,7 +26,8 @@ h2 {
   font-style: normal;
   line-height: 1.5;
   white-space: pre-wrap;
-  max-width: 50%;
+  width: 100%;
+  max-width: 600px;
   margin: auto;
   padding: 15px;
   background: #f9f9f9;
@@ -45,22 +41,28 @@ h2 {
 }
 
 .reff {
-  font-size: 14px;
+  font-size: 0.875rem;
   margin: 15px 0;
   position: relative;
   left: 15px;
 }
 
-/* chord and button */
+/* Chord and Section */
 .chord {
   display: inline-block;
   color: #e31708;
   font-weight: bold;
   padding: 2px 2px;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
+.section-title {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+/* Button Container */
 .button-container {
   display: flex;
   justify-content: center;
@@ -81,12 +83,17 @@ h2 {
 
 .button-container button {
   padding: 10px 15px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  outline: none;
+}
+
+.button-container button:hover {
+  transform: scale(1.05);
 }
 
 .decrement-button {
@@ -107,12 +114,6 @@ h2 {
   background-color: #45a049;
 }
 
-.section-title {
-  font-size: 14px;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
 /* Modal Style */
 #chord-modal {
   display: none;
@@ -124,7 +125,8 @@ h2 {
   width: 90%;
   max-width: 500px;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -173,22 +175,28 @@ h2 {
   align-items: center;
   height: 100px;
 }
+
 .spinner {
   width: 40px;
   height: 40px;
   border: 4px solid rgba(0, 0, 0, 0.2);
   border-top-color: #fff;
   border-radius: 50%;
-  animation: spin 1s linear infinite;
+  animation: spin 1s ease-in-out infinite;
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
   }
   100% {
     transform: rotate(360deg);
   }
 }
+
 /* Sembunyikan saat konten telah dimuat */
 .hidden {
   display: none;
@@ -197,38 +205,42 @@ h2 {
 /* ====================== Mobile Responsiveness ===================== */
 @media only screen and (max-width: 768px) {
   h2 {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .lyric {
-    font-size: 12.5px;
-    max-width: 95%;
-    padding: 10px;
+    font-size: 0.875rem;
+    max-width: 100%;
+    padding: 12px;
   }
 
   .section-title {
-    font-size: 12.5px;
+    font-size: 0.875rem;
   }
 
   .chord {
-    font-size: 12.5px;
+    font-size: 0.875rem;
   }
 
   .reff {
-    font-size: 12.5px;
+    font-size: 0.875rem;
+  }
+
+  .button-container {
+    max-width: 50%;
   }
 
   .button-container .button-text {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .button-container button {
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 100%;
   }
 
   #chord-modal {
-    width: 35%;
+    width: 50%;
     height: auto;
     padding: 5px;
   }
