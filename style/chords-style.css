@@ -41,7 +41,7 @@ h2 {
 }
 
 .reff {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   margin: 15px 0;
   position: relative;
   left: 15px;
@@ -54,11 +54,11 @@ h2 {
   font-weight: bold;
   padding: 2px 2px;
   border-radius: 4px;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
 }
 
 .section-title {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
@@ -209,21 +209,21 @@ h2 {
   }
 
   .lyric {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     max-width: 100%;
     padding: 12px;
   }
 
   .section-title {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
   }
 
   .chord {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
   }
 
   .reff {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
   }
 
   .button-container {

@@ -420,6 +420,13 @@
     "status": "Ready"
   },
   {
+    "artist": "Chrisye",
+    "song": "Juwita",
+    "chords": "/Chords/chrisye-juwita.html ",
+    "status": "Ready"
+  },
+
+  {
     "artist": "Cici Paramida",
     "song": "Wulan Merindu",
     "chords": "/Chords/cici_paramida_wulan_merindu.html ",
@@ -1791,37 +1798,37 @@
     "artist": "Peterpan",
     "song": "Mimpi Yang Sempurna",
     "chords": "/Chords/peterpan_mimpiyangsempurna.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Peterpan",
     "song": "Mungkin Nanti",
     "chords": "/Chords/peterpan_mungkinnanti.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Peterpan",
     "song": "Semua Tentang Kita",
     "chords": "/Chords/peterpan_semuatentang.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Peterpan",
     "song": "Walau Habis Terang",
     "chords": "/Chords/peterpan-walau-habis-terang.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Peterpan",
     "song": "Yang Terdalam",
     "chords": "/Chords/peterpan-yang-terdalam.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Peter Maffay",
     "song": "Du",
     "chords": "/Chords/petermaffay_du.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Projector",
@@ -1833,7 +1840,7 @@
     "artist": "Radiohead",
     "song": "Creep",
     "chords": "/Chords/radiohead-creep.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Radja",
@@ -1851,7 +1858,7 @@
     "artist": "Raim Laode",
     "song": "Komang",
     "chords": "/Chords/raim-laode-komang.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "RAN",
@@ -1875,7 +1882,7 @@
     "artist": "Reza Artamevia",
     "song": "Berharap Tak Berpisah",
     "chords": "/Chords/reza-artamevia-berharap-tak-berpisah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Rhoma Irama",
@@ -2007,25 +2014,25 @@
     "artist": "Sheila On 7",
     "song": "Dan",
     "chords": "/Chords/sheilaon7_dan.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Sheila On 7",
     "song": "Kita",
     "chords": "/Chords/sheilaon7_kita.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Sheila On 7",
     "song": "Pejantan Tangguh",
     "chords": "/Chords/sheilaon7_pejantantangguh.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Sheila On 7",
     "song": "Seberapa Pantas",
     "chords": "/Chords/sheilaon7_seberapapantas.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Siti Nordiana & Achik",
