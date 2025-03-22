@@ -1,3 +1,4 @@
+<!-- chords-layout.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -57,7 +58,7 @@
         // Load chords content
         if (cleanChordFile) {
           $.ajax({
-            url: `../${cleanChordFile}`,
+            url: cleanChordFile,
             method: 'GET',
             dataType: 'html',
             beforeSend: function () {

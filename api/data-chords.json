@@ -8,7 +8,7 @@
   {
     "artist": "Ada Band",
     "song": "Jalan Cahaya",
-    "chords": "/Chords/adaband_jalan_cahaya.html",
+    "chords": "https://jaktourband.vercel.app/Chords/adaband_jalan_cahaya.html",
     "status": "Ready"
   },
   {
@@ -159,7 +159,7 @@
     "artist": "Barry L & The Rhythm Service",
     "song": "Sesaat Kau Hadir",
     "chords": "/Chords/barry-likumhuwa-sesaat-kau-hadir.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "BCL Feat. Ari Lasso",
@@ -285,13 +285,13 @@
     "artist": "Bonjovi",
     "song": "Bed Of Roses",
     "chords": "/Chords/bonjovi_bed_of_roses.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bonjovi",
     "song": "Never Say Goodbye",
     "chords": "/Chords/bonjovi_never_say_goodbye.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Boomerang",
@@ -1966,19 +1966,19 @@
     "artist": "Scorpions",
     "song": "Always Somewhere",
     "chords": "/Chords/scorpions_alwayssomewhere.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Scorpions",
     "song": "Still Loving You",
     "chords": "/Chords/scorpions_stilllovingyou.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Scorpions",
     "song": "When The Smoke Is Going Down",
     "chords": "/Chords/scorpions_whenthesmoke.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Seventeen",
@@ -2044,55 +2044,55 @@
     "artist": "Slank",
     "song": "Ku Tak Bisa",
     "chords": "/Chords/slank_kutakbisa.html ",
-    "status": "Empty"
+    "status": "ready"
   },
   {
     "artist": "Slank",
     "song": "Virus",
     "chords": "/Chords/slank_virus.html ",
-    "status": "Empty"
+    "status": "ready"
   },
   {
-    "artist": "ST 12",
+    "artist": "ST12",
     "song": "Jangan Pernah Berubah",
     "chords": "/Chords/st12_janganpernah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
-    "artist": "ST 12",
+    "artist": "ST12",
     "song": "KebesaranMu",
     "chords": "/Chords/st12_kebesaranmu.html ",
     "status": "Ready"
   },
   {
-    "artist": "ST 12",
+    "artist": "ST12",
     "song": "Kepingan Hati",
     "chords": "/Chords/st12_kepinganhati.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
-    "artist": "ST 12",
+    "artist": "ST12",
     "song": "Rasa Yang Tertinggal",
     "chords": "/Chords/st12_rasayangtertinggal.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
-    "artist": "ST 12",
+    "artist": "ST12",
     "song": "Saat Terakhir",
     "chords": "/Chords/st12-saat-terakhir.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Steelheart",
     "song": "She’s Gone",
     "chords": "/Chords/steelheart_shesgone.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Stinky",
     "song": "Mungkinkah",
     "chords": "/Chords/stinky -mungkinkah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Tantowi Yahya",
@@ -2362,7 +2362,7 @@
     "artist": "Ungu",
     "song": "Cinta Dalam Hati",
     "chords": "/Chords/ungu_cintadalamhati.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
