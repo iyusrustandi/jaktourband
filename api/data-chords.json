@@ -1,5 +1,41 @@
 [
   {
+    "artist": "Ada Band",
+    "song": "Karena Wanita",
+    "chords": "/Chords/ada-band-karena-wanita.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Kenny Rogers",
+    "song": "Lady",
+    "chords": "/Chords/kenny-rogers-lady.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Utha Likumahuwa",
+    "song": "Esok Kan Masih Ada",
+    "chords": "/Chords/utha-likumahuwa-esok-kan-masih-ada.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Kla Project",
+    "song": "Yogyakarta",
+    "chords": "/Chords/kla-project-yogyakarta.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Padi",
+    "song": "Sobat",
+    "chords": "/Chords/padi-sobat.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Pongki Barata",
+    "song": "Aku Milikmu",
+    "chords": "/Chords/pongki-barata-aku-milikmu.html",
+    "status": "Ready"
+  },
+  {
     "artist": "4 Non Blondes",
     "song": "What's Up",
     "chords": "/Chords/4non-blondes-whats-up.html",
@@ -8,7 +44,7 @@
   {
     "artist": "Ada Band",
     "song": "Jalan Cahaya",
-    "chords": "https://jaktourband.vercel.app/Chords/adaband_jalan_cahaya.html",
+    "chords": "/Chords/adaband_jalan_cahaya.html",
     "status": "Ready"
   },
   {
@@ -772,7 +808,7 @@
     "artist": "Eric Clapton",
     "song": "Wonderful Tonight",
     "chords": "/Chords/eric_clapton_wonderful_tonight.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Europe",
@@ -802,7 +838,7 @@
     "artist": "Faith No More",
     "song": "Easy",
     "chords": "/Chords/faith_no_more_easy.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Farid Hardja",
