@@ -11,6 +11,13 @@
     "lyrics": "https://jaktourband.vercel.app/Lyrics/ada-band-jalan-cahaya.html",
     "youtube": "https://www.youtube.com/watch?v=o9u_iNUfsO4"
   },
+
+  {
+    "artist": "Ada Band",
+    "song": "Karena Wanita Ingin Dimengerti",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/ada-band-karena-wanita.html",
+    "youtube": "https://www.youtube.com/watch?v=N9nEqewTFWk"
+  },
   {
     "artist": "Ada Band",
     "song": "Kau Auraku",
@@ -244,6 +251,12 @@
     "song": "Semalam Di Malaysia",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/bimbo_semalamdimalaysia.html",
     "youtube": "https://www.youtube.com/watch?v=tHZQ2DtEQe8"
+  },
+  {
+    "artist": "Bimbo",
+    "song": "Setiap Habis Ramadhan",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/bimbo-setiap-habis-ramadhan.html",
+    "youtube": "https://www.youtube.com/watch?v=lWw-EyBPNT0"
   },
   {
     "artist": "Bimbo",
@@ -991,6 +1004,12 @@
     "youtube": "https://www.youtube.com/watch?v=MlI8BioxZ84"
   },
   {
+    "artist": "Kenny Rogers",
+    "song": "Lady",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/kenny-rogers-lady.html ",
+    "youtube": "https://www.youtube.com/watch?v=0T1J8JuTtR8"
+  },
+  {
     "artist": "Kerispatih",
     "song": "Aku Harus Jujur",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/kerispatih-aku-harus-jujur.html ",
@@ -1007,6 +1026,12 @@
     "song": "Tapi Bukan Aku",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/kerispatih-tapi-bukan-aku.html ",
     "youtube": "https://www.youtube.com/watch?v=yeLw09QRN9I"
+  },
+  {
+    "artist": "Kla Project",
+    "song": "Yogyakarta",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/kla-project-yogyakarta.html ",
+    "youtube": "https://www.youtube.com/watch?v=WHk4xguYgyY"
   },
   {
     "artist": "Koes Plus",
@@ -1735,6 +1760,12 @@
     "youtube": "https://www.youtube.com/watch?v=I5rqWnzySFE"
   },
   {
+    "artist": "Padi",
+    "song": "Sobat",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/padi-sobat.html ",
+    "youtube": "https://www.youtube.com/watch?v=d7asUcciVE0"
+  },
+  {
     "artist": "Panbers",
     "song": "Akhir Cinta",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/panbers_akhircinta.html ",
@@ -1835,6 +1866,12 @@
     "song": "Du",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/petermaffay_du.html ",
     "youtube": "https://www.youtube.com/watch?v=bAaisLTIUu4"
+  },
+  {
+    "artist": "Pongki Barata",
+    "song": "Aku Milikmu Malam Ini",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/pongki-barata-aku-milikmu-malam-ini.html ",
+    "youtube": "https://www.youtube.com/watch?v=SElD2pzVdTs"
   },
   {
     "artist": "Projector",
@@ -2430,6 +2467,12 @@
     "song": "Untukmu Selamanya",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/ungu_untukmuselamanya.html ",
     "youtube": "https://www.youtube.com/watch?v=VRCoy2woxs4"
+  },
+  {
+    "artist": "Utha Likumahuwa",
+    "song": "Esok Kan Masih Ada",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/utha-likumahuwa-esok-kan-masih-ada.html ",
+    "youtube": "https://www.youtube.com/watch?v=ebVy5C96Azc"
   },
   {
     "artist": "Utopia",

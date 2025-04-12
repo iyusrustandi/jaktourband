@@ -1,5 +1,11 @@
 [
   {
+    "artist": "Bimbo",
+    "song": "Setiap Habis Ramadhan",
+    "chords": "/Chords/bimbo-setiap-habis-ramadhan.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Ada Band",
     "song": "Karena Wanita",
     "chords": "/Chords/ada-band-karena-wanita.html",
@@ -441,7 +447,7 @@
     "artist": "Chakra Khan",
     "song": "Kekasih Bayangan",
     "chords": "/Chords/cakra_khan_kekasih_bayangan.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Christine Panjaitan ",
