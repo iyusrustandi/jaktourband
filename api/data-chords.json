@@ -114,12 +114,6 @@
     "status": "Empty"
   },
   {
-    "artist": "Alfred Gare & PAX Group",
-    "song": "Ikan Nae Di Pante",
-    "chords": "/Chords/alfred-gare-ikan-nae-di-pante.html",
-    "status": "Empty"
-  },
-  {
     "artist": "Amy Search Ft. Inka Christie",
     "song": "Cinta Kita",
     "chords": "/Chords/amysearch_cinta_kita.html",
@@ -1228,151 +1222,151 @@
     "artist": "Koes Plus",
     "song": "Kolam Susu",
     "chords": "/Chords/koesplus_kolam_susu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Kursi Emas",
     "chords": "/Chords/koesplus_kursi_emas.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Layang-Layang",
     "chords": "/Chords/koesplus_layang_layang.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Manis Dan Sayang",
     "chords": "/Chords/koesplus_manis_dan_sayang.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Mari Mari",
     "chords": "/Chords/koesplus_mari_mari.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Mari Berjoget",
     "chords": "/Chords/koesplus_mari_berjoget.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Mawar Bunga",
     "chords": "/Chords/koesplus_mawar_bunga.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Muda Mudi",
     "chords": "/Chords/koesplus_muda_mudi.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Nusantara 2",
     "chords": "/Chords/koesplus_nusantara2.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Nusantara 3",
     "chords": "/Chords/koesplus_nusantara3.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Nusantara 6",
     "chords": "/Chords/koesplus_nusantara6.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Nusantara 7",
     "chords": "/Chords/koesplus_nusantara7.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "O La La",
     "chords": "/Chords/koesplus_olala.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Oh Kasihan",
     "chords": "/Chords/koesplus_ohkasihan.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Oh Kau Tahu",
     "chords": "/Chords/koesplus_ohkautahu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Pagi Yang Indah",
     "chords": "/Chords/koesplus_pagi_yang_indah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Pelangi",
     "chords": "/Chords/koesplus_pelangi.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Rasa Hatiku",
     "chords": "/Chords/koesplus_rasa_hatiku.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Remaja ABCD",
     "chords": "/Chords/koesplus_remajaabcd.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Tak Usah Kau Sesali",
     "chords": "/Chords/koesplus_tak_usah_kau_sesali.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Terlambat",
     "chords": "/Chords/koesplus_terlambat.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Termenung Lesu",
     "chords": "/Chords/koesplus_termenung_lesu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Jangan Berulang Lagi",
     "chords": "/Chords/koesplus_jangan_Berulang_lagi.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Tiba-tiba Kumenangis",
     "chords": "/Chords/koesplus_tiba_menangis.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Koes Plus",
     "song": "Why Do you Love Me",
     "chords": "/Chords/koesplus_why_do_you.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Last Child",
@@ -1396,18 +1390,6 @@
     "artist": "Los Machucambos",
     "song": "Pepito",
     "chords": "/Chords/losmachucambos_pepito.html ",
-    "status": "Empty"
-  },
-  {
-    "artist": "Mahalini",
-    "song": "Melawan Restu",
-    "chords": "/Chords/mahalini-melawan-restu.html ",
-    "status": "Empty"
-  },
-  {
-    "artist": "Mahalini",
-    "song": "Sisa Rasa",
-    "chords": "/Chords/mahalini-sisa-rasa.html",
     "status": "Empty"
   },
   {
