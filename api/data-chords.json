@@ -45,7 +45,7 @@
     "artist": "4 Non Blondes",
     "song": "What's Up",
     "chords": "/Chords/4non-blondes-whats-up.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ada Band",
@@ -111,31 +111,31 @@
     "artist": "Alfian Harahap",
     "song": "Semalam Di Cianjur",
     "chords": "/Chords/alfian_semalam_di_cianjur.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Amy Search Ft. Inka Christie",
     "song": "Cinta Kita",
     "chords": "/Chords/amysearch_cinta_kita.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Andy Williams",
     "song": "Love Story",
     "chords": "/Chords/andy-williams-love-story.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Anji",
     "song": "Dia",
     "chords": "/Chords/anji_dia.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Anji",
     "song": "Menunggu Kamu",
     "chords": "/Chords/anji_menunggu_kamu.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ari Lasso",
@@ -151,9 +151,15 @@
   },
   {
     "artist": "Ari Wibowo",
+    "song": "Madu Dan Racun",
+    "chords": "/Chords/ari_wibowo_madu_dan_racun.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Ari Wibowo",
     "song": "Singkong dan Keju",
     "chords": "/Chords/ari_wibowo_anak_singkong.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Armada",
@@ -201,13 +207,13 @@
     "artist": "BCL Feat. Ari Lasso",
     "song": "Aku Dan Dirimu",
     "chords": "/Chords/bcl_aku_dan_dirimu.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "BCL",
     "song": "Karena Kucinta Kau",
     "chords": "/Chords/bcl_karena_kucinta_kau.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bee Gees",
@@ -231,13 +237,13 @@
     "artist": "Betharia Sonata",
     "song": "Hati Yang Luka",
     "chords": "/Chords/betharia-sonata-hati-yang-luka.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bilal Indrajaya",
     "song": "Niscaya",
     "chords": "/Chords/bilal-indrajaya-niscaya.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bimbo",
@@ -261,7 +267,7 @@
     "artist": "Bimbo",
     "song": "Jumpa Tuk Berpisah",
     "chords": "/Chords/bimbo_jumpa_tuk_berpisah.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bimbo",
@@ -285,7 +291,7 @@
     "artist": "Bimbo",
     "song": "Semalam Di Malaysia",
     "chords": "/Chords/bimbo_semalamdimalaysia.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Bimbo",
@@ -297,7 +303,7 @@
     "artist": "Bing Slamet",
     "song": "Nurlela",
     "chords": "/Chords/bingslamet_nurlela.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Black Brothers",
