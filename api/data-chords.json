@@ -1,5 +1,17 @@
 [
   {
+    "artist": "Ada Band",
+    "song": "Haruskah Kumati",
+    "chords": "/Chords/ada-band-haruskah-ku-mati.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Jun Munthe",
+    "song": "Pulut Roham",
+    "chords": "/Chords/jun-munthe-pulut-roham.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Bimbo",
     "song": "Setiap Habis Ramadhan",
     "chords": "/Chords/bimbo-setiap-habis-ramadhan.html",
@@ -754,7 +766,7 @@
     "artist": "Ebiet G Ade",
     "song": "Titip Rindu Buat Ayah",
     "chords": "/Chords/ebiet_gade_titip_rindu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Eddy Silitonga",

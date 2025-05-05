@@ -7,11 +7,16 @@
   },
   {
     "artist": "Ada Band",
+    "song": "Haruskah Kumati",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/ada-band-haruskah-ku-mati.html",
+    "youtube": "https://www.youtube.com/watch?v=PpuJ1n41RMc"
+  },
+  {
+    "artist": "Ada Band",
     "song": "Jalan Cahaya",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/ada-band-jalan-cahaya.html",
     "youtube": "https://www.youtube.com/watch?v=o9u_iNUfsO4"
   },
-
   {
     "artist": "Ada Band",
     "song": "Karena Wanita Ingin Dimengerti",
@@ -996,6 +1001,12 @@
     "song": "Aku Yang Tersakiti",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/judika-aku-yang-tersakiti.html ",
     "youtube": "https://www.youtube.com/watch?v=9tZPmSv6DTs"
+  },
+  {
+    "artist": "Jun Munthe",
+    "song": "Pulut Roham",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/jun-munthe-pulut-roham.html ",
+    "youtube": "https://www.youtube.com/watch?v=hk99bPseXgg"
   },
   {
     "artist": "Kangen Band",
