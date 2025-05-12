@@ -1,5 +1,23 @@
 [
   {
+    "artist": "Dewa 19",
+    "song": "Aku Milikmu",
+    "chords": "/Chords/dewa-19-aku-milikmu.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Batas Senja",
+    "song": "Kita Usahakan Lagi",
+    "chords": "/Chords/batas-senja-kita-usahakan-lagi.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "The Rock",
+    "song": "Aku Cinta Kau Dan Dia",
+    "chords": "/Chords/the-rock-aku-cinta-kau-dan-dia.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Ada Band",
     "song": "Haruskah Kumati",
     "chords": "/Chords/ada-band-haruskah-ku-mati.html",
@@ -772,19 +790,19 @@
     "artist": "Eddy Silitonga",
     "song": "Alusi Au",
     "chords": "/Chords/eddysilitonga_alusiau.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "El Corona",
     "song": "Ikan Dalam Kolam",
     "chords": "/Chords/el-corona-ikan-dalam-kolam.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "El Corona",
     "song": "Pantun Janda",
     "chords": "/Chords/el-corona-pantun-janda.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Element",
@@ -814,13 +832,13 @@
     "artist": "Elvis Presley",
     "song": "It's Now Or Never",
     "chords": "/Chords/elvis_presley_its_now_or_never.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Engelbert Humperdinck",
     "song": "The Way It Use To Be",
     "chords": "/Chords/engelbert_the_way_it_use.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Eric Clapton",
@@ -832,19 +850,19 @@
     "artist": "Europe",
     "song": "The Final Countdown",
     "chords": "/Chords/europe_final_countdown.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Exist",
     "song": "Mencari Alasan",
     "chords": "/Chords/exist-mencari-alasan.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Exist",
     "song": "Buih Jadi Permadani",
     "chords": "/Chords/exist-buih-jadi-permadani.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Fahmi Sahab",
@@ -862,31 +880,31 @@
     "artist": "Farid Hardja",
     "song": "Ini Rindu",
     "chords": "/Chords/farid-hardja-ini-rindu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Firman",
     "song": "Kehilangan",
     "chords": "/Chords/firman_kehilangan.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Frank Sinatra",
     "song": "My Way",
     "chords": "/Chords/frank-sinatra-my-way.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "George Baker",
     "song": "I've Been Away Too Long",
     "chords": "/Chords/george_baker_ive_been_away.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "George Michael",
     "song": "Chareless Whisper",
     "chords": "/Chords/george_michael_chareless_whisper.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Gigi",
