@@ -1,5 +1,11 @@
 [
   {
+    "artist": "Sartika Aritonang",
+    "song": "Mardua Holong",
+    "chords": "/Chords/sartika-aritonang-mardua-holong.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Dewa 19",
     "song": "Aku Milikmu",
     "chords": "/Chords/dewa-19-aku-milikmu.html",
@@ -922,19 +928,19 @@
     "artist": "Gombloh",
     "song": "Kugadaikan Cintaku",
     "chords": "/Chords/gombloh_kugadaikan_cintaku.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Grace Simon",
     "song": "Lihat Air Mata",
     "chords": "/Chords/grace_simon_lihat_air_mata.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Guns N Roses",
     "song": "Don’t Cry",
     "chords": "/Chords/gnr_dont_cry.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Haddad Alwi",
@@ -952,19 +958,19 @@
     "artist": "Happy Asmara",
     "song": "Rungkad",
     "chords": "/Chords/happy-amara-rungkad.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Hello",
     "song": "Dua Cincin",
     "chords": "/Chords/hello_dua_cincin.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Helloween",
     "song": "Forever and One",
     "chords": "/Chords/helloween_foreverandone.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Hendri Rotinsulu",
@@ -976,67 +982,67 @@
     "artist": "Hetty Koes Endang",
     "song": "Esok Malam Kan Kujelang",
     "chords": "/Chords/hetty-koes-endang-esok-malam-kan-kujelang.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Humood",
     "song": "Kun Anta",
     "chords": "/Chords/humood_kun_anta.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Iis Dahlia",
     "song": "Fatwa Pujangga",
     "chords": "/Chords/iis_dahlia_fatwa_pujangga.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Imam S Arifin",
     "song": "Jandaku",
     "chords": "/Chords/imamsarifin_jandaku.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Iwan Fals",
     "song": "Bento",
     "chords": "/Chords/iwan_fals_bento.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Iwan Fals",
     "song": "Bongkar",
     "chords": "/Chords/iwan_fals_bongkar.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Iwan Fals",
     "song": "Kumenanti Seorang Kekasih",
     "chords": "/Chords/iwan-fals-kumenanti-seorang-kekasih.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Jaja Mihardja",
     "song": "Cinta Sabun Mandi",
     "chords": "/Chords/jaja_mihardja_cinta_sabun_mandi.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Jamrud",
     "song": "Pelangi Dimatamu",
     "chords": "/Chords/jamrud-pelangi-dimatamu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Jhonny Iskandar",
     "song": "Bukan Pengemis Cinta",
     "chords": "/Chords/jhonny_iskandar_bukan_pengemis_cinta.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Jhonny Iskandar",
     "song": "Secangkir Kopi",
     "chords": "/Chords/jhonny_iskandar_secangkir_kopi.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Josh Turner",
