@@ -1970,12 +1970,6 @@
     "youtube": "https://www.youtube.com/watch?v=zcP8xLmTKmw"
   },
   {
-    "artist": "Rony Parulian dan Andi Rianto",
-    "song": " Sepenuh Hati",
-    "lyrics": "https://jaktourband.vercel.app/Lyrics/rony-parulian-sepenuh-hati.html",
-    "youtube": "https://www.youtube.com/watch?v=P-Cm-TlPBgk"
-  },
-  {
     "artist": "Rossa",
     "song": "Takkan Berpaling Dari-Mu",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/rossa_takkanberpaling.html ",
@@ -2016,6 +2010,12 @@
     "song": "Smooth",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/santana_smooth.html ",
     "youtube": "https://www.youtube.com/watch?v=6Whgn_iE5uc"
+  },
+  {
+    "artist": "Sartika Aritonang",
+    "song": "Mardua Holong",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/sartika-aritonang-mardua-aholong.html ",
+    "youtube": "https://www.youtube.com/watch?v=xFCJKLP7AT8"
   },
   {
     "artist": "Scorpions",
@@ -2247,12 +2247,6 @@
   },
   {
     "artist": "The Beatles",
-    "song": "My Bonnie",
-    "lyrics": "https://jaktourband.vercel.app/Lyrics/thebeatles_mybonnie.html ",
-    "youtube": "https://www.youtube.com/watch?v=8KNedjsgnwY"
-  },
-  {
-    "artist": "The Beatles",
     "song": "Norwegian Wood",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/thebeatles_norwegianwood.html ",
     "youtube": "https://www.youtube.com/watch?v=Y_V6y1ZCg_8"
@@ -2394,12 +2388,6 @@
     "song": "Jangan Salah Menilai",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/trio-elexis-jangan-salah-menilai.html ",
     "youtube": "https://www.youtube.com/watch?v=9lC-3wuoZAs"
-  },
-  {
-    "artist": "Trio Elexis",
-    "song": "Anggur Merah 2",
-    "lyrics": "https://jaktourband.vercel.app/Lyrics/trio-elexis-anggur-merah2.html",
-    "youtube": "https://www.youtube.com/watch?v=UDg6LcOWnZI"
   },
   {
     "artist": "Uje",
