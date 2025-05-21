@@ -6,6 +6,12 @@
     "status": "Ready"
   },
   {
+    "artist": "The Lantis",
+    "song": "Bunga Maaf",
+    "chords": "/Chords/the-lantis-bunga-maaf.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Dewa 19",
     "song": "Aku Milikmu",
     "chords": "/Chords/dewa-19-aku-milikmu.html",
@@ -1414,7 +1420,7 @@
     "artist": "Last Child",
     "song": "Percayalah",
     "chords": "/Chords/lastchild_percayalah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Lian Manurung",
@@ -2365,18 +2371,6 @@
     "status": "Empty"
   },
   {
-    "artist": "Tommy J Pisa",
-    "song": "Dibatas Kota Ini",
-    "chords": "/Chords/tommy-j-pisa-dibatas-kota-ini.html ",
-    "status": "Empty"
-  },
-  {
-    "artist": "Tommy J Pisa",
-    "song": "Disini Dibatas Kota Ini",
-    "chords": "/Chords/tommy-j-pisa-disini-dibatas-kota-ini.html ",
-    "status": "Empty"
-  },
-  {
     "artist": "Trio Elexis",
     "song": "Jangan Salah Menilai",
     "chords": "/Chords/trio-elexis-jangan-salah-menilai.html ",
@@ -2416,7 +2410,7 @@
     "artist": "Ungu",
     "song": "Demi Waktu",
     "chords": "/Chords/ungu_demiwaktu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
@@ -2428,25 +2422,25 @@
     "artist": "Ungu",
     "song": "Hampa Hatiku",
     "chords": "/Chords/ungu-hampa-hatiku.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
     "song": "Luka Disini",
     "chords": "/Chords/ungu_lukadisini.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
     "song": "Sayang",
     "chords": "/Chords/ungu_sayang.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
     "song": "Seperti Yang Dulu",
     "chords": "/Chords/ungu_sepertiyangdulu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Ungu",
@@ -2464,25 +2458,25 @@
     "artist": "Ungu",
     "song": "Untukmu Selamanya",
     "chords": "/Chords/ungu_untukmuselamanya.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Utopia",
     "song": "Mencintaimu Sampai Mati",
     "chords": "/Chords/utopia_mencintaimu.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Vanny Vabiola",
     "song": "Disini Dibatas Kota Ini",
     "chords": "/Chords/vanny-vabiola-disini-dibatas-kota-ini.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Vanny Vabiola",
     "song": "Dibatas Kota Ini",
     "chords": "/Chords/vanny-vabiola-dibatas-kota-ini.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Victor Hutabarat",
@@ -2494,31 +2488,31 @@
     "artist": "Virgoun",
     "song": "Surat Cinta Untuk Starla",
     "chords": "/Chords/virgoun_suratcinta.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Virgoun",
     "song": "Bukti",
     "chords": "/Chords/virgoun-bukti.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Wali",
     "song": "Yank",
     "chords": "/Chords/wali_yank.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "White Lion",
     "song": "Till Death Do Us Part",
     "chords": "/Chords/whitelion_tilldeath.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "White Lion",
     "song": "You're All I Need",
     "chords": "/Chords/whitelion_youreallineed.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Zivilia",
