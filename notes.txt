@@ -1,128 +1,10 @@
 
-
-Intro : F#m E F#m A
- 
-              E       A       E
-Pepito mi corazón (pepitín, pepitón)
-                          A       E
-Pepito de mis amores (pepitín, pepitón)
-          F#m
-Cántame a mi (ou-oh)
-          B
-Cántame a mi (ou-oh)
-     E
-Por amor
- 
-                         A       E
-Pepito eres mi vida (pepitín, pepitón)
-                           A       E
-Mi cariño muy querido (pepitín, pepitón)
-                F#m
-Nunca he comprendido (ou-oh)
-                B
-Nunca he comprendido (ou-oh)
-                      E
-Porque me intereso en ti
- 
-      A        Am
-Quiéreme (quiéreme)
-      E
-Quiéreme (quiéreme)
-    F#           B
-Bésame, entre tus brazos
- 
-              E       A       E
-Pepito mi corazón (pepitín, pepitón)
-                           A       E
-Dame más de tu cariño (pepitín, pepitón)
-         F#m
-Cántame así (ou-oh)
-         B
-Cántame así (ou-oh)
-     E
-Por amor
- 
- 
-Intrerlude : F#m E F#m A
- 
-              E       A       E
-Pepito mi corazón (pepitín, pepitón)
-                          A       E
-Pepito de mis amores (pepitín, pepitón)
-          F#m
-Cántame a mi (ou-oh)
-          B
-Cántame a mi (ou-oh)
-     E
-Por amor
- 
-                         A       E
-Pepito eres mi vida (pepitín, pepitón)
-                           A       E
-Mi cariño muy querido (pepitín, pepitón)
-                F#m
-Nunca he comprendido (ou-oh)
-                B
-Nunca he comprendido (ou-oh)
-                      E
-Porque me intereso en ti
- 
-      A        Am
-Quiéreme (quiéreme)
-      E
-Quiéreme (quiéreme)
-    F#           B
-Bésame, entre tus brazos
- 
-              E       A       E
-Pepito mi corazón (pepitín, pepitón)
-                           A       E
-Dame más de tu cariño (pepitín, pepitón)
-         F#m
-Cántame así (ou-oh)
-         B
-Cántame así
-     E
-Con amor
- 
-              E  A  E
-Pepito mi corazón
-              E  A  E
-Pepito mi corazón
-              E  A  E
-Pepito mi corazón
-              E  A  E
-Pepito mi corazón
-              E  A  E
-Pepito mi corazón
-
-=================================================
-butki
-Intro : 
-A E/G# G D
-        Bm A/C# D E 
-
 A       E/G#            G                   D
 Memenangkan hatiku bukanlah satu hal yang mudah
-       Bm              E                 A
-Kau berhasil membuat Kutak bisa hidup tanpamu
-A       E/G#           G                   D
-Menjaga cinta itu bukanlah satu hal yang mudah
-      Bm                E                   A
-Namun sedetikpun tak pernah kau berpaling dariku
-
-         Bm  A/C# D
-Beruntungnya a   ku
-      Bm A/C# E
-Dimiliki ka  mu
 
 Reff
 D              E       Em                  D
 Kamu adalah bukti dari cantiknya paras dan hati
-      Bm      A/C#     D
-Kau jadi harmoni saat ku bernyanyi
-        Bm         A/C#      F#m     E
-Tentang terang dan gelapnya hidup ini
 
 D                  E        Em              F#
 Kaulah bentuk terindah dari baiknya Tuhan padaku
@@ -130,10 +12,5 @@ Kaulah bentuk terindah dari baiknya Tuhan padaku
 Waktu tak mengusaikan cantikmu
       Bm      A/C#     E                  A  
 Kau wanita terhebat bagiku tolong kamu camkan itu
-
-============================================
-
-
-=======================================================
-dibatas kota ini 
+=====================================================
 
