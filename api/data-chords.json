@@ -1,5 +1,11 @@
 [
   {
+    "artist": "Raim Laode",
+    "song": "Lesung Pipi",
+    "chords": "/Chords/raim-laode-lesung-pipi.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Sartika Aritonang",
     "song": "Mardua Holong",
     "chords": "/Chords/sartika-aritonang-mardua-holong.html",
@@ -788,6 +794,12 @@
   },
   {
     "artist": "Ebiet G Ade",
+    "song": "Elegi Esok Pagi",
+    "chords": "/Chords/ebiet_gade_elegi_esok_pagi.html ",
+    "status": "Ready"
+  },
+  {
+    "artist": "Ebiet G Ade",
     "song": "KepadaMu Aku Pasrah",
     "chords": "/Chords/ebiet_gade_kepadamu_aku_pasrah.html ",
     "status": "Ready"
@@ -1534,7 +1546,7 @@
     "artist": "Murry's Group",
     "song": "Papiku Mamiku",
     "chords": "/Chords/murrysgroup_papikumamiku.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Mus Mulyadi",
