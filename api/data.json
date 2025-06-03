@@ -841,6 +841,12 @@
     "youtube": "https://www.youtube.com/watch?v=W-ZTUUTj1Bc"
   },
   {
+    "artist": "Farid Hardja",
+    "song": "Karmila",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/farid-hardja-karmila.html ",
+    "youtube": "https://www.youtube.com/watch?v=GsFvGpgJUJM"
+  },
+  {
     "artist": "Firman",
     "song": "Kehilangan",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/firman_kehilangan.html ",
@@ -989,6 +995,12 @@
     "song": "Cinta Sabun Mandi",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/jaja_mihardja_cinta_sabun_mandi.html ",
     "youtube": "https://www.youtube.com/watch?v=Ibg5g0BousY"
+  },
+  {
+    "artist": "Jamal Mirdad",
+    "song": "Yang Penting Hepi",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/jamal_mirdad_yang_penting_hepi.html ",
+    "youtube": "https://www.youtube.com/watch?v=7oinrHwIaxQ"
   },
   {
     "artist": "Jamrud",
@@ -2109,9 +2121,21 @@
   },
   {
     "artist": "Slank",
+    "song": "Balikin",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/slank_balikin.html ",
+    "youtube": "https://www.youtube.com/watch?v=D4-909vJa64"
+  },
+  {
+    "artist": "Slank",
     "song": "Ku Tak Bisa",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/slank_kutakbisa.html ",
     "youtube": "https://www.youtube.com/watch?v=bHyp3pq4o-w"
+  },
+  {
+    "artist": "Slank",
+    "song": "Orkes Sakit Hati",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/slank_orkes_sakit_hati.html ",
+    "youtube": "https://www.youtube.com/watch?v=InFTbroVP3Q"
   },
   {
     "artist": "Slank",
