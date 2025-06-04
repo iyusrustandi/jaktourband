@@ -1,5 +1,29 @@
 [
   {
+    "artist": "Jamal Mirdad",
+    "song": "Yang Penting Hepi",
+    "chords": "/Chords/jamal-mirdad-yang-penting-hepi.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Farid Hardja",
+    "song": "Karmila",
+    "chords": "/Chords/farid-hardja-karmila.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Slank",
+    "song": "Orkes Sakit Hati",
+    "chords": "/Chords/slank-orkes-sakit-hati.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Slank",
+    "song": "Balikin",
+    "chords": "/Chords/slank-balikin.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Raim Laode",
     "song": "Lesung Pipi",
     "chords": "/Chords/raim-laode-lesung-pipi.html",
@@ -2116,7 +2140,7 @@
     "artist": "Siti Nordiana & Achik",
     "song": "Memori Berkasih",
     "chords": "/Chords/siti-nordiana-achik-memori-berkasih.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Slank",
@@ -2176,7 +2200,7 @@
     "artist": "Tantowi Yahya",
     "song": "Polo Pakita",
     "chords": "/Chords/tantowi-yahya-polo-pakita.html",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Tantowi Yahya",
