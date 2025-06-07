@@ -104,6 +104,18 @@
     "lyrics": "https://jaktourband.vercel.app/Lyrics/tommy-j-pisa-disini-dibatas-kota-ini.html ",
     "youtube": "https://www.youtube.com/watch?v=i9gqZc6pe54"
   },
+  {
+    "artist": "MLTR",
+    "song": "Sleeping Child",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/mltr_sleeping_child.html ",
+    "youtube": "https://www.youtube.com/watch?v=IBLpm03Xbh0"
+  },
+  {
+    "artist": "Ningsih",
+    "song": "Pemuda Idaman",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/ningsih_pemudaidaman.html ",
+    "youtube": "https://www.youtube.com/watch?v=J29GX6k6-8U"
+  },
 =============================================
 chords
 

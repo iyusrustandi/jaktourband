@@ -1531,40 +1531,34 @@
     "status": "Ready"
   },
   {
-    "artist": "MLTR",
-    "song": "Sleeping Child",
-    "chords": "/Chords/mltr_sleeping_child.html ",
-    "status": "Empty"
-  },
-  {
     "artist": "Mr.Big",
     "song": "Wild World",
     "chords": "/Chords/mrbig_wildworld.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Muchsin Alatas",
     "song": "Hilang Tak Berkesan",
     "chords": "/Chords/muchsinalatas_hilangtakberkesan.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Muchsin Alatas",
     "song": "Kesunyian Jiwa",
     "chords": "/Chords/muchsinalatas_kesunyianjiwa.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Muchsin Alatas",
     "song": "Pasrah",
     "chords": "/Chords/mucshinalatas_pasrah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Muchsin Alatas",
     "song": "Renungkanlah",
     "chords": "/Chords/muchsinalatas_renungkanlah.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Murry's Group",
@@ -1576,7 +1570,7 @@
     "artist": "Mus Mulyadi",
     "song": "Rek Ayo Rek",
     "chords": "/Chords/mus-mulyadi-rek-ayok-rek.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Naff",
@@ -1630,13 +1624,13 @@
     "artist": "Nike Ardilla",
     "song": "Nike Ardilla - Bintang Kehidupan",
     "chords": "/Chords/nike-ardilla-bintang-kehidupan.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Nirvana",
     "song": "Come As You Are",
     "chords": "/Chords/nirvana_comeasyouare.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "Nirvana",
@@ -1684,12 +1678,6 @@
     "artist": "Neil Sedaka",
     "song": "Oh! Carol",
     "chords": "/Chords/neilsedaka_ohcarol.html ",
-    "status": "Empty"
-  },
-  {
-    "artist": "Ningsih",
-    "song": "Pemuda Idaman",
-    "chords": "/Chords/ningsih_pemudaidaman.html ",
     "status": "Empty"
   },
   {
@@ -2212,7 +2200,7 @@
     "artist": "Tetty Kadi",
     "song": "Sepanjang Jalan Kenangan",
     "chords": "/Chords/tettykadi_sepanjangjalan.html ",
-    "status": "Empty"
+    "status": "Ready"
   },
   {
     "artist": "The Beatles",
