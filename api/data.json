@@ -1639,27 +1639,15 @@
     "youtube": "https://www.youtube.com/watch?v=BsTDb6lv8vM"
   },
   {
-    "artist": "No Name",
+    "artist": "Ernie Djohan",
     "song": "Teluk Bayur",
-    "lyrics": "https://jaktourband.vercel.app/Lyrics/blank",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/ernie-djohan-teluk-bayur.html",
     "youtube": "blank"
   },
   {
-    "artist": "No Name",
+    "artist": "Panbers",
     "song": "Tiga Malam",
-    "lyrics": "https://jaktourband.vercel.app/Lyrics/blank",
-    "youtube": "blank"
-  },
-  {
-    "artist": "No Name",
-    "song": "Cicak Rowo",
-    "lyrics": "https://jaktourband.vercel.app/Lyrics/blank",
-    "youtube": "blank"
-  },
-  {
-    "artist": "No Name",
-    "song": "Euis",
-    "lyrics": "https://jaktourband.vercel.app/Lyrics/blank",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/panbers-tiga-malam.html",
     "youtube": "blank"
   },
   {
@@ -1667,12 +1655,6 @@
     "song": "Kambanglah Bungo ",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/oslan-husein-kambanglah-bungo.html",
     "youtube": "https://www.youtube.com/watch?v=NKKENWfqXz0"
-  },
-  {
-    "artist": "No Name",
-    "song": "poco-Poco",
-    "lyrics": "https://jaktourband.vercel.app/Lyrics/blank",
-    "youtube": "blank"
   },
   {
     "artist": "Noah",

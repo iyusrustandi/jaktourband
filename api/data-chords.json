@@ -1687,39 +1687,21 @@
     "status": "Ready"
   },
   {
-    "artist": "No Name",
+    "artist": "Ernie Djohan",
     "song": "Teluk Bayur",
-    "chords": "/Chords/blank",
+    "chords": "/Chords/ernie-djohan-teluk-bayur.html",
     "status": "Empty"
   },
   {
-    "artist": "No Name",
+    "artist": "Panbers",
     "song": "Tiga Malam",
-    "chords": "/Chords/blank",
-    "status": "Empty"
-  },
-  {
-    "artist": "No Name",
-    "song": "Cicak Rowo",
-    "chords": "/Chords/blank",
-    "status": "Empty"
-  },
-  {
-    "artist": "No Name",
-    "song": "Euis",
-    "chords": "/Chords/blank",
+    "chords": "/Chords/panbers-tiga-malam.html",
     "status": "Empty"
   },
   {
     "artist": "Oslan Husein",
     "song": "Kambanglah Bungo ",
     "chords": "/Chords/oslan-husein-kambanglah-bungo.html",
-    "status": "Empty"
-  },
-  {
-    "artist": "No Name",
-    "song": "poco-Poco",
-    "chords": "/Chords/blank",
     "status": "Empty"
   },
   {
