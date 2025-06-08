@@ -1,0 +1,160 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chords</title>
+    <link href="/images/icon.png" rel="icon" />
+    <link rel="stylesheet" type="text/css" href="/style/style.css" />
+    <script src="https://kit.fontawesome.com/98d921e819.js" crossorigin="anonymous"></script>
+    <script src="/js/jquery-3.7.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+
+    <div class="table-container">
+      <div class="header_wrap">
+        <div class="num-rows">
+          <div class="form-group">
+            <select class="form-control" id="maxRows">
+              <option value="15">Show 15 Songs</option>
+              <option value="50">Show 50 Songs</option>
+              <option value="100">Show 100 Songs</option>
+              <option value="150">Show 150 Songs</option>
+              <option value="200">Show 200 Songs</option>
+              <option value="350">Show All Songs</option>
+            </select>
+          </div>
+        </div>
+        <div class="tb-search">
+          <input type="text" id="search_input_all" placeholder="Search Artist or Title..." class="form-control" aria-label="Search Artist or Title" />
+        </div>
+      </div>
+
+      <table class="table" id="table-id">
+        <thead>
+          <tr>
+            <th scope="col">Artist</th>
+            <th scope="col">Title</th>
+            <th scope="col">Chords</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dynamic rows will be inserted here -->
+        </tbody>
+      </table>
+
+      <div id="pagination-container"></div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script>
+      $(document).ready(function () {
+        let tableData = [];
+        let pageSize = 25;
+        let currentPage = 1;
+
+        // Load data from JSON file
+        $.getJSON('/api/data-chords.json', function (data) {
+          tableData = data;
+          updateTable();
+          renderPagination();
+        });
+
+        function renderPagination() {
+          const totalData = tableData.length;
+          const totalReady = tableData.filter((item) => item.status === 'Ready').length;
+          const totalPages = Math.ceil(totalData / pageSize);
+          const startIndex = (currentPage - 1) * pageSize + 1;
+          const endIndex = Math.min(startIndex + pageSize - 1, totalData);
+
+          const paginationContainer = $('#pagination-container');
+          paginationContainer.empty();
+
+          const previousButton = $('<button>')
+            .addClass('btn-pagination')
+            .text('Previous')
+            .prop('disabled', currentPage === 1);
+          const nextButton = $('<button>')
+            .addClass('btn-pagination')
+            .text('Next')
+            .prop('disabled', currentPage === totalPages);
+          const paginationInfo = $('<span>').addClass('text-pagination').text(`Ready ${totalReady} of ${totalData} entries (Showing ${startIndex} to ${endIndex})`);
+
+          previousButton.on('click', function () {
+            if (currentPage > 1) {
+              currentPage--;
+              updateTable();
+              renderPagination();
+            }
+          });
+
+          nextButton.on('click', function () {
+            if (currentPage < totalPages) {
+              currentPage++;
+              updateTable();
+              renderPagination();
+            }
+          });
+
+          paginationContainer.append(previousButton, paginationInfo, nextButton);
+        }
+
+        function updateTable() {
+          const searchInput = $('#search_input_all').val().toLowerCase();
+          const filteredData = tableData.filter((item) => item.artist.toLowerCase().includes(searchInput) || item.song.toLowerCase().includes(searchInput));
+
+          const startIndex = (currentPage - 1) * pageSize;
+          const paginatedData = filteredData.slice(startIndex, startIndex + pageSize);
+
+          const tableBody = $('#table-id tbody');
+          tableBody.empty();
+
+          paginatedData.forEach((item, index) => {
+            const row = $('<tr>');
+            row.append($('<td>').text(startIndex + index + 1));
+            row.append($('<td>').text(item.artist));
+            row.append($('<td>').text(item.song));
+
+            // Membuat URL yang aman dengan encodeURIComponent
+            const chords = `chords-layout.html?artist=${encodeURIComponent(item.artist)}&song=${encodeURIComponent(item.song)}&chords=${encodeURIComponent((item.chords || '').trim())}`;
+
+            // Membuat tombol Chords
+            const chordsButton = $('<button>')
+              .addClass('btn-status')
+              .text('Chords')
+              .toggleClass('btn-ready', item.status.toLowerCase() === 'ready')
+              .toggleClass('btn-empty', item.status.toLowerCase() === 'empty')
+              .on('click', () => {
+                // Arahkan ke halaman chords-layout.html dengan parameter query
+                window.open(chords, '_blank', 'noopener,noreferrer');
+              });
+
+            row.append($('<td>').append(chordsButton));
+            tableBody.append(row);
+          });
+        }
+
+        $('#maxRows').on('change', function () {
+          pageSize = parseInt($(this).val());
+          currentPage = 1;
+          updateTable();
+          renderPagination();
+        });
+
+        $('#search_input_all').on('input', function () {
+          currentPage = 1;
+          updateTable();
+          renderPagination();
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+:root {
+  --bg: #f3f4f6;
+  --card-bg: #ffffff;
+  --text: #111827;
+  --input-bg: #ffffff;
+  --primary: #2563eb;
+  --shadow: rgba(0, 0, 0, 0.08);
+}
+
+body.dark {
+  --bg: #111827;
+  --card-bg: #1f2937;
+  --text: #f9fafb;
+  --input-bg: #374151;
+  --primary: #3b82f6;
+  --shadow: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('../images/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 640px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+/* Tambahkan ini jika belum ada */
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-box input {
+  width: 100%;
+  max-width: 420px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background-color: var(--input-bg);
+  color: inherit;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.song-list {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.song-list li {
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  background-color: rgb(0 0 0 / 0.3); /* 0.3 is opcaity percent*/
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 0.25rem;
+  box-shadow: 0 2px 6px var(--shadow);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.song-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px var(--shadow);
+}
+
+.song-list li:active {
+  transform: scale(0.97);
+}
+
+.song-list li::after {
+  content: '➔';
+  color: #9ca3af;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.song-list li:hover::after {
+  color: #fff;
+}
+
+.not-available {
+  margin-top: 2rem;
+  text-align: center;
+  color: #eeff06;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+.pagination button {
+  padding: 0.65rem 1.3rem;
+  border: none;
+  background-color: var(--primary);
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #1d4ed8;
+}
+
+.pagination button:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.pagination button:disabled {
+  background-color: #cbd5e1;
+  color: #6b7280;
+  cursor: not-allowed;
+}
