@@ -823,9 +823,21 @@
     "status": "Ready"
   },
   {
+    "artist": "Ebiet G Ade feat. Adera & Segara",
+    "song": "Elegi Esok Pagi",
+    "chords": "/Chords/ebiet_gade_adera_segara_elegi_esok_pagi.html ",
+    "status": "Ready"
+  },
+  {
     "artist": "Ebiet G Ade",
     "song": "KepadaMu Aku Pasrah",
     "chords": "/Chords/ebiet_gade_kepadamu_aku_pasrah.html ",
+    "status": "Ready"
+  },
+  {
+    "artist": "Ebiet G Ade",
+    "song": "Nyanyian Rindu",
+    "chords": "/Chords/ebiet_gade_nyanyian_rindu.html ",
     "status": "Ready"
   },
   {
