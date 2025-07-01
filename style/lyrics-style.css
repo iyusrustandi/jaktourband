@@ -16,7 +16,7 @@ a {
 
 /* ======================lyrics======================= */
 .lyric-container {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2 {
   font-size: 3vw;
@@ -25,6 +25,8 @@ h2 {
   text-align: center;
 }
 .lyric {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.25;
   font-size: 1.5vw;
   background-color: #fefefe;
   margin: auto;

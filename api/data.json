@@ -96,6 +96,12 @@
     "youtube": "https://www.youtube.com/watch?v=_ek7ZdZbovM"
   },
   {
+    "artist": "Anima",
+    "song": "Bintang",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/anima-bintang.html",
+    "youtube": "https://www.youtube.com/watch?v=_phhDcP7SCM"
+  },
+  {
     "artist": "Anji",
     "song": "Dia",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/anji_dia.html",
@@ -1049,6 +1055,12 @@
     "song": "Pulut Roham",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/jun-munthe-pulut-roham.html ",
     "youtube": "https://www.youtube.com/watch?v=hk99bPseXgg"
+  },
+  {
+    "artist": "Kahitna",
+    "song": "Cantik",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/kahitna-cantik.html ",
+    "youtube": "https://www.youtube.com/watch?v=v5x1YmNV_C4"
   },
   {
     "artist": "Kangen Band",
