@@ -1,5 +1,23 @@
 [
   {
+    "artist": "Anima",
+    "song": "Bintang",
+    "chords": "/Chords/anima-bintang.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "kahitna",
+    "song": "Cantik",
+    "chords": "/Chords/kahitna-cantik.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Fourtmnty",
+    "song": "Mangu",
+    "chords": "/Chords/fourtwnty-mangu.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Jamal Mirdad",
     "song": "Yang Penting Hepi",
     "chords": "/Chords/jamal-mirdad-yang-penting-hepi.html",
