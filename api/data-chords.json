@@ -1,5 +1,26 @@
 [
   {
+<<<<<<< HEAD
+    "artist": "Rhoma Irama",
+    "song": "Syahdu",
+    "chords": "/Chords/rhoma-irama-syahdu.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Ikke Nurjanah",
+    "song": "Terlena",
+    "chords": "/Chords/ikke-nurjanah-terlena.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Ratih Purwasih",
+    "song": "Kau Tercipta Bukan Untukku (Reggae Cover Sembarania )",
+    "chords": "/Chords/ratih-purwasih-kau-tercipta-bukan-untukku-reggae-cover-sembarania.html ",
+    "status": "Ready"
+  },
+  {
+=======
+>>>>>>> 2e7ff2f5de1df935ad3b544cb2be872e27626b31
     "artist": "Anima",
     "song": "Bintang",
     "chords": "/Chords/anima-bintang.html",
