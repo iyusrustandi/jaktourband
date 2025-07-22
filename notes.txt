@@ -80,10 +80,7 @@ Selamat ulang tahun..
 
               A     D A D (fade out)
 Selamat ulang tahun..
-
-
-
-==================================
+--------------------
 
 memandangmu 
 
@@ -92,7 +89,6 @@ C  Fm  Ab  Bb  C
 C  F  Dm  G
 Em  Am  G# A# C
 
-[Verse:]
 C           Dm
 Memandangmu.. walau selalu
 G            F       
@@ -136,7 +132,7 @@ A# Fm  C
 Fm  G# C
 Fm  G# C  G# A# C
 
-[Verse:]
+
 C         Dm
 Memelukmu.. walau selalu
 G            F 
@@ -206,13 +202,6 @@ Dm                   G
 Cinta hadir bawa diriku 
                C
 menyentuh indahnya..
-
----------------------
-ratih purwasih 
-
-  
-
-
 
 ===============
 kata pujangga 
