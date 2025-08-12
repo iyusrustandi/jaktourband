@@ -1,5 +1,17 @@
 [
   {
+    "artist": "The Fly ",
+    "song": "Terbang",
+    "chords": "/Chords/the-fly-terbang.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "See New Project",
+    "song": "Kicir-kicir",
+    "chords": "/Chords/see-new-project-kicir-kicir.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Rhoma Irama",
     "song": "Syahdu",
     "chords": "/Chords/rhoma-irama-syahdu.html",
@@ -1120,6 +1132,12 @@
     "artist": "Jamrud",
     "song": "Pelangi Dimatamu",
     "chords": "/Chords/jamrud-pelangi-dimatamu.html ",
+    "status": "Ready"
+  },
+  {
+    "artist": "Jamrud",
+    "song": "Selamat Ulang Tahun",
+    "chords": "/Chords/jamrud-selamat-ulang-tahun.html ",
     "status": "Ready"
   },
   {

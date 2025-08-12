@@ -1033,6 +1033,12 @@
     "youtube": "https://www.youtube.com/watch?v=zSleZNd1S2Y"
   },
   {
+    "artist": "Jamrud",
+    "song": "Selamat Ulang Tahun",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/jamrud-selamat-ulang-tahun.html ",
+    "youtube": "https://www.youtube.com/watch?v=3N79v0q0HZ4"
+  },
+  {
     "artist": "Jhonny Iskandar",
     "song": "Bukan Pengemis Cinta",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/jhonny_iskandar_bukan_pengemis_cinta.html ",
@@ -2072,6 +2078,12 @@
     "youtube": "https://www.youtube.com/watch?v=XgCnUYeyeiA"
   },
   {
+    "artist": "See New Project",
+    "song": "Kicir-Kicir",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/see-new-project-kicir-kicir.html ",
+    "youtube": "https://www.youtube.com/watch?v=fPuIbWuDbIQ"
+  },
+  {
     "artist": "Seventeen",
     "song": "Hal Terindah",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/seventeen_halterindah.html ",
@@ -2328,6 +2340,12 @@
     "song": "Till There Was You",
     "lyrics": "https://jaktourband.vercel.app/Lyrics/thebeatles_tilltherewasyou.html ",
     "youtube": "https://www.youtube.com/watch?v=SHAqAO7w8M8"
+  },
+  {
+    "artist": "The Fly",
+    "song": "Terbang",
+    "lyrics": "https://jaktourband.vercel.app/Lyrics/thefly_terbang.html ",
+    "youtube": "https://www.youtube.com/watch?v=GZQPBoVrg2s"
   },
   {
     "artist": "The Lantis",
