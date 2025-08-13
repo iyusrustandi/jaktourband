@@ -6,17 +6,20 @@
     <link href="https://jaktourband.vercel.app/images/icon.png" rel="icon" />
     <title>Musisi yang Membebaskan Royalti Mereka</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+    <script src="js/jquery-3.7.0.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/98d921e819.js" crossorigin="anonymous"></script>
     <style>
       body {
         font-family: 'Inter', sans-serif;
-        background: url('images/background.png') center/cover fixed;
-        margin: 0;
-        padding: 20px;
-        display: flex;
         flex-direction: column;
         align-items: center;
-        min-height: 100vh;
         color: #333;
+        background-image: url('../images/background.png');
+        min-height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
 
       .page-title {
@@ -28,15 +31,22 @@
         text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
       }
 
+      /* Bungkus tabel agar bisa scroll horizontal */
+      .table-container {
+        width: 100%;
+        max-width: 900px;
+        overflow-x: auto;
+      }
+
       .data-table {
         width: 100%;
-        max-width: 850px;
         border-collapse: collapse;
         background: rgba(255, 255, 255, 0.8);
         backdrop-filter: blur(8px);
         border-radius: 10px;
         overflow: hidden;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        min-width: 500px; /* Supaya tabel punya ukuran minimal */
       }
 
       .data-table thead {
@@ -47,6 +57,7 @@
       .data-table td {
         padding: 14px 20px;
         text-align: left;
+        white-space: nowrap; /* Biar teks tidak turun ke bawah */
       }
 
       .data-table th {
@@ -88,68 +99,64 @@
     </style>
   </head>
   <body>
+    <div id="nav-placeholder"></div>
+
     <h1 class="page-title">Musisi yang Membebaskan Royalti Mereka</h1>
 
     <table class="data-table">
       <thead>
         <tr>
-          <th>No</th>
           <th>Artist</th>
           <th>Source</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
           <td>Ahmad Dhani (Dewa 19)</td>
           <td><a href="https://www.antaranews.com/berita/5031141/musisi-indonesia-yang-bolehkan-lagunya-diputar-di-kafe-tanpa-royalti" target="_blank">Link</a></td>
         </tr>
         <tr>
-          <td>2</td>
           <td>Rhoma Irama</td>
           <td><a href="https://www.antaranews.com/berita/5031141/musisi-indonesia-yang-bolehkan-lagunya-diputar-di-kafe-tanpa-royalti" target="_blank">Link</a></td>
         </tr>
         <tr>
-          <td>3</td>
           <td>Charly Van Houten (ST12 & Setia Band)</td>
           <td><a href="https://www.antaranews.com/berita/5031141/musisi-indonesia-yang-bolehkan-lagunya-diputar-di-kafe-tanpa-royalti" target="_blank">Link</a></td>
         </tr>
         <tr>
-          <td>4</td>
           <td>Thomas Ramdhan (Gigi)</td>
           <td><a href="https://www.antaranews.com/berita/5031141/musisi-indonesia-yang-bolehkan-lagunya-diputar-di-kafe-tanpa-royalti" target="_blank">Link</a></td>
         </tr>
         <tr>
-          <td>5</td>
           <td>Uan Kaisar (Juicy Luicy)</td>
           <td><a href="https://www.antaranews.com/berita/5031141/musisi-indonesia-yang-bolehkan-lagunya-diputar-di-kafe-tanpa-royalti" target="_blank">Link</a></td>
         </tr>
         <tr>
-          <td>6</td>
           <td>Ian Kasela (Radja Band)</td>
           <td><a href="https://www.tempo.co/teroka/deretan-musisi-dan-pencipta-lagu-yang-bebaskan-royalti-bagi-umkm-2057507#goog_rewarded" target="_blank">Link</a></td>
         </tr>
         <tr>
-          <td>7</td>
           <td>Rian (D'Masiv)</td>
           <td><a href="https://www.tempo.co/teroka/deretan-musisi-dan-pencipta-lagu-yang-bebaskan-royalti-bagi-umkm-2057507#goog_rewarded" target="_blank">Link</a></td>
         </tr>
         <tr>
-          <td>8</td>
           <td>Ariel (Noah)</td>
           <td><a href="https://www.tempo.co/teroka/deretan-musisi-dan-pencipta-lagu-yang-bebaskan-royalti-bagi-umkm-2057507#goog_rewarded" target="_blank">Link</a></td>
         </tr>
         <tr>
-          <td>9</td>
           <td>Ari Lasso</td>
           <td><a href="https://garuda.tv/polemik-royalti-musik-musisi-indonesia-bebaskan-lagunya/" target="_blank">Link</a></td>
         </tr>
         <tr>
-          <td>10</td>
           <td>Kunto Aji</td>
           <td><a href="https://www.tempo.co/teroka/deretan-musisi-dan-pencipta-lagu-yang-bebaskan-royalti-bagi-umkm-2057507#goog_rewarded" target="_blank">Link</a></td>
         </tr>
       </tbody>
     </table>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/script.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   </body>
 </html>
