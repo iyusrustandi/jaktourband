@@ -1,5 +1,23 @@
 [
   {
+    "artist": "Kahitna ",
+    "song": "Cerita Cinta",
+    "chords": "/Chords/kahitna-cerita-cinta.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Kahitna ",
+    "song": "Cantik",
+    "chords": "/Chords/kahitna-cantik.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Wali ",
+    "song": "Bukan Bang Toyib",
+    "chords": "/Chords/wali-bukan-bang-toyib.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Five Minutes ",
     "song": "Selamat Tinggal",
     "chords": "/Chords/five-minutes-selamat-tinggal.html",
@@ -39,12 +57,6 @@
     "artist": "Anima",
     "song": "Bintang",
     "chords": "/Chords/anima-bintang.html",
-    "status": "Ready"
-  },
-  {
-    "artist": "kahitna",
-    "song": "Cantik",
-    "chords": "/Chords/kahitna-cantik.html",
     "status": "Ready"
   },
   {
