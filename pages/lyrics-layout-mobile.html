@@ -64,8 +64,8 @@
         const song = urlParams.get('song');
         const lyricsFile = urlParams.get('lyrics')?.trim();
 
-        document.getElementById('page-title').textContent = artist && song ? `${artist} - ${song}` : 'Lyrics Viewer';
-        document.getElementById('lyric-title').textContent = artist && song ? `${artist} - ${song}` : 'Lyrics Viewer';
+        // Set judul halaman (tab browser)
+        document.title = artist && song ? `${artist} - ${song}` : 'Lyrics Viewer';
 
         if (lyricsFile) {
           loadLyrics(lyricsFile);
