@@ -56,10 +56,26 @@ h2 {
   display: inline-block;
   color: #e31708;
   font-weight: bold;
-  padding: 2px 2px;
+  padding: 2px 4px;
   border-radius: 4px;
   margin-top: 5px;
   font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Efek hover chord */
+.chord:hover {
+  background-color: #ffeaea;
+  color: #c40000;
+  transform: scale(1.05);
+  box-shadow: 0 0 6px rgba(227, 23, 8, 0.3);
+}
+
+/* Efek klik chord */
+.chord:active {
+  background-color: #ffbaba;
+  transform: scale(0.98);
 }
 
 .button-container {
@@ -175,6 +191,7 @@ h2 {
   align-items: center;
   height: 100px;
 }
+
 .spinner {
   width: 40px;
   height: 40px;
@@ -183,6 +200,7 @@ h2 {
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -191,6 +209,7 @@ h2 {
     transform: rotate(360deg);
   }
 }
+
 /* Sembunyikan saat konten telah dimuat */
 .hidden {
   display: none;
