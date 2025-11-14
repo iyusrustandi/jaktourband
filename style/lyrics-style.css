@@ -18,14 +18,16 @@ a {
 .lyric-container {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 h2 {
   font-size: 3vw;
   padding: 30px;
   color: #fff;
   text-align: center;
 }
+
 .lyric {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
   line-height: 1.25;
   font-size: 1.5vw;
   background-color: #fefefe;
@@ -35,28 +37,34 @@ h2 {
   width: 50%;
   color: #000;
 }
+
+/* ==== FIX: Atur <pre> supaya spacing tidak berlebihan ==== */
+.lyric pre {
+  margin: 1rem 0; /* jarak antar block */
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  white-space: pre-wrap;
+  line-height: 1.25;
+}
 .guide {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+  font-weight: bold;
   line-height: 1.5;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0.5rem;
   margin-bottom: 1rem;
-  background-color: #cbd4f3;
+  background-color: #c7cfe6;
   color: #000;
   border-radius: 8px;
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.22), 1px 0px 0px 0px rgba(0, 0, 0, 0.22), 1px 2px 0px 0px rgba(0, 0, 0, 0.22), 2px 1px 0px 0px rgba(0, 0, 0, 0.22), 2px 3px 0px 0px rgba(0, 0, 0, 0.22), 3px 2px 0px 0px rgba(0, 0, 0, 0.22),
-    3px 4px 0px 0px rgba(0, 0, 0, 0.22), 4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22), 5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22), 6px 5px 0px 0px rgba(0, 0, 0, 0.22),
-    6px 7px 0px 0px rgba(0, 0, 0, 0.22), 7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22), 8px 7px 0px 0px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.22), 1px 0px 0px rgba(0, 0, 0, 0.22), 1px 2px 0px rgba(0, 0, 0, 0.22), 2px 1px 0px rgba(0, 0, 0, 0.22), 2px 3px 0px rgba(0, 0, 0, 0.22), 3px 2px 0px rgba(0, 0, 0, 0.22),
+    3px 4px 0px rgba(0, 0, 0, 0.22), 4px 3px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px rgba(0, 0, 0, 0.22), 5px 4px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px rgba(0, 0, 0, 0.22), 6px 5px 0px rgba(0, 0, 0, 0.22), 6px 7px 0px rgba(0, 0, 0, 0.22),
+    7px 6px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px rgba(0, 0, 0, 0.22), 8px 7px 0px rgba(0, 0, 0, 0.22);
 }
-.guide p {
-  margin-left: 1rem;
-}
+
+/* BLOCK SPACING */
 .verse {
   margin-top: 2rem;
   margin-bottom: 2.5rem;
 }
+
 .reff {
   position: relative;
   left: 30px;
