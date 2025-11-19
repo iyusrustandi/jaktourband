@@ -1,5 +1,15 @@
 [
   {
+    "artist": "Bimbo ",
+    "song": "Sendiri",
+    "chords": "/Chords/bimbo-sendiri.html"
+  },
+  {
+    "artist": "Taufan Purbo ",
+    "song": "Bimbang",
+    "chords": "/Chords/taufan-purbo-bimbang.html"
+  },
+  {
     "artist": "Didi Kempot ",
     "song": "Pamer Bojo",
     "chords": "/Chords/didi-kempot-pamer-bojo.html"
@@ -274,6 +284,12 @@
     "status": "Ready"
   },
   {
+    "artist": "Andi Meriem Mattalatta",
+    "song": "Bimbang",
+    "chords": "/Chords/andi-meriem-matalatta-bimbang.html",
+    "status": "Ready"
+  },
+  {
     "artist": "Andy Williams",
     "song": "Love Story",
     "chords": "/Chords/andy-williams-love-story.html",
@@ -526,6 +542,12 @@
     "status": "Ready"
   },
   {
+    "artist": "Broery Marantika",
+    "song": "Gubahanku",
+    "chords": "/Chords/broery-gubahanku.html ",
+    "status": "Ready"
+  },
+  {
     "artist": "Broery Marantika Ft. Dewi Yull",
     "song": "Jangan Ada Dusta Diantara Kita",
     "chords": "/Chords/broery_jangan_ada_dusta.html ",
@@ -535,6 +557,12 @@
     "artist": "Broery Marantika",
     "song": "Jangan Ditanya",
     "chords": "/Chords/broery_jangan_ditanya.html ",
+    "status": "Ready"
+  },
+  {
+    "artist": "Broery Marantika",
+    "song": "Gubahanku",
+    "chords": "/Chords/broery-gubahanku.html ",
     "status": "Ready"
   },
   {
@@ -962,6 +990,12 @@
     "artist": "Element",
     "song": "Rahasia Hati",
     "chords": "/Chords/element-rahasia-hati.html",
+    "status": "Ready"
+  },
+  {
+    "artist": "Ello",
+    "song": "Pergi Untuk Kembali",
+    "chords": "/Chords/ello-pergi-untuk-kembali.html",
     "status": "Ready"
   },
   {

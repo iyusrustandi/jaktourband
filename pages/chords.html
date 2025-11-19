@@ -27,6 +27,8 @@
 
       <div class="pagination" id="pagination">
         <button id="prev-btn">Previous</button>
+        <!-- ⬇ Tambahkan ini -->
+        <span id="page-info" class="page-info"></span>
         <button id="next-btn">Next</button>
       </div>
     </div>
@@ -79,6 +81,9 @@
             });
             list.append(listItem);
           });
+
+          // ⬇ UPDATE INFO HALAMAN
+          $('#page-info').text(`Showing ${start + 1} to ${end} of ${totalItems} entries`);
 
           $('#prev-btn').prop('disabled', currentPage === 1);
           $('#next-btn').prop('disabled', currentPage === totalPages || totalItems === 0);

@@ -113,6 +113,11 @@ a {
   margin-top: 2.5rem;
 }
 
+.page-info {
+  color: #fff7fe;
+  font-weight: bold;
+}
+
 .pagination button {
   padding: 0.65rem 1.3rem;
   border: none;
