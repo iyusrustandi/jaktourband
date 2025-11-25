@@ -991,6 +991,12 @@
     "youtube": "https://www.youtube.com/watch?v=15VwayFF0jA"
   },
   {
+    "artist": "Heatwave",
+    "song": "All I Am",
+    "lyrics": "/Lyrics/heatwave-all-i-am.html ",
+    "youtube": "https://www.youtube.com/watch?v=ppgYnrhm1vA"
+  },
+  {
     "artist": "Hello",
     "song": "Dua Cincin",
     "lyrics": "/Lyrics/hello_dua_cincin.html ",
@@ -2604,6 +2610,12 @@
     "song": "Esok Kan Masih Ada",
     "lyrics": "/Lyrics/utha-likumahuwa-esok-kan-masih-ada.html ",
     "youtube": "https://www.youtube.com/watch?v=ebVy5C96Azc"
+  },
+  {
+    "artist": "Utha Likumahuwa",
+    "song": "Untuk Apa Lagi",
+    "lyrics": "/Lyrics/utha-likumahuwa-untuk-apa-lagi.html ",
+    "youtube": "https://www.youtube.com/watch?v=gOUWkQQQau0"
   },
   {
     "artist": "Utopia",
